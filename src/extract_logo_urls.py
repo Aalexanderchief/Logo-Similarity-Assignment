@@ -2,6 +2,7 @@ import aiohttp
 import asyncio
 import csv
 import re
+import os
 import pandas as pd
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
@@ -20,10 +21,14 @@ LOGO_REGEX = re.compile(r"(logo|logotype)", re.IGNORECASE)
 
 async def fetch_html(session, url):
     """
-    Fetch the HTML content of the given URL asynchronously.
+    Fetch the HTML content of the given URL using a custom User-Agent.
     """
+    headers = {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 \
+                       (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+    }
     try:
-        async with session.get(url, timeout=TIMEOUT) as resp:
+        async with session.get(url, headers=headers, timeout=TIMEOUT) as resp:
             if resp.status == 200:
                 return await resp.text()
     except Exception:
@@ -82,6 +87,9 @@ async def main():
     # Load Parquet file and extract domain column
     df = pd.read_parquet(INPUT_FILE)
     domains = df["domain"].dropna().astype(str).str.strip().tolist()
+
+    # Ensure output directory exists
+    os.makedirs("outputs", exist_ok=True)
 
     connector = aiohttp.TCPConnector(limit=CONCURRENCY)
     timeout = aiohttp.ClientTimeout(total=TIMEOUT)
