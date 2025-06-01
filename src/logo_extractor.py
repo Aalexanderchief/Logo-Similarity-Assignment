@@ -1,72 +1,166 @@
-import asyncio
-import aiohttp
-import pandas as pd
-from lxml import html
-from urllib.parse import urljoin
-import re
 import os
-from aiofiles import open as aioopen
+import base64
+import asyncio
+import requests
+import pandas as pd
+import json
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin
+from concurrent.futures import ThreadPoolExecutor
+import time
 from tqdm import tqdm
 
-CSV_INPUT_PATH = "logos.snappy.parquet"
-CSV_OUTPUT_PATH = "outputs/logo_urls.csv"
-CONCURRENCY = 100
-TIMEOUT = 10
+df = pd.read_parquet("../logos.snappy.parquet")
+domains = df.iloc[:, 0].dropna().tolist()
 
-LOGO_PATTERN = re.compile(r"logo|logotype|brand", re.IGNORECASE)
+output_dir = "../logos"
+os.makedirs(output_dir, exist_ok=True)
 
-async def fetch(session, url):
+def is_valid_image(content):
+    """Check if content is a valid image by checking magic bytes"""
+    if len(content) < 10:
+        return False
+    
+    # Check for common image file signatures
+    image_signatures = [
+        b'\xff\xd8\xff',  # JPEG
+        b'\x89PNG\r\n\x1a\n',  # PNG
+        b'GIF87a',  # GIF87a
+        b'GIF89a',  # GIF89a
+        b'RIFF',  # WebP (starts with RIFF)
+    ]
+    
+    for sig in image_signatures:
+        if content.startswith(sig):
+            return True
+    
+    # Check for SVG (XML-based)
     try:
-        async with session.get(url, timeout=TIMEOUT) as response:
-            if response.status == 200:
-                return await response.text()
+        content_str = content.decode('utf-8', errors='ignore').strip().lower()
+        if content_str.startswith('<?xml') or content_str.startswith('<svg'):
+            return True
     except:
-        return None
+        pass
+    
+    return False
 
-async def extract_logo(session, domain):
-    for scheme in ["https", "http"]:
-        url = f"{scheme}://{domain}"
-        html_content = await fetch(session, url)
-        if html_content:
+def generate_advanced_queries(domain):
+    """Generate single optimized query for speed"""
+    queries = [
+        f"{domain} logo",  # Single, simple query
+    ]
+    return queries
+
+def download_bing_image(query, download_path):
+    try:
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+        }
+        
+        # Single query for speed
+        domain = query
+        search_query = f"{domain} logo"
+        
+        print(f"Trying query: {search_query}")
+        
+        params = {
+            "q": search_query,
+            "form": "HDRSC2",
+            "first": "1",
+            "tsc": "ImageBasicHover"
+        }
+        search_url = "https://www.bing.com/images/search"
+        response = requests.get(search_url, headers=headers, params=params, timeout=15)  # Reduced timeout
+        response.raise_for_status()
+
+        soup = BeautifulSoup(response.text, 'lxml')
+        image_elements = soup.find_all("a", class_="iusc")
+
+        if not image_elements:
+            print(f"No images found for {domain}")
+            return False
+
+        # Try for first 2 images
+        for element in image_elements[:2]:
             try:
-                tree = html.fromstring(html_content)
-                for img in tree.xpath('//img'):
-                    for attr in ['@src', '@alt', '@class', '@id']:
-                        val = img.xpath(attr)
-                        if val and LOGO_PATTERN.search(" ".join(val)):
-                            src = img.xpath('@src')
-                            if src:
-                                return domain, urljoin(url, src[0])
-            except:
+                metadata = json.loads(element.get("m"))
+                image_url = metadata.get("murl")
+
+                if not image_url:
+                    continue
+
+                # Download the image with reduced timeout
+                image_response = requests.get(image_url, headers=headers, timeout=12)
+                image_response.raise_for_status()
+
+                # Quick validation - just check size
+                if len(image_response.content) < 30:  # Skip very small images
+                    continue
+
+                # Simple extension detection
+                ext = 'jpg'
+                content_type = image_response.headers.get('content-type', '')
+                if 'png' in content_type:
+                    ext = 'png'
+                elif 'svg' in content_type:
+                    ext = 'svg'
+
+                # Save the image
+                image_name = f"{domain.replace('.', '_')}.{ext}"
+                image_path = os.path.join(download_path, image_name)
+
+                with open(image_path, "wb") as f:
+                    f.write(image_response.content)
+
+                print(f"✓ Downloaded: {domain}")
+                return True
+
+            except Exception as e:
                 continue
-    return domain, ""
 
-async def worker(sem, session, domain, results):
-    async with sem:
-        domain, logo_url = await extract_logo(session, domain)
-        results[domain] = logo_url
+        print(f"✗ Failed: {domain}")
+        return False
 
-async def main():
-    df = pd.read_parquet(CSV_INPUT_PATH)
-    domains = df["domain"].dropna().astype(str).tolist()
-    os.makedirs("outputs", exist_ok=True)
+    except Exception as e:
+        print(f"✗ Error: {domain}")
+        return False
 
-    sem = asyncio.Semaphore(CONCURRENCY)
-    results = {}
-
-    timeout = aiohttp.ClientTimeout(total=TIMEOUT)
-    connector = aiohttp.TCPConnector(limit=CONCURRENCY)
-
-    async with aiohttp.ClientSession(timeout=timeout, connector=connector) as session:
-        tasks = [worker(sem, session, domain, results) for domain in domains]
-        for f in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc="Logo extraction"):
-            await f
-
-    df_out = pd.DataFrame(results.items(), columns=["domain", "logo_url"])
-    df_out.to_csv(CSV_OUTPUT_PATH, index=False)
-    found = df_out["logo_url"].astype(bool).sum()
-    total = len(df_out)
-    print(f"✅ Logos found for {found} out of {total} websites ({found/total*100:.2f}%)")
+def main():
+    start_time = time.time()
+    successful_downloads = 0
+    total_domains = len(domains)
+    
+    print(f"Starting FAST logo extraction for {total_domains} domains...")
+    
+    def process_domain_wrapper(domain):
+        nonlocal successful_downloads
+        result = download_bing_image(domain, output_dir)
+        if result:
+            successful_downloads += 1
+        return result
+    
+    # Increased workers for maximum speed
+    with ThreadPoolExecutor(max_workers=135) as executor:
+        results = list(tqdm(
+            executor.map(process_domain_wrapper, domains),
+            total=total_domains,
+            desc="Downloading logos",
+            unit="domain",
+            smoothing=0.1
+        ))
+    
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+    
+    print(f"\n{'='*50}")
+    print(f"EXTRACTION COMPLETE")
+    print(f"{'='*50}")
+    print(f"Total domains processed: {total_domains}")
+    print(f"Successfully downloaded logos: {successful_downloads}")
+    print(f"Failed downloads: {total_domains - successful_downloads}")
+    print(f"Success rate: {(successful_downloads/total_domains)*100:.1f}%")
+    print(f"Total time: {elapsed_time:.2f} seconds")
+    print(f"Average time per domain: {elapsed_time/total_domains:.2f} seconds")
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()
