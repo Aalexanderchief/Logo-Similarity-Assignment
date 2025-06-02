@@ -155,9 +155,7 @@ def search_tab():
     if search_method == "Select from dataset":
         # Get available filenames
         available_files = searcher.indexer.filenames
-        
-        # Search/filter box
-        search_filter = st.text_input("🔍 Filter logos by filename:", "")
+        search_filter = st.text_input("🔍 Filter logos by filename:", "zalando")
         
         if search_filter:
             filtered_files = [f for f in available_files if search_filter.lower() in f.lower()]
@@ -168,10 +166,16 @@ def search_tab():
             st.warning("No logos match your filter")
             return
         
+        default_index = 0
+        zalando_files = [f for f in filtered_files if 'zalando' in f.lower()]
+        if zalando_files:
+            default_index = filtered_files.index(zalando_files[0])
+        
         # Select logo
         selected_logo = st.selectbox(
             "Select a logo:",
             filtered_files,
+            index=default_index,
             format_func=lambda x: f"{x} ({filename_to_website(x)})"
         )
         
@@ -270,9 +274,14 @@ def groups_tab():
     group_names = list(results['groups'].keys())
     group_names.sort(key=lambda x: len(results['groups'][x]), reverse=True)  # Sort by size
     
+    default_index = 0
+    if 'group_122' in group_names:
+        default_index = group_names.index('group_122')
+    
     selected_group = st.selectbox(
         "Select a group:",
         group_names,
+        index=default_index,
         format_func=lambda x: f"{x.replace('_', ' ').title()} ({len(results['groups'][x])} logos)"
     )
     
