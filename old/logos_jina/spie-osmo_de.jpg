@@ -1,0 +1,702 @@
+ <!DOCTYPE html> <html lang="de" class=""> <head> <!-- Disable cookiebot when in preview/edit mode  --> <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="e8aab2c0-da52-4eba-a786-957dea0e5e01" type="text/javascript" async></script> <script>
+            // Opt-out function callable from "outside"
+            function dsgvo_gaOptOut() {
+                if (window.Cookiebot) {
+                    window.Cookiebot.renew();
+                }
+            }
+
+            window.addEventListener('CookiebotOnAccept', function (e) {
+                var consent = !window.doNotTrack && window.Cookiebot.consent.statistics,
+                    oldConsent = window.TrackingConsentManager.canTrackCurrentUser();
+                if (window.TrackingConsentManager && consent !== oldConsent) {
+                    window.TrackingConsentManager.updateUserConsent(consent);
+                }
+            }, false);
+
+            window.addEventListener('CookiebotOnDecline', function (e) {
+                var consent = false,
+                    oldConsent = window.TrackingConsentManager.canTrackCurrentUser();
+                if (window.TrackingConsentManager && consent !== oldConsent) {
+                    window.TrackingConsentManager.updateUserConsent(consent);
+                }
+            }, false);
+        </script> <meta charset="utf-8" /><script type="text/javascript" src="/WebResource.axd?d=DzHrpQl5URXarFHAtrmzFvhEOpkJKCl87zucd6kJR9t-3dqt-2mRxEShDLAoYT5uE057EmYot7SI6Xn0iNbUczip0yQSF984mWl3cFNeHg8rjuIdFbUKzANdJ9H8QdcKuotWBy14lBTRmj6j-FzlwF6RJ3ZEME250Znlbv4IrAiwgIMTDJ1luNJpmh83qNZk0&amp;t=638384804640000000">
+
+</script><script type="text/javascript">
+	(function() { TrackingConsentManager.init('\u003c!--\r\n\u003cdiv id=\"tracking-consent-dialog\" style=\"padding:20px;position:relative;z-index:10000000;border:1px solid #ccc;background:#fff;\"\u003e\r\n    \u003cp\u003eWir verwenden eigene Cookies und Cookies von Dritten, um die Nutzung unseres Angebotes zu analysieren, Ihr Surferlebnis zu personalisieren und Ihnen interessenbasierte Werbung auszuspielen. Sie können bestimmte Cookies deaktivieren, Näheres dazu finden Sie in unserer \u003ca href=\"/footer-dt/datenschutz-und-rechtliche-hinweise\"\u003eDatenschutzerklärung\u003c/a\u003e.\u003c/p\u003e\r\n    \u003cbutton type=\"button\" onclick=\"TrackingConsentManager.updateUserConsent(true)\" id=\"tracking-consent-dialog-accept\" class=\"btn btn-secondary\"\u003eVerstanden\u003c/button\u003e\r\n\u003c/div\u003e\r\n--\u003e\r\n\r\n\u003cdiv id=\"tracking-consent-dialog\" style=\"display: none;\"\u003e\u003c/div\u003e\r\n'); })();
+</script> <title>
+	SPIE BTAT
+</title> <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" /> <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"> <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"> <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> <link rel="manifest" href="/site.webmanifest"> <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"> <meta name="msapplication-TileColor" content="#2d89ef"> <meta name="theme-color" content="#ffffff">  <link href="/ResourcePackages/Spie/assets/dist/css/main.min.css?v=638829011820000000" rel="stylesheet" /> <script src="/bundles/vendor?v=U1uwr7gdCxInfUxDoQdkKGE_Dy0A5cz56iltSApg2hw1"></script> <script src="/localization?siteId=fd19bc66-1293-42cb-9c58-6cbb3a827404&langName=de"></script> <script src="/bundles/spie-scripts4?v=4qk4MA567Nvoi0hVxcLIER0hL5iudhBVrY9wsNOBkIw1"></script> <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWtlfdnNDV3AXxj7N9Bd8IoLDVa7NTGNo&callback=initMapsApi" async defer></script> <meta property="og:title" content="SPIE BTAT" /><meta property="og:url" content="https://spie.de/spie-btat" /><meta property="og:type" content="website" /><meta property="og:site_name" content="SPIE" /><style type="text/css" media="all">.spie-slider .header-teaser {
+	font-size: 2.5rem!important;
+  margin-top: 0;
+}
+</style><style type="text/css" media="all">#DefaultContactWidget_C070_Col00,
+#DefaultContactWidget_C070_Col01,
+#DefaultContactWidget_C076_Col00 {
+    margin-bottom: 0;
+}
+
+#DefaultContactWidget_C070_Col00 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}</style><style type="text/css" media="all">.sf_colsIn, .container-fluid:not(.bigtext):not(.customizableSlider):not(.imageOnlySlider) {
+    margin-bottom: 2vw;
+}
+
+.gradient-button-container .gradient-button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.topHeadlineWidget {
+  margin-bottom: 25px;
+}
+.faq-list .panel-group.accordion {
+    margin-top: 0;
+}
+
+.topHeadlineWidget + .sf_colsIn > .row > .sf_colsIn > img:first-child {
+    margin-top:10px;
+}
+
+.spie-duerr .faq-list .panel-group.accordion .panel.panel-default .panel-heading.collapsed {
+    background-color: #00a0dc;
+    color: #fff;
+}
+
+.spie-duerr .faq-list .panel-group.accordion .panel.panel-default .panel-heading.collapsed .arrow:before {
+    color: #fff;
+    top: calc(50% - 4px);
+}
+
+.spie-duerr .faq-list .panel-group.accordion .panel.panel-default .panel-heading {
+    padding: 10px 35px 5px 35px;
+    background-color: #00a0dc;
+    color: #fff;
+}
+  
+.spie-duerr .faq-list .panel-group.accordion .panel.panel-default {
+    background-color: #00a0dc;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.card-without-picture .card-txt {
+  width: 100%!important;
+}
+
+@media(min-width: 1200px) {
+    .spie-slider .spie-slide.reducedHeight .slider-image img {
+        height: 540px;
+        width: auto;
+    }
+}
+
+.row.color-gradient-4 > .sf_colsIn:first-child:last-child {
+    margin-bottom: 0;
+}
+.row.color-gradient-4 > .sf_colsIn:first-child:last-child > .sf_colsIn:first-child:last-child {
+    margin-bottom: 0;
+}
+
+.row.color-gradient-4 > .sf_colsIn:first-child:last-child > .sf_colsIn:first-child:last-child > .row > .sf_colsIn {
+    margin-bottom: 0;
+  padding-top: 30px;
+    padding-bottom: 30px;
+}
+.main-content .row.color-gradient-4:last-child,
+.container-contact-sidebar .row.color-gradient-4:last-child{
+    margin-bottom: -16px;
+}
+#DefaultContactWidget_C006_Col01 {
+    padding-bottom: 0;
+}
+
+.form-group label.h6 {
+	font-weight: normal!important;
+}
+.form-group textarea.form-control {
+	height: 150px;
+}
+.gradient-button-container {
+    height: auto!important;
+}
+.gradient-button-container:first-child:last-child {
+    height: 100%!important;
+}
+.spie-slider .slider-teaser-content .btn {
+  display: none;
+}
+.spie-slider + .breadcrumbs-gradient-container {
+  margin-top: -5vw;
+}
+.topHeadlineWidget + .breadcrumbs-gradient-container {
+  margin-top: -25px;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff!important;
+}
+header #nav_navigation nav .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+    color: #009fdf !important;
+}
+.breadcrumbs-gradient-container {
+  margin-bottom: 3vw;
+}
+.card--spie .card-txt.card-body[style*="background-color: rgba(175, 186, 206, 0.125);"] .btn.btn-outline-light, .card--spie .card-txt.card-body[style*="background-color: rgba(175, 186, 206, 0.125);"] .btn.btn-outline-light {
+    color: #0f1e5a;
+    border-color: #0f1e5a;
+}
+
+.breadcrumbs-gradient-container .social-media-icons {
+    width: 75%;
+    margin: auto;
+    position: relative;
+}
+.breadcrumbs-gradient-container .social-media-icons > ul {
+    position: absolute;
+    right: 40px;
+    top: -43px;
+    list-style-type: none;
+    display: flex;
+    column-gap: 12px;
+}
+.breadcrumbs-gradient-container .social-media-icons > ul > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.breadcrumbs-gradient-container .social-media-icons > ul > li img,
+.breadcrumbs-gradient-container .social-media-icons > ul > li svg {
+    width: 23px;
+    height: 23px;
+}
+@media(max-width: 991px) {
+  .breadcrumbs-gradient-container {
+    margin-bottom: 13.5vw;
+  }
+  .breadcrumbs-gradient-container .social-media-icons > ul {
+    right: 50%;
+    top: 20px;
+    padding-left: 0;
+    margin-right: -57px;
+  }
+}
+
+#DefaultSoMeIconBar_C015_Col00 table {
+    width: 100%!important;
+}
+@media(max-width: 576px) {
+  footer > hr:first-child + div.d-flex {
+    flex-direction: column;
+  }
+  footer .footer-icon {
+    margin-left: 21px;
+    display: none;
+  }
+  #DefaultSoMeIconBar_C015_Col00 table > tbody > tr {
+    display: flex;
+        flex-direction: column;
+  }
+    #DefaultSoMeIconBar_C015_Col00 table > tbody > tr, #DefaultSoMeIconBar_C015_Col00 table > tbody > tr > td {
+        width: 100%!important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .spie-slider .spie-slide {
+        height: unset;
+    padding:25px;
+    }
+}</style><script type="text/javascript">
+
+$( document ).ready(function() {
+  /*$('.spie-slider').each(function() {
+    if($(this).find('.carousel-indicators > li').length <= 1) {
+             $(this).find('.carousel-indicators,.carousel-control-spie,[role="button"]').remove();
+    }
+  });*/
+
+  $('.card.card-wrap').each(function() {
+    if(!$(this).find('.card-pic').length) {
+      $(this).addClass('card-without-picture');
+       }
+  });
+  
+  
+  $(window).resize(function(){
+    $('.card-txt.card-body').css('height', 'auto');
+    if($(window).outerWidth() > 991) {
+        $('.row').each(function() {
+            var maxHeight = 0;
+            $(this).find('.card--spie').each(function() {
+                var height = $(this).find('.card-txt.card-body').outerHeight();
+                if(height > maxHeight) {
+                    maxHeight = height;
+                }
+            });
+          if(maxHeight > 0){
+            $(this).find('.card-txt.card-body').css('height', maxHeight + 'px');
+          }
+        });
+    }
+}).resize();
+  
+  
+  
+  
+  $('.breadcrumbs-gradient-container > nav').append('<div class="social-media-icons"><ul><li><a href="https://www.linkedin.com/company/spie-btat/" target="_blank"><img src="https://spie.azureedge.net/images/default-source/shared-images/icons/social-media/icon_linkedin.svg" alt=""></a></li><li><a href="https://www.instagram.com/spie_btat/" target="_blank"><svg style="width:32px;height:32px" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><rect fill="none" height="256" width="256" /><circle cx="128" cy="128" fill="none" r="40" stroke="#0f1e5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" /><rect fill="none" height="184" rx="48" stroke="#0f1e5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" width="184" x="36" y="36" /><circle cx="180" cy="76" r="8" /></svg></a></li><li><a href="https://www.facebook.com/spie.osmo/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="width: 27px;height: 27px;"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path stroke-linecap="round" stroke-linejoin="round" stroke-width="18" fill="none" d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z" stroke="#0f1e5a"></path></svg></a></li></ul></div>');
+  
+  
+});
+
+</script><meta name="Generator" content="Sitefinity 13.3.7648.0 PE" /><link rel="canonical" href="https://spie.de/spie-btat" /><script type='text/javascript'>
+	                var appInsights=window.appInsights||function(a){
+		                function b(a){c[a]=function(){var b=arguments;c.queue.push(function(){c[a].apply(c,b)})}}var c={config:a},d=document,e=window;setTimeout(function(){var b=d.createElement('script');b.src=a.url||'https://az416426.vo.msecnd.net/scripts/a/ai.0.js',d.getElementsByTagName('script')[0].parentNode.appendChild(b)});try{c.cookie=d.cookie}catch(a){}c.queue=[];for(var f=['Event','Exception','Metric','PageView','Trace','Dependency'];f.length;)b('track'+f.pop());if(b('setAuthenticatedUserContext'),b('clearAuthenticatedUserContext'),b('startTrackEvent'),b('stopTrackEvent'),b('startTrackPage'),b('stopTrackPage'),b('flush'),!a.disableExceptionTracking){f='onerror',b('_'+f);var g=e[f];e[f]=function(a,b,d,e,h){var i=g&&g(a,b,d,e,h);return!0!==i&&c['_'+f](a,b,d,e,h),i}}return c
+	                }({
+		                instrumentationKey: '39514220-aba5-4d0a-90a1-cd5dc2606d14'
+	                });
+
+	                window.appInsights=appInsights,appInsights.queue&&0===appInsights.queue.length&&appInsights.trackPageView();
+            </script></head> <body class=""> <script type="text/plain" data-cookieconsent="statistics">
+        (function (window, document, dataLayerName, id) {
+    window[dataLayerName] = window[dataLayerName] || [], window[dataLayerName].push({ start: (new Date).getTime(), event: "stg.start" }); var scripts = document.getElementsByTagName('script')[0], tags = document.createElement('script');
+    function stgCreateCookie(a, b, c) { var d = ""; if (c) { var e = new Date; e.setTime(e.getTime() + 24 * c * 60 * 60 * 1e3), d = "; expires=" + e.toUTCString() } document.cookie = a + "=" + b + d + "; path=/" }
+    var isStgDebug = (window.location.href.match("stg_debug") || document.cookie.match("stg_debug")) && !window.location.href.match("stg_disable_debug"); stgCreateCookie("stg_debug", isStgDebug ? 1 : "", isStgDebug ? 14 : -1);
+    var qP = []; dataLayerName !== "dataLayer" && qP.push("data_layer_name=" + dataLayerName), isStgDebug && qP.push("stg_debug"); var qPString = qP.length > 0 ? ("?" + qP.join("&")) : "";
+    tags.async = !0, tags.src = "https://spie-dze.containers.piwik.pro/" + id + ".js" + qPString, scripts.parentNode.insertBefore(tags, scripts);
+    !function (a, n, i) { a[n] = a[n] || {}; for (var c = 0; c < i.length; c++)!function (i) { a[n][i] = a[n][i] || {}, a[n][i].api = a[n][i].api || function () { var a = [].slice.call(arguments, 0); "string" == typeof a[0] && window[dataLayerName].push({ event: n + "." + i + ":" + a[0], parameters: [].slice.call(arguments, 1) }) } }(i[c]) }(window, "ppms", ["tm", "cm"]);
+})(window, document, 'dataLayer', '82a4e390-cfcc-4e17-9f2a-6f4e6728fc1d');
+        </script>   <div class="nav_menu"> <div class="modal" tabindex="-1" role="dialog" id="loginModal"> <div class="modal-dialog modal-dialog-centered" role="document"> <div class="modal-content"> <div class="modal-header"> <div class="modal-title">Login</div> <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button> </div> <div class="modal-body"></div> </div> </div> </div> </div> <header data-spy="affix" data-offset-top="335" class="v2 "> <div id="nav_logo"> <a href="/"> <img id="logo" class="spieLogo" src="/ResourcePackages/Spie/assets/dist/images/logo.svg" alt="Logo Spie"> </a> </div> <a class="navbar-loginButton loginButton" data-toggle="modal" data-target="#loginModal" href="#"> <img alt="Login" src="/ResourcePackages/Spie/assets/dist/images/login_blau_128.png"> </a> <a href="/Search" class="navbar-search"> <img src="/ResourcePackages/Spie/assets/dist/images/icon-mobile-search.svg" alt="mobile search" /> </a> <!-- country Overview
+        <a href="/country" class="navbar-sites">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 13.781 13.782">
+                <g id="Gruppe_305" data-name="Gruppe 305" transform="translate(0.25 0.25)">
+                    <g id="Gruppe_307" data-name="Gruppe 307">
+                        <path id="Pfad_182" data-name="Pfad 182" d="M6.641,13.282a6.641,6.641,0,1,1,6.641-6.641,6.648,6.648,0,0,1-6.641,6.641m0-12.5a5.86,5.86,0,1,0,5.86,5.86A5.866,5.866,0,0,0,6.641.781" fill="#182457" stroke="#182457" stroke-width="0.5" />
+                        <path id="Pfad_183" data-name="Pfad 183" d="M67.516,13.282C65.544,13.282,64,10.365,64,6.641S65.544,0,67.516,0s3.516,2.917,3.516,6.641-1.544,6.641-3.516,6.641m0-12.5c-.669,0-1.347.589-1.86,1.615a9.726,9.726,0,0,0-.874,4.245,9.726,9.726,0,0,0,.874,4.245c.513,1.026,1.191,1.615,1.86,1.615s1.347-.589,1.86-1.615a9.726,9.726,0,0,0,.874-4.245A9.726,9.726,0,0,0,69.376,2.4C68.863,1.37,68.185.781,67.516.781" transform="translate(-60.875)" fill="#182457" />
+                        <path id="Pfad_184" data-name="Pfad 184" d="M37.612,44.464a11.835,11.835,0,0,1-2.707-.3,8.087,8.087,0,0,1-2.144-.793.391.391,0,1,1,.381-.682,7.31,7.31,0,0,0,1.938.714,11.6,11.6,0,0,0,5.06,0,7.318,7.318,0,0,0,1.942-.714.391.391,0,1,1,.381.682,8.1,8.1,0,0,1-2.148.794,11.828,11.828,0,0,1-2.7.3" transform="translate(-30.971 -40.557)" fill="#182457" />
+                        <path id="Pfad_185" data-name="Pfad 185" d="M42.272,193.824a.389.389,0,0,1-.19-.05,7.311,7.311,0,0,0-1.938-.714,11.6,11.6,0,0,0-5.059,0,7.32,7.32,0,0,0-1.942.714.391.391,0,1,1-.381-.682,8.1,8.1,0,0,1,2.148-.794,12.381,12.381,0,0,1,5.41,0,8.087,8.087,0,0,1,2.144.793.391.391,0,0,1-.191.732" transform="translate(-30.971 -182.625)" fill="#182457" />
+                        <path id="Pfad_186" data-name="Pfad 186" d="M128.391,13.282a.391.391,0,0,1-.391-.391V.391a.391.391,0,1,1,.781,0v12.5a.391.391,0,0,1-.391.391" transform="translate(-121.75 0)" fill="#182457" />
+                        <path id="Pfad_187" data-name="Pfad 187" d="M12.891,128.781H.391a.391.391,0,1,1,0-.781h12.5a.391.391,0,1,1,0,.781" transform="translate(0 -121.75)" fill="#182457" />
+                    </g>
+                </g>
+            </svg>
+        </a>--> <div id="nav_toggle" class="d-none "> <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target='#mainMenu' aria-controls="mainMenu" aria-expanded="false" aria-label="#ResourceNotFound: Labels, ToggleNavigation#"> <div class="toggle-icon"> <span class="icon-bar bar1"></span> <span class="icon-bar bar2"></span> <span class="icon-bar bar3"></span> </div> </button> </div> <div id="nav_navigation"> 
+
+<div class="transparent-bg-mobile"></div>
+<div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="collapse navbar-collapse" id="mainMenu">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown active">
+                <a class="nav-link with-dropdown" href="/spie-btat">
+                    SPIE BTAT
+                    <span class="dropdown-arrow"></span>
+                </a>
+                <span class="dropdown-toggle arrow-mobile" id='navbarDropdownMenuLink-1' data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+                <ul class="dropdown-menu" aria-labelledby='navbarDropdownMenuLink-1'>
+                                    <li>
+                    <a class="dropdown-item " href="/spie-btat/unternehmen" target="_self">Unternehmen</a>
+                </li>
+                <li>
+                    <a class="dropdown-item " href="/spie-btat/nachhaltigkeit" target="_self">Nachhaltigkeit</a>
+                </li>
+                <li>
+                    <a class="dropdown-item " href="/btat/ueber-spie-btat/standorte/ansprechpersonen" target="_self">Ansprechpersonen</a>
+                </li>
+                <li>
+                    <a class="dropdown-item " href="/spie-btat/standorte" target="_self">Standorte</a>
+                </li>
+                <li>
+                    <a class="dropdown-item " href="/spie-btat/downloads" target="_self">Downloads</a>
+                </li>
+
+                </ul>
+            </li>
+            <li class="nav-item dropdown ">
+                <a class="nav-link with-dropdown" href="/spie-btat/geschaeftsfelder">
+                    Gesch&#228;ftsfelder
+                    <span class="dropdown-arrow"></span>
+                </a>
+                <span class="dropdown-toggle arrow-mobile" id='navbarDropdownMenuLink-1' data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+                <ul class="dropdown-menu" aria-labelledby='navbarDropdownMenuLink-1'>
+                                    <li>
+                    <a class="dropdown-item " href="/spie-btat/geschaeftsfelder/elektroanlagen" target="_self">Elektroanlagen</a>
+                </li>
+                <li>
+                    <a class="dropdown-item " href="/spie-btat/geschaeftsfelder/mittel_niederspannungsanlagen" target="_self">Mittel- &amp; Niederspannungsanlagen</a>
+                </li>
+                <li>
+                    <a class="dropdown-item " href="/spie-btat/geschaeftsfelder/tunnel-verkehrstechnik" target="_self">Tunnel- &amp; Verkehrstechnik</a>
+                </li>
+                <li>
+                    <a class="dropdown-item " href="/spie-btat/geschaeftsfelder/automatisierung_leittechnik" target="_self">Automatisierung &amp; Leittechnik</a>
+                </li>
+                <li>
+                    <a class="dropdown-item " href="/spie-btat/geschaeftsfelder/maschinen-und-anlagentechnik" target="_self">Maschinen- &amp; Anlagentechnik</a>
+                </li>
+                <li>
+                    <a class="dropdown-item " href="/spie-btat/geschaeftsfelder/informations--und-kommunikationstechnik" target="_blank">Informations- &amp; Kommunikationstechnik</a>
+                </li>
+
+                </ul>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="/spie-btat/branchen" target="_self">Branchen</a>
+                <span class="arrow-mobile"></span>
+            </li>
+            <li class="nav-item dropdown ">
+                <a class="nav-link with-dropdown" href="/spie-btat/jobs-karriere">
+                    Jobs &amp; Karriere
+                    <span class="dropdown-arrow"></span>
+                </a>
+                <span class="dropdown-toggle arrow-mobile" id='navbarDropdownMenuLink-1' data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+                <ul class="dropdown-menu" aria-labelledby='navbarDropdownMenuLink-1'>
+                                    <li>
+                    <a class="dropdown-item " href="/spie-btat/jobs-karriere/spie-btat-als-arbeitgeber" target="_self">Starker Arbeitgeber</a>
+                </li>
+                <li>
+                    <a class="dropdown-item " href="/spie-btat/jobs-karriere/benefits" target="_self">Benefits</a>
+                </li>
+                <li>
+                    <a class="dropdown-item " href="/spie-btat/jobs-karriere/stellenangebote" target="_self">Stellenangebote</a>
+                </li>
+                <li>
+                    <a class="dropdown-item " href="/spie-btat/jobs-karriere/initialbewerbung-(m-w-d)" target="_self">Initiativbewerbung</a>
+                </li>
+                <li>
+                    <a class="dropdown-item " href="/spie-btat/jobs-karriere/berufseinsteigende_studierende" target="_self">Berufseinsteigende &amp; Studierende</a>
+                </li>
+                <li>
+                    <a class="dropdown-item " href="/spie-btat/jobs-karriere/ablauf-bewerbung" target="_self">Ablauf Bewerbung</a>
+                </li>
+                <li>
+                    <a class="dropdown-item " href="/spie-btat/jobs-karriere/weiterbildung" target="_self">Weiterbildungen</a>
+                </li>
+
+                </ul>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="/spie-btat/kontakt" target="_self">Kontakt</a>
+                <span class="arrow-mobile"></span>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="/spie-btat/news" target="_self">News</a>
+                <span class="arrow-mobile"></span>
+            </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+
+
+
+
+
+
+ <li class="nav-item languageSelectorMobile d-none">
+</li> <li class="nav-item contactMobile languageSelectorMobile d-none"> <a href="/kontakt" class="nav-link nav-link-contact">
+                        Kontakt
+                    </a> </li> </div> <div id="nav_pressContactLang"> <ul class="nav_menu"> <li><a class="loginButton" data-toggle="modal" data-target="#loginModal" href="#">Login</a></li> <li> <a href="/Search" class="nav-site-search"> <svg width="15px" height="15px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g id="SearchIcon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Startseite_Mobile_SPIE" transform="translate(-278.000000, -30.000000)"> <g id="search" transform="translate(269.000000, 21.000000)"> <path d="M28.676983,27.1168215 L23.6277151,22.0608822 C24.6621627,20.6936249 25.2840654,18.99669 25.2840654,17.1532317 C25.2840654,12.6573471 21.6315441,9 17.1420327,9 C12.6525212,9 9,12.6573471 9,17.1532317 C9,21.6486749 12.6525212,25.306022 17.1420327,25.306022 C18.9967219,25.306022 20.703318,24.6749123 22.0736195,23.6249752 L27.1189207,28.6769424 C27.3340082,28.8923141 27.6160902,29 27.8981722,29 C28.1802542,29 28.4623362,28.8923141 28.6774238,28.6769424 C29.1075988,28.246199 29.1075988,27.5480063 28.676983,27.1168215 Z M17.1420327,23.0993446 C13.8676776,23.0993446 11.2037657,20.431913 11.2037657,17.1532317 C11.2037657,13.8741091 13.8676776,11.2066774 17.1420327,11.2066774 C20.4163877,11.2066774 23.0802997,13.8741091 23.0802997,17.1532317 C23.0802997,20.431913 20.4163877,23.0993446 17.1420327,23.0993446 Z" id="Search"></path> </g> </g> </g> </svg>
+                            Suche&nbsp;
+                        </a> </li> <li> <a href="/kontakt" class="nav-link-contact">
+                            Kontakt&nbsp;
+                        </a> </li> <!-- country Overview
+                <li>
+                    <a href="/country" class="nav-link-site">
+                        <img src="/ResourcePackages/Spie/assets/dist/images/weltkugel_blau.svg" alt="Country Overviewv" class="blue-image" />
+                        <img src="/ResourcePackages/Spie/assets/dist/images/weltkugel_rot.svg" class="d-none red-image" alt="Country Overviewv" />
+                        Spie Deutschland &amp; Zentraleuropa&nbsp;
+                    </a>
+                </li>
+                --> <li class="nav-languageselector">
+</li> </ul> </div> </header> <div class="container">
+</div> <div> <a class="backToTopButton d-none"></a> </div> <div class="main-content"> 
+
+
+<div id="slidera9dcfcfe-01ab-4b60-bae9-a0a3fbd636ef" class="container-fluid carousel slide spie-slider " data-ride="carousel" data-interval="4000">
+    <div class="carousel-inner">
+
+            <div class="carousel-item spie-slide reducedHeight active color-gradient-4" style="background-color: #0f1e5a">
+                <div class="spie-slide-container">
+                    <div class="col slider-teaser">
+                        <div class="slider-teaser-content">
+                            <p class="text-sm"></p>
+                            <p class="header-teaser">SPIE Building Technology Automation & Traffic GmbH</p>
+                            <p class="text-teaser">An den Standorten Osnabrück/Georgsmarienhütte, Kiel und Weinstadt entwickeln unsere ca. 480 Mitarbeitenden smarte Lösungen. Wir betrachten Qualität nicht nur als Schlagwort, sondern als Ergebnis einer präzisen Aufgabenstellung und intensiver Analyse.</p>
+                            <a class="btn btn-outline-slider btn-outline-secondary btn-lg" role="button" href="/spie-btat/header-home">Mehr erfahren</a>
+                        </div>
+                    </div>
+                    <div class="col slider-image pl-0">
+                        <img class="d-block" src="https://spie.azureedge.net/images/default-source/microsites/spie-dürr/über-uns-btat/spie-btat-ueber-uns-820x520px.jpg?sfvrsn=19ad5b4b_3" alt="" />
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+<div class="breadcrumbs-gradient-container">
+    <nav aria-label="Vollst&#228;ndiger Pfad zur aktuellen Seite">
+        <ol class="sf-breadscrumb breadcrumb breadcrumbs-grey-spie">
+                    <li class=""><a href="/"><span class="svg-icon-home"></span></a></li>
+                    <li class="active" aria-current="page">SPIE BTAT</li>
+        </ol>
+    </nav>
+    <div class="breadcrumbs-gradient">
+
+    </div>
+</div><div id="Contentplaceholder1_C078_Col00" class="sf_colsIn container" data-sf-element="Container" data-placeholder-label="Container"><div class="row" data-sf-element="Row">
+    <div id="Contentplaceholder1_C079_Col00" class="sf_colsIn col-lg-12" data-sf-element="Column 1" data-placeholder-label="Column 1">
+<div >
+    <div ><h2 style="text-align: center">Entdecken Sie die Multitechnik-Vielfalt <br>von SPIE BTAT</h2><p style="text-align: center">Aus SPIE Dürr und SPIE OSMO ist ein Unternehmen innerhalb der SPIE Germany Switzerland Austria geworden.<br>An unseren Standorten in Kiel, Osnabrück/Georgsmarienhütte und Weinstadt stehen die Kolleginnen und Kollegen in gewohnter Weise für unsere Kunden bereit, um für sie smarte Lösungen zu schaffen. Der Hauptsitz der SPIE Building Technology Automation &amp; Traffic GmbH ist Georgsmarienhütte bei Osnabrück. Die Geschichte der Unternehmen geht über 50 Jahre zurück. 1970 wurde die OSMO und sieben Jahre später die Firma Dürr gegründet. Nach der Übernahme durch die SPIE in den Jahren 2019 und 2021 entsteht jetzt ein Unternehmen mit ca. 480 Technikbegeisterten.</p><p style="text-align: center">Doch Größe ist nicht das, was für uns zählt. Wir sind stolz auf unsere regionalen Wurzeln und die langjährigen Bindungen zu unseren Kunden sowie auf unsere Mitarbeitenden, die in ganz Deutschland in unseren Projekten arbeiten. Dieses bildet auch weiterhin unsere DNA. Egal ob Kunde, Mitarbeiter/Mitarbeiterin oder Azubi: darauf können Sie sich verlassen. Wir freuen uns auf die Aufgaben, die vor uns liegen.</p></div>    
+</div>
+    </div>
+</div>
+ 
+    <a href="/spie-btat/news" title="Open image in original size"> 
+            <img src="https://spie.azureedge.net/images/default-source/microsites/spie-d&#252;rr/news/zukunftsplaza_banner_home.jpg?sfvrsn=87ffe52f_7" title="SPIE Zukunftsplaza 25.05.2025" alt="SPIE Zukunftsplaza 25.05.2025" 
+                
+                 /> 
+ 
+    </a> 
+ 
+<div >
+    <div ><br><h2 style="text-align: center">SPIE BTAT Geschäftsfelder</h2><p><br></p></div>    
+</div><div class="row" data-sf-element="Row">
+    <div id="Contentplaceholder1_C039_Col00" class="sf_colsIn col-lg-4" data-sf-element="Column 1" data-placeholder-label="Column 1"> 
+    <a href="/spie-btat/geschaeftsfelder/elektroanlagen" title="Open image in original size"> 
+            <img src="https://spie.azureedge.net/images/default-source/microsites/spie-d&#252;rr/startseite/elektroanlagen-geschaeftsfeld-spie-btat-500x334px-2.jpg?sfvrsn=fdc5d025_3" title="Elektroanlagen-Geschaeftsfeld-SPIE-BTAT-500x334px" alt="Gesch&#228;ftsbereich Elektroanlagen" 
+                
+                 /> 
+ 
+    </a> 
+ 
+    </div>
+    <div id="Contentplaceholder1_C039_Col01" class="sf_colsIn col-lg-4" data-sf-element="Column 2" data-placeholder-label="Column 2"> 
+    <a href="/spie-btat/geschaeftsfelder/mittel_niederspannungsanlagen" title="Open image in original size"> 
+            <img src="https://spie.azureedge.net/images/default-source/microsites/spie-d&#252;rr/startseite/mittel-niederspannungsanlagen-geschaeftsfeld-spie-btat-500x334px-2.jpg?sfvrsn=ed1e88df_3" title="Mittel-Niederspannungsanlagen-Geschaeftsfeld-SPIE-BTAT" alt="Gesch&#228;ftsbereich Mittel- und Niederspannungsanlagen" 
+                
+                 /> 
+ 
+    </a> 
+ 
+    </div>
+    <div id="Contentplaceholder1_C039_Col02" class="sf_colsIn col-lg-4" data-sf-element="Column 3" data-placeholder-label="Column 3"> 
+    <a href="/spie-btat/geschaeftsfelder/tunnel-verkehrstechnik" title="Open image in original size"> 
+            <img src="https://spie.azureedge.net/images/default-source/microsites/spie-d&#252;rr/startseite/tunnel_verkehrstechnik-spie-btat-500x334px.jpg?sfvrsn=22ed93df_3" title="Gesch&#228;ftsbereich Tunnel- und Verkehrstechnik SPIE BTAT" alt="Gesch&#228;ftsbereich Tunnel- und Verkehrstechnik SPIE BTAT" 
+                
+                 /> 
+ 
+    </a> 
+ 
+    </div>
+</div>
+<div class="row" data-sf-element="Row">
+    <div id="Contentplaceholder1_C043_Col00" class="sf_colsIn col-lg-4" data-sf-element="Column 1" data-placeholder-label="Column 1"> 
+    <a href="/spie-btat/geschaeftsfelder/automatisierung_leittechnik" title="Open image in original size"> 
+            <img src="https://spie.azureedge.net/images/default-source/microsites/spie-d&#252;rr/startseite/automatisierung-leittechnik-geschaeftsfeld-spie-btat-500x334pxc1a2905d808b45d190992840ba576924.jpg?sfvrsn=6929d5a8_0" title="Automatisierung-Leittechnik-Geschaeftsfeld-SPIE-BTAT-500x334px" alt="Gesch&#228;ftsbereich Automatisierung &amp; Leittechnik" 
+                
+                 /> 
+ 
+    </a> 
+ 
+    </div>
+    <div id="Contentplaceholder1_C043_Col01" class="sf_colsIn col-lg-4" data-sf-element="Column 2" data-placeholder-label="Column 2"> 
+    <a href="/spie-btat/geschaeftsfelder/maschinen-und-anlagentechnik" title="Open image in original size"> 
+            <img src="https://spie.azureedge.net/images/default-source/microsites/spie-d&#252;rr/startseite/maschiene-anlagentechnik-geschaeftsfeld-spie-btat-500x334px.jpg?sfvrsn=a6cc7c73_3" title="Maschiene-Anlagentechnik-Geschaeftsfeld-SPIE-BTAT-500x334px" alt="Gesch&#228;ftsbereich Maschinen- und Anlagentechnik" 
+                
+                 /> 
+ 
+    </a> 
+ 
+    </div>
+    <div id="Contentplaceholder1_C043_Col02" class="sf_colsIn col-lg-4" data-sf-element="Column 3" data-placeholder-label="Column 3"> 
+    <a href="/spie-btat/geschaeftsfelder/informations--und-kommunikationstechnik" title="Open image in original size"> 
+            <img src="https://spie.azureedge.net/images/default-source/microsites/spie-d&#252;rr/startseite/informations-kommunikationstechnik-spie-btat-thumbnail-verlauf.jpg?sfvrsn=8a58e307_3" title="Informations-und-Kommunikationstechnik-Geschaeftsfeld-SPIE-BTAT" alt="Gesch&#228;ftsbereich Informations- und Kommunikationstechnik" 
+                
+                 /> 
+ 
+    </a> 
+ 
+    </div>
+</div>
+
+</div>
+ </div> <div class="container-contact-sidebar">
+<div id="DefaultContactWidget_C074_Col00" class="sf_colsIn container" data-sf-element="Container" data-placeholder-label="Container"><div class="row" data-sf-element="Row">
+    <div id="DefaultContactWidget_C052_Col00" class="sf_colsIn col-lg-12" data-sf-element="Column 1" data-placeholder-label="Column 1">
+<div >
+    <div ><h2 style="text-align: center">SPIE BTAT-News<br>Informationen und Berichte<br></h2><p>&nbsp;</p></div>    
+</div><div id="DefaultContactWidget_C073_Col00" class="sf_colsIn container" data-sf-element="Container" data-placeholder-label="Container"><div class="row" data-sf-element="Row">
+    <div id="DefaultContactWidget_C054_Col00" class="sf_colsIn col-lg-4" data-sf-element="Column 1" data-placeholder-label="Column 1"> 
+    <img src="https://spie.azureedge.net/images/default-source/microsites/spie-d&#252;rr/news/spie_btat_zukunftsplaza.jpg?sfvrsn=73bd735e_3" title="Zukunftsplaza 25.05.2025" alt="Zukunftsplaza 25.05.2025" 
+                
+                 /> 
+ 
+<div >
+    <div ><h3>SPIE Zukunftsplaza in Georgsmarienhütte</h3><p>Wir laden Sie am 25.05.2025 herzlich auf unsere SPIE "Zukunftsplaza" ein! Rund um unser Gebäude an der Bielefelder Straße zeigen wir die spannenden Projekte, die wir tagtäglich für unsere Kunden realisieren. Von Elektrotechnik über Maschinenbau bis hin zu IT und Kommunikation: Erfahren Sie, wie wir Herausforderungen, beispielsweise in Nachhaltigkeit und digitaler Transformation, erfolgreich meistern.</p><p><a href="/spie-btat/news"></a><a href="/spie-btat/news"></a><a href="https://spie-btat.de/zukunftsplaza-2025" data-sf-ec-immutable="">weiterlesen</a></p></div>    
+</div>
+    </div>
+    <div id="DefaultContactWidget_C054_Col01" class="sf_colsIn col-lg-4" data-sf-element="Column 2" data-placeholder-label="Column 2"> 
+    <img src="https://spie.azureedge.net/images/default-source/microsites/spie-d&#252;rr/news/tunnelkongress-2025/tunnelkongress_01.jpg?sfvrsn=8bb17bf8_3" title="Tunnelkongress 2025" alt="Tunnelkongress 2025" 
+                
+                 /> 
+ 
+<div >
+    <div ><h3><strong>Erfolgreiche Teilnahme am 6. Deutschen Tunnelkongress</strong></h3><p>Wir blicken auf einen äußerst erfolgreichen 6.  Deutschen Tunnelkongress in Düsseldorf zurück, bei dem die SPIE Building  Technology Automation &amp; Traffic GmbH vertreten war. Die  Veranstaltung verzeichnete einen beeindruckenden Besucherrekord  und bot eine hervorragende Plattform für den intensiven Austausch über  aktuelle Entwicklungen und Innovationen im Tunnelbau.</p><p><a href="/spie-btat/news/news-tunnelkongress-2025">weiterlesen</a></p></div>    
+</div>
+    </div>
+    <div id="DefaultContactWidget_C054_Col02" class="sf_colsIn col-lg-4" data-sf-element="Column 3" data-placeholder-label="Column 3"> 
+    <img src="https://spie.azureedge.net/images/default-source/microsites/spie-d&#252;rr/startseite/news_spie_btat.png?sfvrsn=837b58a6_3" title="news_SPIE_BTAT" 
+                
+                 /> 
+ 
+<div >
+    <div ><h3>Aus SPIE Dürr und SPIE OSMO wird SPIE BTAT</h3><p>Wir freuen uns, Sie darüber zu informieren, dass aus den beiden Unternehmen SPIE Dürr und SPIE OSMO eine gemeinsame Geschäftseinheit entstanden ist.<br><br><a href="/spie-btat/news">weiterlesen</a><br><br><br></p></div>    
+</div>
+    </div>
+</div>
+
+</div>
+
+    </div>
+</div>
+
+</div>
+<div class="row" data-sf-element="Row" data-selected-color="009FDF" style="background-color: rgb(0, 159, 223);">
+    <div id="DefaultContactWidget_C076_Col00" class="sf_colsIn col-lg-12" data-sf-element="Column 1" data-placeholder-label="Column 1"><div class="row" data-sf-element="Row" style="">
+    <div id="DefaultContactWidget_C070_Col00" class="sf_colsIn col-lg-8" data-sf-element="Column 1" data-placeholder-label="Column 1">
+<div >
+    <div ><h3 style="text-align: center"><span style="background-color: rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1)"><strong><span style="color: rgba(255, 255, 255, 1)"></span></strong>
+ </span><span style="background-color: rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1)"><strong></strong></span></h3><h3 style="text-align: center">&nbsp;</h3><h3 style="text-align: center; color: rgba(255, 255, 255, 1); margin: 0 60px">Offene Stellen bei SPIE BTAT<br></h3><p style="text-align: center"><span style="color: rgba(255, 255, 255, 1)">&nbsp;</span></p><p style="text-align: center; margin: 0 60px"><span style="color: rgba(255, 255, 255, 1)">Das erfahrene Team bei SPIE Building Technology Automation &amp; Traffic GmbH freut sich auf neue Kolleginnen und Kollegen, die mit kreativen Ideen und Engagement Unterstützung leisten wollen. Überzeugen Sie das SPIE BTAT-Team mit Ihren Fähigkeiten, bewerben Sie sich.</span></p><p style="text-align: center; margin: 0 60px"><span style="color: rgba(255, 255, 255, 1)"></span><span style="color: rgba(255, 255, 255, 1)"><a href="/spie-btat/jobs-karriere/stellenangebote"><strong>Offene Stellen bei SPIE BTAT entdecken</strong></a></span><br></p><span style="background-color: rgba(255, 255, 255, 1)"></span></div>    
+</div>
+    </div>
+    <div id="DefaultContactWidget_C070_Col01" class="sf_colsIn col-lg-4" data-sf-element="Column 2" data-placeholder-label="Column 2"> 
+    <img src="https://spie.azureedge.net/images/default-source/microsites/spie-d&#252;rr/startseite/spie-btat-offene-stellen-820x520px.jpg?sfvrsn=c34a2c4f_0" title="SPIE-BTAT-Karriere" alt="Karriere SPIE BTAT" 
+                
+                 /> 
+ 
+    </div>
+</div>
+
+    </div>
+</div>
+<div id="DefaultContactWidget_C024_Col00" class="sf_colsIn container mb-0" data-sf-element="Container" data-placeholder-label="Container"><div class="row" data-sf-element="Row">
+    <div id="DefaultContactWidget_C025_Col00" class="sf_colsIn col-lg-12 mb-0 mt-5" data-sf-element="Column 1" data-placeholder-label="Column 1">
+<div >
+    <div ><h2 style="text-align: center"><span style="color: rgba(15, 30, 90, 1)">SPIE BTAT Standorte<br><br></span></h2></div>    
+</div>
+    </div>
+</div>
+<div class="row" data-sf-element="Row">
+    <div id="DefaultContactWidget_C062_Col00" class="sf_colsIn col-lg-4" data-sf-element="Column 1" data-placeholder-label="Column 1"> 
+    <img src="https://spie.azureedge.net/images/default-source/microsites/spie-d&#252;rr/&#252;ber-uns-btat/standorte/standort_georgsmarienhuette000ace0b-28ed-4c43-964e-0f939b3f0014.jpg?sfvrsn=477f1426_3" title="standort_georgsmarienhuette" 
+                
+                 /> 
+ 
+<div >
+    <div ><br><h3>Standort<br>Georgsmarienhütte</h3><p>Vertrieb, Projektbüros, Konstruktion, Softwareentwicklung, Verwaltung<br><br>SPIE Building Technology<br>Automation &amp; Traffic GmbH<br><br>Bielefelder Straße 10<br>49124 Georgsmarienhütte<br>Telefon: +49 (0) 5401 858-0</p></div>    
+</div>
+    </div>
+    <div id="DefaultContactWidget_C062_Col01" class="sf_colsIn col-lg-4" data-sf-element="Column 2" data-placeholder-label="Column 2"> 
+    <img src="https://spie.azureedge.net/images/default-source/microsites/spie-d&#252;rr/&#252;ber-uns-btat/standorte/spie-btat-gebaeude-weidenstrasse.jpg?sfvrsn=49c52364_3" title="Spie-BTAT-Gebaeude-Weidenstrasse" alt="Spie BTAT Gebaeude Weidenstrasse" 
+                
+                 /> 
+ 
+<div >
+    <div ><br><h3>Standort Georgsmarienhütte</h3><p>Schaltanlagenbau, Projektbüros, Service für Elektroanlagen sowie für Informations- &amp; Telekommunikationstechnik<br><br>SPIE Building Technology <br>Automation &amp; Traffic GmbH<br><br>Weidenstraße 31<br>49124 Georgsmarienhütte</p></div>    
+</div>
+    </div>
+    <div id="DefaultContactWidget_C062_Col02" class="sf_colsIn col-lg-4" data-sf-element="Column 3" data-placeholder-label="Column 3"> 
+    <img src="https://spie.azureedge.net/images/default-source/microsites/spie-d&#252;rr/&#252;ber-uns-btat/standorte/spie-btat-gebaeude-weisse_breite.jpg?sfvrsn=3a8af72d_3" title="Spie-BTAT-Gebaeude-Weisse_Breite" alt="Spie BTAT Gebaeude Weisse Breite" 
+                
+                 /> 
+ 
+<div >
+    <div ><br><h3>Standort <br>Osnabrück</h3><p>Projektbüros, Service der Maschinen- &amp; Anlagentechnik, SPIE Academy für Auszubildende<br><br>SPIE Building Technology <br>Automation &amp; Traffic GmbH<br><br>Weiße Breite 2<br>49084 Osnabrück</p></div>    
+</div>
+    </div>
+</div>
+<div class="row" data-sf-element="Row">
+    <div id="DefaultContactWidget_C087_Col00" class="sf_colsIn col-lg-4" data-sf-element="Column 1" data-placeholder-label="Column 1"> 
+    <img src="https://spie.azureedge.net/images/default-source/microsites/spie-d&#252;rr/&#252;ber-uns-btat/standorte/gebaeude-weinstadt-spie-btat-fahnen.jpg?sfvrsn=632bb7e2_3" title="standort_weinstadt" 
+                
+                 /> 
+ 
+<div >
+    <div ><br><h3>Standort <br>Weinstadt<br></h3>SPIE Building Technology<br>Automation &amp; Traffic GmbH<br><br>Mercedesstraße 16<br>71384 Weinstadt<br>Telefon: +49 (0) 7151 6059-0</div>    
+</div>
+    </div>
+    <div id="DefaultContactWidget_C087_Col01" class="sf_colsIn col-lg-4" data-sf-element="Column 2" data-placeholder-label="Column 2"> 
+    <img src="https://spie.azureedge.net/images/default-source/microsites/spie-d&#252;rr/startseite/standort_kiel.jpg?sfvrsn=57a04722_3" title="SPIE BTAT Standort Kiel" alt="SPIE BTAT Standort Kiel" 
+                
+                 /> 
+ 
+<div >
+    <div ><br><h3>Standort<br>Kiel</h3>SPIE Building Technology<br>Automation &amp; Traffic GmbH<br><br>Hopfenstraße 65<br>24103 Kiel<br>Telefon: +49 (0) 431 570640-0</div>    
+</div>
+    </div>
+    <div id="DefaultContactWidget_C087_Col02" class="sf_colsIn col-lg-4" data-sf-element="Column 3" data-placeholder-label="Column 3">
+    </div>
+</div>
+
+</div>
+</div> <footer> <hr> <div class="d-flex justify-content-center mg-b-30"> 
+<div id="DefaultSoMeIconBar_C015_Col00" class="sf_colsIn container" data-sf-element="Container" data-placeholder-label="Container">
+<div >
+    <div ><table style="width: 844px"><tbody><tr style="height: 50%"><td style="width: 50.2373%"><br></td><td style="width: 2.37248%">&nbsp;</td><td style="width: 47.3903%">&nbsp;</td></tr><tr style="height: 50%"><td style="width: 50.2373%"><div><div><div><div><p>SPIE Germany Switzerland Austria<br>GB Building Technology &amp; Automation<br><br><strong>SPIE Building Technology Automation &amp; Traffic GmbH</strong><br>Bielefelder Straße 10<br>49124 Georgsmarienhütte<br>Deutschland</p></div></div></div></div></td><td style="width: 2.37248%">&nbsp;</td><td style="width: 47.3903%"><p><br>Telefon: <a href="https://www.spie-osmo.de/+4954018580" data-sf-ec-immutable="">+49 (0) 5401 858-0</a><br>E-Mail: <a href="mailto:info@spie-osmo.de">info-btat@spie.com</a><br>www.spie.de/spie-btat</p></td></tr></tbody></table><br></div>    
+</div>
+</div>
+        <div class="footer-icon">
+            <a href="https://www.linkedin.com/company/spie-deutschland-zentraleuropa?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A15174962%2Cidx%3A3-1-4%2CtarId%3A1484227577129%2Ctas%3Aspie%20unter">
+                <img src="https://spie.azureedge.net/images/default-source/shared-images/icons/social-media/icon_linkedin.svg?sfvrsn=fb6d24a5_3" alt="">
+            </a>
+        </div>
+        <div class="footer-icon">
+            <a href="https://www.xing.com/company/spiedeutschlandundzentraleuropa">
+                <img src="https://spie.azureedge.net/images/default-source/microsites/ics/icon_xing.png?sfvrsn=761f60e1_6" alt="icon_xing">
+            </a>
+        </div>
+        <div class="footer-icon">
+            <a href="https://www.instagram.com/spie.vorort/">
+                <img src="https://spie.azureedge.net/images/default-source/shared-images/icons/social-media/9026811_instagram_logo_thin_icon-(1).svg?sfvrsn=1dd3acce_3" alt="">
+            </a>
+        </div>
+ </div> <div class="d-flex center-divs  bg-white" id="nav_footer"> 
+
+
+
+<div>
+    <nav class="navbar ">
+        <div id='navbar-1'>
+            <ul class="navbar-nav flex-wrap">
+        <li class="nav-item ">
+            <a class="nav-link" href="/agb" target="_self">AGB</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" href="/footer-dt/impressum" target="_self">Impressum</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" href="/footer-dt/datenschutzhinweise" target="_self">Datenschutzhinweise</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" href="/footer-dt/einkauf" target="_self">Einkauf</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" href="/footer-dt/kontakt" target="_self">Kontakt</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" href="/karriere/stellenangebote" target="_self">Stellenangebote</a>
+        </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+
+
+
+
+
+ </div> <div class="d-flex center-divs mg-b-90 divMotto"> <div><span class="text-motto">SPIE, gemeinsam zum Erfolg</span></div> </div> </footer>  </body> </html>

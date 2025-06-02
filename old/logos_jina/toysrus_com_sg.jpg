@@ -1,0 +1,4096 @@
+    
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--[if gt IE 9]><!-->
+<script>
+    function isIE() {
+        var ua = window.navigator.userAgent;
+        var msie = ua.indexOf('MSIE '); // IE 10 or older
+        var trident = ua.indexOf('Trident/'); //IE 11
+
+        return (msie > 0 || trident > 0);
+    }
+
+    (function(){
+        if (isIE()) {
+            var script = document.createElement('script');
+            script.src = '/on/demandware.static/Sites-ToysRUs_SG-Site/-/en_SG/v1748811315914/js/picturefill.js';
+            document.head.appendChild(script);
+        }
+    })();
+</script>
+
+
+    
+        <script defer type="text/javascript" src="/on/demandware.static/Sites-ToysRUs_SG-Site/-/en_SG/v1748811315914/js/polyfill.js"></script>
+    
+
+    
+        <script defer type="text/javascript" src="/on/demandware.static/Sites-ToysRUs_SG-Site/-/en_SG/v1748811315914/js/svg-sprite.js"></script>
+    
+
+    
+        <script defer type="text/javascript" src="/on/demandware.static/Sites-ToysRUs_SG-Site/-/en_SG/v1748811315914/js/main.js"></script>
+    
+
+
+<!--<![endif]-->
+<meta charset="UTF-8"/>
+<meta http-equiv="x-ua-compatible" content="ie=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0"/>
+
+
+
+
+
+
+
+
+<title>
+    Babies&quot;R&quot;Us – Singapore
+</title>
+<meta name="description" content="Toys&rdquo;R&rdquo;Us brings you Babies&rdquo;R&rdquo;Us with everything you need for baby! Explore our range of products from brands you know and trust in-store and online."/>
+<meta name="keywords" content="Babies&quot;R&quot;Us"/>
+
+
+
+    
+        <meta property="og:url" content="https://www.babiesrus.com.sg/homepage?isSessionRedirect=true">
+    
+
+
+<!--Hreflangs -->
+
+
+    
+        <link rel="alternate" hreflang="en-sg" href="https://www.babiesrus.com.sg/homepage?isSessionRedirect=true" />
+    
+
+
+
+
+
+<meta property="og:title" content="Babies&quot;R&quot;Us &ndash; Singapore" />
+<meta name="og:description" content="Toys&rdquo;R&rdquo;Us brings you Babies&rdquo;R&rdquo;Us with everything you need for baby! Explore our range of products from brands you know and trust in-store and online."/>
+
+    <meta property="og:image" content="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/Sites-ToysRUs_SG-Site/-/default/dw17152b32/images/favicon/favicon-bru-1000.jpg?q=75">
+
+
+<meta property="fb:app_id" content="480533426490252" />
+<meta property="og:type" content="website" />
+
+
+
+    
+        
+            <meta property="og:locale" content="en_SG" />
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <link  href="/on/demandware.static/Sites-ToysRUs_SG-Site/-/default/dw35b868e7/images/favicon/favicon-bru-16.png" rel="icon" type="image/png" sizes="16x16" />
+    <link  href="/on/demandware.static/Sites-ToysRUs_SG-Site/-/default/dw6f216efc/images/favicon/favicon-bru-32.png" rel="icon" type="image/png" sizes="32x32" />
+    <link  href="/on/demandware.static/Sites-ToysRUs_SG-Site/-/default/dwe367d79e/images/favicon/favicon-bru-96.png" rel="icon" type="image/png" sizes="96x96" />
+    <link  href="/on/demandware.static/Sites-ToysRUs_SG-Site/-/default/dw2bd287ea/images/favicon/favicon-bru-128.png" rel="icon" type="image/png" sizes="128x128" />
+    <link  href="/on/demandware.static/Sites-ToysRUs_SG-Site/-/default/dw812900ca/images/favicon/favicon-bru-196.png" rel="icon" type="image/png" sizes="196x196" />
+    <link href="/on/demandware.static/Sites-ToysRUs_SG-Site/-/default/dw4defdd0a/images/favicon/favicon-bru.ico" rel="shortcut icon" />
+    <link rel="stylesheet" href="/on/demandware.static/Sites-ToysRUs_SG-Site/-/en_SG/v1748811315914/css/bru_global.css" />
+
+
+
+<link rel="preload" href="/on/demandware.static/Sites-ToysRUs_SG-Site/-/en_SG/v1748811315914/fonts/Avenir-Book.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/on/demandware.static/Sites-ToysRUs_SG-Site/-/en_SG/v1748811315914/fonts/Avenir-Roman.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/on/demandware.static/Sites-ToysRUs_SG-Site/-/en_SG/v1748811315914/fonts/Avenir-Medium.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/on/demandware.static/Sites-ToysRUs_SG-Site/-/en_SG/v1748811315914/fonts/Avenir-Heavy.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/on/demandware.static/Sites-ToysRUs_SG-Site/-/en_SG/v1748811315914/fonts/Avenir-Black.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/on/demandware.static/Sites-ToysRUs_SG-Site/-/en_SG/v1748811315914/fonts/Avenir-Light.woff2" as="font" type="font/woff2" crossorigin="">
+
+<link rel="stylesheet" href="/on/demandware.static/Sites-ToysRUs_SG-Site/-/en_SG/v1748811315914/css/basis/fonts.css" />
+
+
+    <link rel="stylesheet" href="/on/demandware.static/Sites-ToysRUs_SG-Site/-/en_SG/v1748811315914/css/bru_homePage.css" />
+
+
+
+
+
+
+<!-- Start of Zendesk Widget script -->
+<script>window.zESettings = {"webWidget":{"color":{"theme":"#009ddb","launcherText":"#fff"},"offset":{"horizontal":"0","vertical":"70px","mobile":{"horizontal":"-10px","vertical":"0px"}},"launcher":{"label":{"*":"help"}}}};</script>
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=2c3a22d1-ff9a-4edb-b70c-0ef5b6cc45d7"></script>
+<!--End of Zendesk Widget script--><script>(function() {
+var globalParams = {"staticURL":"/on/demandware.static/Sites-ToysRUs_SG-Site/-/en_SG/v1748811315914/","currentBrand":"bru","countryCode":"SG","instoreShippingType":"click_and_collect","deliveryShippingType":"delivery","isClickAndCollectEnabled":true,"cookiesConfig":{"COOKIE_MAX_AGE_DAYS":30,"COUNTRY_COOKIE_NAME":"country","SHIPPING_TYPE_COOKIE_NAME":"shippingType","SELECTED_STORE_COOKIE_NAME":"selectedStore"}};
+window.globalParams = 'globalParams' in window ? Object.assign(window.globalParams, globalParams) : globalParams;
+})();</script><script>(function() {
+var globalParams = {"currencyCode":"SGD"};
+window.globalParams = 'globalParams' in window ? Object.assign(window.globalParams, globalParams) : globalParams;
+})();</script><!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);}) (window, document, 'script', 'dataLayer', 'GTM-MQBQRWB');</script><!-- End Google Tag Manager -->
+
+
+
+
+
+    <script>var CRL8_SITENAME = 'toysrussg-i47bvm';!function(){var e=window.crl8=window.crl8||{},n=!1,i=[];e.ready=function(e){n?e():i.push(e)},e.pixel=e.pixel||function(){e.pixel.q.push(arguments)},e.pixel.q=e.pixel.q||[];var t=window.document,o=t.createElement("script"),c=e.debug||-1!==t.location.search.indexOf("crl8-debug=true")?"js":"min.js";o.async=!0,o.src=t.location.protocol+"//edge.curalate.com/sites/"+CRL8_SITENAME+"/site/latest/site."+c,o.onload=function(){n=!0,i.forEach(function(e){e()})};var r=t.getElementsByTagName("script")[0];r.parentNode.insertBefore(o,r.nextSibling)}();</script>
+
+
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ (head-active_data.js) */
+var dw = (window.dw || {});
+dw.ac = {
+    _analytics: null,
+    _events: [],
+    _category: "",
+    _searchData: "",
+    _anact: "",
+    _anact_nohit_tag: "",
+    _analytics_enabled: "true",
+    _timeZone: "Asia/Singapore",
+    _capture: function(configs) {
+        if (Object.prototype.toString.call(configs) === "[object Array]") {
+            configs.forEach(captureObject);
+            return;
+        }
+        dw.ac._events.push(configs);
+    },
+	capture: function() { 
+		dw.ac._capture(arguments);
+		// send to CQ as well:
+		if (window.CQuotient) {
+			window.CQuotient.trackEventsFromAC(arguments);
+		}
+	},
+    EV_PRD_SEARCHHIT: "searchhit",
+    EV_PRD_DETAIL: "detail",
+    EV_PRD_RECOMMENDATION: "recommendation",
+    EV_PRD_SETPRODUCT: "setproduct",
+    applyContext: function(context) {
+        if (typeof context === "object" && context.hasOwnProperty("category")) {
+        	dw.ac._category = context.category;
+        }
+        if (typeof context === "object" && context.hasOwnProperty("searchData")) {
+        	dw.ac._searchData = context.searchData;
+        }
+    },
+    setDWAnalytics: function(analytics) {
+        dw.ac._analytics = analytics;
+    },
+    eventsIsEmpty: function() {
+        return 0 == dw.ac._events.length;
+    }
+};
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (head-cquotient.js) */
+var CQuotient = window.CQuotient = {};
+CQuotient.clientId = 'bdgj-ToysRUs_SG';
+CQuotient.realm = 'BDGJ';
+CQuotient.siteId = 'ToysRUs_SG';
+CQuotient.instanceType = 'prd';
+CQuotient.locale = 'en_SG';
+CQuotient.fbPixelId = '__UNKNOWN__';
+CQuotient.activities = [];
+CQuotient.cqcid='';
+CQuotient.cquid='';
+CQuotient.cqeid='';
+CQuotient.cqlid='';
+CQuotient.apiHost='api.cquotient.com';
+/* Turn this on to test against Staging Einstein */
+/* CQuotient.useTest= true; */
+CQuotient.useTest = ('true' === 'false');
+CQuotient.initFromCookies = function () {
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+	  var c = ca[i];
+	  while (c.charAt(0)==' ') c = c.substring(1,c.length);
+	  if (c.indexOf('cqcid=') == 0) {
+		CQuotient.cqcid=c.substring('cqcid='.length,c.length);
+	  } else if (c.indexOf('cquid=') == 0) {
+		  var value = c.substring('cquid='.length,c.length);
+		  if (value) {
+		  	var split_value = value.split("|", 3);
+		  	if (split_value.length > 0) {
+			  CQuotient.cquid=split_value[0];
+		  	}
+		  	if (split_value.length > 1) {
+			  CQuotient.cqeid=split_value[1];
+		  	}
+		  	if (split_value.length > 2) {
+			  CQuotient.cqlid=split_value[2];
+		  	}
+		  }
+	  }
+	}
+}
+CQuotient.getCQCookieId = function () {
+	if(window.CQuotient.cqcid == '')
+		window.CQuotient.initFromCookies();
+	return window.CQuotient.cqcid;
+};
+CQuotient.getCQUserId = function () {
+	if(window.CQuotient.cquid == '')
+		window.CQuotient.initFromCookies();
+	return window.CQuotient.cquid;
+};
+CQuotient.getCQHashedEmail = function () {
+	if(window.CQuotient.cqeid == '')
+		window.CQuotient.initFromCookies();
+	return window.CQuotient.cqeid;
+};
+CQuotient.getCQHashedLogin = function () {
+	if(window.CQuotient.cqlid == '')
+		window.CQuotient.initFromCookies();
+	return window.CQuotient.cqlid;
+};
+CQuotient.trackEventsFromAC = function (/* Object or Array */ events) {
+try {
+	if (Object.prototype.toString.call(events) === "[object Array]") {
+		events.forEach(_trackASingleCQEvent);
+	} else {
+		CQuotient._trackASingleCQEvent(events);
+	}
+} catch(err) {}
+};
+CQuotient._trackASingleCQEvent = function ( /* Object */ event) {
+	if (event && event.id) {
+		if (event.type === dw.ac.EV_PRD_DETAIL) {
+			CQuotient.trackViewProduct( {id:'', alt_id: event.id, type: 'raw_sku'} );
+		} // not handling the other dw.ac.* events currently
+	}
+};
+CQuotient.trackViewProduct = function(/* Object */ cqParamData){
+	var cq_params = {};
+	cq_params.cookieId = CQuotient.getCQCookieId();
+	cq_params.userId = CQuotient.getCQUserId();
+	cq_params.emailId = CQuotient.getCQHashedEmail();
+	cq_params.loginId = CQuotient.getCQHashedLogin();
+	cq_params.product = cqParamData.product;
+	cq_params.realm = cqParamData.realm;
+	cq_params.siteId = cqParamData.siteId;
+	cq_params.instanceType = cqParamData.instanceType;
+	cq_params.locale = CQuotient.locale;
+	
+	if(CQuotient.sendActivity) {
+		CQuotient.sendActivity(CQuotient.clientId, 'viewProduct', cq_params);
+	} else {
+		CQuotient.activities.push({activityType: 'viewProduct', parameters: cq_params});
+	}
+};
+/* ]]> */
+// -->
+</script>
+<!-- Demandware Apple Pay -->
+
+<style type="text/css">ISAPPLEPAY{display:inline}.dw-apple-pay-button,.dw-apple-pay-button:hover,.dw-apple-pay-button:active{background-color:black;background-image:-webkit-named-image(apple-pay-logo-white);background-position:50% 50%;background-repeat:no-repeat;background-size:75% 60%;border-radius:5px;border:1px solid black;box-sizing:border-box;margin:5px auto;min-height:30px;min-width:100px;padding:0}
+.dw-apple-pay-button:after{content:'Apple Pay';visibility:hidden}.dw-apple-pay-button.dw-apple-pay-logo-white{background-color:white;border-color:white;background-image:-webkit-named-image(apple-pay-logo-black);color:black}.dw-apple-pay-button.dw-apple-pay-logo-white.dw-apple-pay-border{border-color:black}</style>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.agent='pldemandware';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '263366568167359');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" alt="" style="display:none"
+src="https://www.facebook.com/tr?id=263366568167359&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+</head>
+<body>
+<!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQBQRWB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) -->
+
+
+
+
+<input type="hidden" name="token-url" value="/on/demandware.store/Sites-ToysRUs_SG-Site/en_SG/CSRF-Generate"/>
+<div class="header-banner">
+    <div class="flex-grow-1">
+        
+	 
+
+
+	
+    
+    <div class="swiper-outer-wrapper" style="background-color: #66bc29">
+        <div class="swiper-container" data-bootstrap='{"carousel": {
+&quot;autoplay&quot;: true, &quot;pauseOnMouseEnter&quot;: true, &quot;autoHeight&quot;: true, &quot;direction&quot;: &quot;vertical&quot;
+}}'>
+            <div class="swiper-wrapper">
+                
+                    <div class="swiper-slide">Free delivery with $80 or above.<a href="https://www.babiesrus.com.sg/shipping-delivery.html"><span class="link">Find out more</span></a></div>
+
+<div class="swiper-slide">Buy online & collect in store with Click & Collect.<a href="https://www.babiesrus.com.sg/Click+%26+Collect.html"><span class="link">Learn more</span></a></div>
+                
+            </div>
+            <div class="swiper-button-next d-none">
+                <svg class="icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#chevron"></use>
+                </svg>
+            </div>
+            <div class="swiper-button-prev d-none">
+                <svg class="icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#chevron"></use>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+ 
+	
+    </div>
+    
+<div class="brand-switcher hidden-sm-down">
+<a href="/switch-brand?brand=tru" class="switch-tru -switch">
+<img data-src="/on/demandware.static/Sites-ToysRUs_SG-Site/-/default/dw58b6e49a/images/logo/tru-white.svg" class="switch-tru-image lazyload" alt="ToysRus" width="82" height="21"/>
+</a>
+<a href="/switch-brand?brand=bru" class="switch-bru -switch">
+<img data-src="/on/demandware.static/Sites-ToysRUs_SG-Site/-/default/dwa196e289/images/logo/bru-white.svg" class="switch-bru-image lazyload" alt="BabiesRus" width="82" height="21"/>
+</a>
+</div>
+
+</div>
+
+
+<header class="header-block-wrapper bru-brand">
+    <div class="header-block row no-gutters align-items-center">
+        <div class="col col-md-auto align-self-center text-center">
+            <a class="logo-link" href="/" title="Babies&quot;R&quot;Us Home">
+    <img class="logo" src="/on/demandware.static/Sites-ToysRUs_SG-Site/-/default/dwa196e289/images/logo/bru-white.svg" alt="Toys&quot;R&quot;Us" width="139" height="40"/>
+</a>
+
+        </div>
+        <div class="col-auto _fill d-md-none">
+            <div class="brand-switcher -mobile">
+                <a href="/switch-brand?brand=tru" class="switch-tru -switch">
+                    <img data-src="/on/demandware.static/Sites-ToysRUs_SG-Site/-/default/dwbdb60026/images/logo/tru-blue.svg" class="switch-tru-image lazyload" alt="ToysRus" width="110" height="23"/>
+                </a>
+            </div>
+        </div>
+        <div class="col-auto _fill ml-md-auto header-utilities">
+            
+<ul class="nav">
+    <li class="nav-item search-block">
+        <button class="nav-button js-search-toggle d-md-none">
+            <svg class="icon -search">
+                <use xlink:href="#search"></use>
+            </svg>
+        </button>
+        <form
+    class="search-form"
+    role="search"
+    action="/search"
+    method="get" name="simpleSearch"
+    data-bootstrap='{"headerSearch": {}}'
+>
+
+    <div class="input-container">
+        <span class="nav-button js-search-toggle">
+            <svg class="icon -search d-none d-md-block">
+                <use xlink:href="#search"></use>
+            </svg>
+
+            <svg class="icon -chevron-left d-md-none">
+                <use xlink:href="#chevron-left"></use>
+            </svg>
+        </span>
+        <input type="search"
+            name="q"
+            class="form-control input"
+            placeholder="what are you looking for?"
+            aria-label="what are you looking for?"
+            data-search-input
+            autocomplete="off">
+        <div class="suggestions-wrapper" data-url="/on/demandware.store/Sites-ToysRUs_SG-Site/en_SG/SearchServices-GetSuggestions?q="></div>
+        <div class="suggestions-container">
+            
+
+
+
+<div class="top-suggestions-container noresult">
+    
+	 
+
+
+	
+
+<div class="html-slot-wrapper">
+
+
+    
+    <div class="html-slot-container">
+        
+            <a href="https://www.babiesrus.com.sg/whats-on/new-arrivals-1/" class="btn btn-suggestion">
+                    <span class="cat-label">new arrivals</span>
+                </a>
+                <a href="https://www.babiesrus.com.sg/whats-on/toy-sale/" class="btn btn-suggestion">
+                    <span class="cat-label">sale</span>
+                </a>
+                <a href="https://www.babiesrus.com.sg/whats-on/r-exclusive/" class="btn btn-suggestion">
+                    <span class="cat-label">exclusive</span>
+                </a>
+        
+    </div>
+
+</div>
+
+
+ 
+	
+</div>
+
+<div class="now-trending-container noresult">
+    
+
+	
+<!-- =============== This snippet of JavaScript handles fetching the dynamic recommendations from the remote recommendations server
+and then makes a call to render the configured template with the returned recommended products: ================= -->
+
+<script>
+(function(){
+// window.CQuotient is provided on the page by the Analytics code:
+var cq = window.CQuotient;
+var dc = window.DataCloud;
+var isCQ = false;
+var isDC = false;
+if (cq && ('function' == typeof cq.getCQUserId)
+&& ('function' == typeof cq.getCQCookieId)
+&& ('function' == typeof cq.getCQHashedEmail)
+&& ('function' == typeof cq.getCQHashedLogin)) {
+isCQ = true;
+}
+if (dc && ('function' == typeof dc.getDCUserId)) {
+isDC = true;
+}
+if (isCQ || isDC) {
+var recommender = '[[&quot;BRU-Now-Trending&quot;]]';
+var slotRecommendationType = 'RECOMMENDATION';
+// removing any leading/trailing square brackets and escaped quotes:
+recommender = recommender.replace(/\[|\]|&quot;/g, '');
+var separator = '|||';
+var slotConfigurationUUID = 'ecdc6ebf9c40dec1ed14f08e15';
+var contextAUID = 'bru';
+var contextSecondaryAUID = '';
+var contextAltAUID = '';
+var contextType = '';
+var anchorsArray = [];
+var contextAUIDs = contextAUID.split(separator);
+var contextSecondaryAUIDs = contextSecondaryAUID.split(separator);
+var contextAltAUIDs = contextAltAUID.split(separator);
+var contextTypes = contextType.split(separator);
+var slotName = 'show-trending-products';
+var slotConfigId = 'bru-recommendationContentType - 2022-07-22 18:39:25';
+var slotConfigTemplate = 'slots/recommendation/trendingProducts.isml';
+if (contextAUIDs.length == contextSecondaryAUIDs.length) {
+for (i = 0; i < contextAUIDs.length; i++) {
+anchorsArray.push({
+id: contextAUIDs[i],
+sku: contextSecondaryAUIDs[i],
+type: contextTypes[i],
+alt_id: contextAltAUIDs[i]
+});
+}
+} else {
+anchorsArray = [{id: contextAUID, sku: contextSecondaryAUID, type: contextType, alt_id: contextAltAUID}];
+}
+var urlToCall = '/on/demandware.store/Sites-ToysRUs_SG-Site/en_SG/CQRecomm-Start';
+var params = null;
+if (isCQ) {
+params = {
+userId: cq.getCQUserId(),
+cookieId: cq.getCQCookieId(),
+emailId: cq.getCQHashedEmail(),
+loginId: cq.getCQHashedLogin(),
+anchors: anchorsArray,
+slotId: slotName,
+slotConfigId: slotConfigId,
+slotConfigTemplate: slotConfigTemplate,
+ccver: '1.03'
+};
+}
+// console.log("Recommendation Type - " + slotRecommendationType + ", Recommender Selected - " + recommender);
+if (isDC && slotRecommendationType == 'DATA_CLOUD_RECOMMENDATION') {
+// Set DC variables for API call
+dcIndividualId = dc.getDCUserId();
+dcUrl = dc.getDCPersonalizationPath();
+if (dcIndividualId && dcUrl && dcIndividualId != '' && dcUrl != '') {
+// console.log("Fetching CDP Recommendations");
+var productRecs = {};
+productRecs[recommender] = getCDPRecs(dcUrl, dcIndividualId, recommender);
+cb(productRecs);
+}
+} else if (isCQ && slotRecommendationType != 'DATA_CLOUD_RECOMMENDATION') {
+if (cq.getRecs) {
+cq.getRecs(cq.clientId, recommender, params, cb);
+} else {
+cq.widgets = cq.widgets || [];
+cq.widgets.push({
+recommenderName: recommender,
+parameters: params,
+callback: cb
+});
+}
+}
+};
+function cb(parsed) {
+var arr = parsed[recommender].recs;
+if (arr && 0 < arr.length) {
+var filteredProductIds = '';
+for (i = 0; i < arr.length; i++) {
+filteredProductIds = filteredProductIds + 'pid' + i + '=' + encodeURIComponent(arr[i].id) + '&';
+}
+filteredProductIds = filteredProductIds.substring(0, filteredProductIds.length - 1);//to remove the trailing '&'
+var formData = 'auid=' + encodeURIComponent(contextAUID)
++ '&scid=' + slotConfigurationUUID
++ '&' + filteredProductIds;
+var request = new XMLHttpRequest();
+request.open('POST', urlToCall, true);
+request.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+request.onreadystatechange = function() {
+if (this.readyState === 4) {
+// Got the product data from DW, showing the products now by changing the inner HTML of the DIV:
+var divId = 'cq_recomm_slot-' + slotConfigurationUUID;
+document.getElementById(divId).innerHTML = this.responseText;
+//find and evaluate scripts in response:
+var scripts = document.getElementById(divId).getElementsByTagName('script');
+if (null != scripts) {
+for (var i=0;i<scripts.length;i++) {//not combining script snippets on purpose
+var srcScript = document.createElement('script');
+srcScript.text = scripts[i].innerHTML;
+srcScript.asynch = scripts[i].asynch;
+srcScript.defer = scripts[i].defer;
+srcScript.type = scripts[i].type;
+srcScript.charset = scripts[i].charset;
+document.head.appendChild( srcScript );
+document.head.removeChild( srcScript );
+}
+}
+}
+};
+request.send(formData);
+request = null;
+}
+};
+})();
+</script>
+<!-- The DIV tag id below is unique on purpose in case there are multiple recommendation slots on the same .isml page: -->
+<div id="cq_recomm_slot-ecdc6ebf9c40dec1ed14f08e15"></div>
+<!-- ====================== snippet ends here ======================== -->
+ 
+	
+</div>
+
+<div class="trending-brands-container">
+    
+	 
+
+
+	
+
+
+
+
+<div class="brands-wrapper d-flex align-items-center justify-content-around">
+    
+        
+            
+                <div class="category-box column">
+                    <a class="category-link" href="/fisher-price/">
+                        <img class="lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dw93b7ee30/0/7/b/9/07b9d4cf21c9404d20a476ecefb258ccc415348b_Fisherprice_color_logo_343x343.png?q=75&amp;sw=60" alt="Fisher-Price" />
+                    </a>
+                </div>
+            
+        
+    
+        
+            
+                <div class="category-box column">
+                    <a class="category-link" href="/top-tots/">
+                        <img class="lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dwa494ae93/9/e/2/7/9e27a65decd8070d5b4d97b72b8a447be7360a21_Top_Tots_colorlogo_343x343.png?q=75&amp;sw=60" alt="Top Tots" />
+                    </a>
+                </div>
+            
+        
+    
+        
+            
+                <div class="category-box column">
+                    <a class="category-link" href="/leapfrog/">
+                        <img class="lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dw83d4b795/2/5/d/a/25da9046e2700db685adf1eaf3ba9074910218c0_leapfrog_logo_343x343.png?q=75&amp;sw=60" alt="LeapFrog" />
+                    </a>
+                </div>
+            
+        
+    
+        
+            
+                <div class="category-box column">
+                    <a class="category-link" href="/vtech/">
+                        <img class="lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dwbc19ca26/4/d/1/c/4d1c4e5f93729306075dc836ba4e518db81aa1fd_vtech.png?q=75&amp;sw=60" alt="Vtech" />
+                    </a>
+                </div>
+            
+        
+    
+</div>
+
+
+ 
+	
+</div>
+
+<div class="trending-categories-container">
+    
+	 
+
+
+	
+
+
+
+
+<div class="brands-wrapper d-flex align-items-center justify-content-around">
+    
+        
+            
+                <div class="category-round column">
+                    <a class="category-link" href="/activity-and-play-gyms/">
+                        <span class="image-circle d-flex align-items-center justify-content-around">
+                            <img class="category-thumbnail lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dw80f233b9/categories/activity_play_gyms_purple_thumbnail.png?q=75&amp;sw=60" alt="Activity &amp; Play Gyms" />
+                        </span>
+                    </a>
+                </div>
+            
+        
+    
+        
+            
+                <div class="category-round column">
+                    <a class="category-link" href="/baby-and-toddler-toys/">
+                        <span class="image-circle d-flex align-items-center justify-content-around">
+                            <img class="category-thumbnail lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dw622c10f3/categories/baby_toddler_toys_thumbnail.png?q=75&amp;sw=60" alt="Baby &amp; Toddler Toys" />
+                        </span>
+                    </a>
+                </div>
+            
+        
+    
+        
+            
+                <div class="category-round column">
+                    <a class="category-link" href="/bath-and-toilet-training/">
+                        <span class="image-circle d-flex align-items-center justify-content-around">
+                            <img class="category-thumbnail lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dwbe6f7637/categories/bath_toilet_training_purple_thumbnail.png?q=75&amp;sw=60" alt="Bath &amp; Toilet Training" />
+                        </span>
+                    </a>
+                </div>
+            
+        
+    
+        
+            
+                <div class="category-round column">
+                    <a class="category-link" href="/baby-gifts-and-keepsakes/">
+                        <span class="image-circle d-flex align-items-center justify-content-around">
+                            <img class="category-thumbnail lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dwbbcef324/categories/baby_gifts_keepsakes_purple_thumbnail.png?q=75&amp;sw=60" alt="Baby Gifts &amp; Keepsakes" />
+                        </span>
+                    </a>
+                </div>
+            
+        
+    
+</div>
+
+
+ 
+	
+</div>
+
+            <div class="search-form-suggestions -no-input" data-url="/on/demandware.store/Sites-ToysRUs_SG-Site/en_SG/SearchServices-GetSuggestions?cgid=getPopularSearches"></div>
+            <div class="bar-code-container">
+                <button type="button" class="button -barcode" data-toggle="modal"  data-barcode-button data-library-url="/on/demandware.static/Sites-ToysRUs_SG-Site/-/en_SG/v1748811315914/js/barcode-scanner.js">
+                    <svg class="icon">
+                        <use xlink:href="#bar-code"></use>
+                    </svg>
+                    Scan Barcode
+                </button>
+            </div>
+        </div>
+    </div>
+    <input type="hidden" value="en_SG" name="lang">
+    <input type="hidden" data-cgid-input name="cgid">
+</form>
+<!-- Barcode modal -->
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="barcode-modal-label" aria-hidden="true" data-barcode-modal>
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="barcode-modal-label">Scan a Barcode</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <svg class="icon">
+                        <use xlink:href="#cross"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="barcode-canvas" data-barcode-canvas
+                    data-endpoint="/on/demandware.store/Sites-ToysRUs_SG-Site/en_SG/Search-FindBarcode"
+                    data-resources='{
+                        "preDetectMessage"    : "Barcode has not detected",
+                        "barcodeFounded"      : "Product has been found. Redirecting...",
+                        "detectMessage"       : "Detecting...",
+                        "notFound"            : "Sorry, this barcode is not found in the site",
+                        "notSupported"        : "Barcode Reader is not supported on this device",
+                        "initializeStreaming" : "Loading...",
+                        "cameraNotAllowed"    : "Please allow our site to use your camera for scan barcode. After providing access open Barcode Reader again."
+                        }'
+                >                </div>
+                <div class="barcode-message" data-barcode-result></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    </li>
+    
+        
+            
+<li class="nav-item "
+    
+    
+>
+    <a class="nav-button" href="/stores">
+        
+            <svg class="icon -location">
+                <use xlink:href="#location-marker"></use>
+            </svg>
+        
+        
+        
+            <span class="label d-none">find a store</span>
+        
+    </a>
+</li>
+
+        
+    
+    
+
+<li class="nav-item -dropdown ">
+    <button class="nav-button dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+        <svg class="icon -account">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#user-account"></use>
+        </svg>
+        <span class="label text-lowercase d-none">My account</span>
+    </button>
+    <ul class="dropdown-menu -navigation -hide-border-top-radius">
+        
+            <li class="item">
+                <a class="label" href="https://www.babiesrus.com.sg/login">
+                    <svg class="icon">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-signin"></use>
+                    </svg>
+                    <span class="label">Sign in</span>
+                </a>
+            </li>
+            <li class="item">
+                <a class="label" href="https://www.babiesrus.com.sg/login?action=register">
+                    <svg class="icon">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-plus-circle"></use>
+                    </svg>
+                    <span class="label">Register</span>
+                </a>
+            </li>
+        
+        <li class="item">
+            <a class="label" href="https://www.babiesrus.com.sg/account">
+                <svg class="icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-user-circle"></use>
+                </svg>
+                <span class="label">My account</span>
+            </a>
+        </li>
+        <li class="item">
+            <a class="label" href="https://www.babiesrus.com.sg/orders">
+                <svg class="icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-orders"></use>
+                </svg>
+                <span class="label">My orders</span>
+            </a>
+        </li>
+        <li class="item">
+            <a class="label" href="/starcard">
+                <svg class="icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-starcard"></use>
+                </svg>
+                <span class="label">Star card</span>
+            </a>
+        </li>
+        <li class="item">
+            <a class="label" href="/gift-cards">
+                <svg class="icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-gift-card"></use>
+                </svg>
+                <span class="label">Gift card</span>
+            </a>
+        </li>
+        
+    </ul>
+</li>
+
+    <li class="nav-item wishlist-block ">
+    <a class="nav-button" data-wishlist-header-icon href="/wishlist">
+        <span class="area">
+            <span class="box" data-non-active-icon>
+                <svg class="icon -wishlist">
+                    <use xlink:href="#wishlist-nofill"></use>
+                </svg>
+            </span>
+            <span class="box -active d-none" data-active-icon>
+                <svg class="icon -wishlist">
+                    <use xlink:href="#wishlist-icon-header"></use>
+                </svg>
+            </span>
+            <span class="label d-none">wish list</span>
+        </span>
+    </a>
+</li>
+
+    <li class="nav-item minicart "
+    data-minicart
+    data-action-url="/on/demandware.store/Sites-ToysRUs_SG-Site/en_SG/Cart-MiniCartShow"
+    data-disabled
+>
+    <a class="nav-button dropdown-toggle"
+        data-offcanvas-toggler="minicart"
+        href="https://www.babiesrus.com.sg/cart"
+        title="View Cart"
+    >
+        <span class="position-relative">
+            <span class="minicart-quantity" data-minicart-quantity></span>
+            <svg class="icon -cart _popinter-events-none">
+                <use xlink:href="#cart"></use>
+            </svg>
+            <span class="label d-none">cart</span>
+        </span>
+    </a>
+
+    <div id="minicart"
+        class="mini-cart-wrapper minicart-offcanvas offcanvas -right"
+        data-minicart-offcanvas
+        data-minicart-wrapper
+        data-bootstrap='{
+            "offcanvas": { "media": "(min-width: 1024px)", "mediaReverse": true }
+            }'
+    >
+        <button class="btn btn-secondary d-lg-none close-minicart action" data-offcanvas-toggler="minicart">
+            <svg class="icon">
+                <use xlink:href="#cross"></use>
+            </svg>
+        </button>
+        <div class="wrapper">
+            <div class="header">
+                <div class="row align-items-center _fill">
+                    <div class="col">
+                        <span class="title">My shopping cart</span>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="area" data-minicart-area></div>
+        </div>
+    </div>
+    <div class="modal fade remove-product-modal" id="removeProductModal" tabindex="-1" role="dialog" aria-labelledby="removeProductLineItemModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header delete-confirmation-header">
+                <h2 class="modal-title" id="removeProductLineItemModal">Remove Product?</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <svg class="icon">
+                        <use xlink:href="#cross"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body delete-confirmation-body">
+                <p>Are you sure you want to remove the following product from the cart?</p>
+                <strong class="product-to-remove"></strong>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary cart-delete-confirmation-btn"
+                    data-dismiss="modal"
+                >
+                    Yes
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</li>
+
+</ul>
+
+        </div>
+    </div>
+
+    <div class="main-menu">
+        
+
+
+    
+
+
+
+
+
+<nav class="navbar navbar-expand bg-light justify-content-center"  aria-label="Main menu">
+    <ul class="navbar-nav js-navbar-scroller" role="menu">
+        
+            <li class="nav-item dropdown" role="menuitem">
+                <a
+                    href="/babiesrus/?viewAllCategories=true"
+                    class="nav-link dropdown-toggle"
+                    data-toggle="dropdown"
+                    aria-expanded="false"
+                >
+                    <span class="label">Categories</span>
+                    <svg class="icon">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#chevron"></use>
+                    </svg>
+                </a>
+
+                <div class="dropdown-menu" role="menu">
+                    
+	 
+
+
+	
+
+
+<ul class="list">
+
+
+
+
+<li class="nav-item" role="menuitem">
+<a class="dropdown-link d-md-block" id="activity_play_gyms" href="/activity-and-play-gyms/">
+<span class="image-circle">
+<img class="lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dw80f233b9/categories/activity_play_gyms_purple_thumbnail.png?q=75&amp;sw=100" alt="Activity &amp; Play Gyms"/>
+</span>
+<span class="label">Activity &amp; Play Gyms</span>
+</a>
+</li>
+
+
+
+
+
+<li class="nav-item" role="menuitem">
+<a class="dropdown-link d-md-block" id="baby_toddler_toys" href="/baby-and-toddler-toys/">
+<span class="image-circle">
+<img class="lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dw622c10f3/categories/baby_toddler_toys_thumbnail.png?q=75&amp;sw=100" alt="Baby &amp; Toddler Toys"/>
+</span>
+<span class="label">Baby &amp; Toddler Toys</span>
+</a>
+</li>
+
+
+
+
+
+<li class="nav-item" role="menuitem">
+<a class="dropdown-link d-md-block" id="bath_toilet_training" href="/bath-and-toilet-training/">
+<span class="image-circle">
+<img class="lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dwbe6f7637/categories/bath_toilet_training_purple_thumbnail.png?q=75&amp;sw=100" alt="Bath &amp; Toilet Training"/>
+</span>
+<span class="label">Bath &amp; Toilet Training</span>
+</a>
+</li>
+
+
+
+
+
+<li class="nav-item" role="menuitem">
+<a class="dropdown-link d-md-block" id="baby_gifts_keepsakes" href="/baby-gifts-and-keepsakes/">
+<span class="image-circle">
+<img class="lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dwbbcef324/categories/baby_gifts_keepsakes_purple_thumbnail.png?q=75&amp;sw=100" alt="Baby Gifts &amp; Keepsakes"/>
+</span>
+<span class="label">Baby Gifts &amp; Keepsakes</span>
+</a>
+</li>
+
+
+
+
+
+<li class="nav-item" role="menuitem">
+<a class="dropdown-link d-md-block" id="car_seats_boosters" href="/car-seats-and-boosters/">
+<span class="image-circle">
+<img class="lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dw8c7b4398/categories/car_seats_purple_thumbnail.png?q=75&amp;sw=100" alt="Car Seats &amp; Boosters"/>
+</span>
+<span class="label">Car Seats &amp; Boosters</span>
+</a>
+</li>
+
+
+
+
+
+<li class="nav-item" role="menuitem">
+<a class="dropdown-link d-md-block" id="diapers_wipes" href="/diapers-and-wipes/">
+<span class="image-circle">
+<img class="lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dw945fdda0/categories/diapers_wipes_1_purple_thumbnail.png?q=75&amp;sw=100" alt="Diapers &amp; Wipes"/>
+</span>
+<span class="label">Diapers &amp; Wipes</span>
+</a>
+</li>
+
+
+
+
+
+<li class="nav-item" role="menuitem">
+<a class="dropdown-link d-md-block" id="feeding_food" href="/feeding-and-food/">
+<span class="image-circle">
+<img class="lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dwa0736307/categories/feeding_purple_thumbnail.png?q=75&amp;sw=100" alt="Feeding &amp; Food"/>
+</span>
+<span class="label">Feeding &amp; Food</span>
+</a>
+</li>
+
+
+
+
+
+<li class="nav-item" role="menuitem">
+<a class="dropdown-link d-md-block" id="health_safet" href="/health-and-safety/">
+<span class="image-circle">
+<img class="lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dw7934583f/categories/health_safet_purple_thumbnail.png?q=75&amp;sw=100" alt="Health &amp; Safety"/>
+</span>
+<span class="label">Health &amp; Safety</span>
+</a>
+</li>
+
+
+
+
+
+<li class="nav-item" role="menuitem">
+<a class="dropdown-link d-md-block" id="maternity" href="/maternity/">
+<span class="image-circle">
+<img class="lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dw2f3b7fc7/categories/maternity_purple_thumbnail.png?q=75&amp;sw=100" alt="Maternity"/>
+</span>
+<span class="label">Maternity</span>
+</a>
+</li>
+
+
+
+
+
+<li class="nav-item" role="menuitem">
+<a class="dropdown-link d-md-block" id="nursery_furniture_sleep" href="/nursery-furniture-and-sleep/">
+<span class="image-circle">
+<img class="lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dw0bd70d86/categories/nursery_furniture_sleep_purple_thumbnail.png?q=75&amp;sw=100" alt="Nursery Furniture &amp; Sleep"/>
+</span>
+<span class="label">Nursery Furniture &amp; Sleep</span>
+</a>
+</li>
+
+
+
+
+
+<li class="nav-item" role="menuitem">
+<a class="dropdown-link d-md-block" id="strollers" href="/strollers/">
+<span class="image-circle">
+<img class="lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dw6b2c39ac/categories/strollers_purple_thumbnail.png?q=75&amp;sw=100" alt="Strollers"/>
+</span>
+<span class="label">Strollers</span>
+</a>
+</li>
+
+
+
+
+
+<li class="nav-item" role="menuitem">
+<a class="dropdown-link d-md-block" id="towels_bedding" href="/towels-and-bedding/">
+<span class="image-circle">
+<img class="lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dw926c2227/categories/towels_bedding_purple_thumbnail.png?q=75&amp;sw=100" alt="Towels &amp; Bedding"/>
+</span>
+<span class="label">Towels &amp; Bedding</span>
+</a>
+</li>
+
+
+
+
+
+<li class="nav-item" role="menuitem">
+<a class="dropdown-link d-md-block" id="travel_accessories" href="/travel-accessories/">
+<span class="image-circle">
+<img class="lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dw69854406/categories/travel_accessories_purple_thumbnail.png?q=75&amp;sw=100" alt="Travel Accessories"/>
+</span>
+<span class="label">Travel Accessories</span>
+</a>
+</li>
+
+
+
+
+
+<li class="nav-item" role="menuitem">
+<a class="dropdown-link d-md-block" id="batteries" href="/batteries-2/">
+<span class="image-circle">
+<img class="lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dw8c15151a/categories/batteries_purple_thumbnail.png?q=75&amp;sw=100" alt="Batteries"/>
+</span>
+<span class="label">Batteries</span>
+</a>
+</li>
+
+
+
+
+</ul>
+ 
+	
+                </div>
+            </li>
+        
+
+        <li class="nav-item dropdown" role="menuitem">
+            <a href="/brands/" data-toggle="dropdown" aria-expanded="false" class="nav-link dropdown-toggle">
+                <span class="label">brands</span>
+                <svg class="icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#chevron"></use>
+                </svg>
+            </a>
+            <div class="dropdown-menu" role="menu">
+                <div class="main-menu-brands">
+                    
+
+
+                    
+	 
+
+
+	
+
+<h1 class="section-name">
+shop popular brands
+</h1>
+
+
+
+<div class="cards-wrapper">
+    
+    
+        
+        
+            <div class="brand-card">
+                <a href="/fisher-price/">
+                    <img class="logo lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dw93b7ee30/0/7/b/9/07b9d4cf21c9404d20a476ecefb258ccc415348b_Fisherprice_color_logo_343x343.png?q=75&amp;sw=120" alt="Fisher-Price" />
+                </a>
+            </div>
+            
+        
+        
+    
+        
+        
+            <div class="brand-card">
+                <a href="/top-tots/">
+                    <img class="logo lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dwa494ae93/9/e/2/7/9e27a65decd8070d5b4d97b72b8a447be7360a21_Top_Tots_colorlogo_343x343.png?q=75&amp;sw=120" alt="Top Tots" />
+                </a>
+            </div>
+            
+        
+        
+    
+        
+        
+            <div class="brand-card">
+                <a href="/leapfrog/">
+                    <img class="logo lazyload" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-storefront-catalog-toysrus-sg/default/dw83d4b795/2/5/d/a/25da9046e2700db685adf1eaf3ba9074910218c0_leapfrog_logo_343x343.png?q=75&amp;sw=120" alt="LeapFrog" />
+                </a>
+            </div>
+            
+        
+        
+    
+</div>
+
+
+ 
+	
+
+                    <div class="brand-filter">
+    <a class="btn btn-outline-secondary action -wide -active"
+        href="/brands/"
+    >
+        popular brands
+    </a>
+    
+        <a class="btn btn-outline-secondary action "
+            href="/brands/?range=ac"
+        >
+            A - C
+        </a>
+    
+        <a class="btn btn-outline-secondary action "
+            href="/brands/?range=df"
+        >
+            D - F
+        </a>
+    
+        <a class="btn btn-outline-secondary action "
+            href="/brands/?range=gi"
+        >
+            G - I
+        </a>
+    
+        <a class="btn btn-outline-secondary action "
+            href="/brands/?range=jl"
+        >
+            J - L
+        </a>
+    
+        <a class="btn btn-outline-secondary action "
+            href="/brands/?range=mo"
+        >
+            M - O
+        </a>
+    
+        <a class="btn btn-outline-secondary action "
+            href="/brands/?range=ps"
+        >
+            P - S
+        </a>
+    
+        <a class="btn btn-outline-secondary action "
+            href="/brands/?range=tv"
+        >
+            T - V
+        </a>
+    
+</div>
+
+                </div>
+            </div>
+        </li>
+
+        
+    <!-- dwMarker="content" dwContentID="c6247ff8b8b75a54bc9cb56506" -->
+    <li class="nav-item dropdown" role="menuitem">
+    <a href="https://www.babiesrus.com.sg/search?cgid=age" data-toggle="dropdown" aria-expanded="false" class="nav-link dropdown-toggle">
+        <span class="label">age</span>
+        <svg class="icon">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#chevron"></use>
+        </svg>
+    </a>
+    <div class="dropdown-menu" role="menu">
+        
+    <!-- dwMarker="content" dwContentID="f6a52fb49f35933b0807668e90" -->
+    <ul data-age-dropdown class="list -age">            <li class="nav-item" role="menuitem">                <a class="dropdown-link" href="https://www.babiesrus.com.sg/babiesrus/maternity/">                    <span class="image-circle">                        <img src="https://www.babiesrus.com.sg/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw31162221/age-buttons/bru-age-button-0.svg" alt="Maternity">                    </span>                    <span class="label">Maternity</span>                </a>            </li>            <li class="nav-item" role="menuitem">                <a class="dropdown-link" href="https://www.babiesrus.com.sg/babiesrus/0-6months/">                    <span class="image-circle">                        <img src="https://www.babiesrus.com.sg/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw0ba9ba24/age-buttons/bru-age-button-0-6.svg" alt="0~6 Months">                    </span>                    <span class="label">0~6 Months</span>                </a>            </li>            <li class="nav-item" role="menuitem">                <a class="dropdown-link" href="https://www.babiesrus.com.sg/babiesrus/6-12months/">                    <span class="image-circle">                        <img src="https://www.babiesrus.com.sg/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw3510d939/age-buttons/bru-age-button-6-12.svg" alt="6~12 Months">                    </span>                    <span class="label">6~12 Months</span>                </a>            </li>            <li class="nav-item" role="menuitem">                <a class="dropdown-link" href="https://www.babiesrus.com.sg/babiesrus/12-24months/">                    <span class="image-circle">                        <img src="https://www.babiesrus.com.sg/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw206c48b0/age-buttons/bru-age-button-12-24.svg" alt="12~24 Months">                    </span>                    <span class="label">12~24 Months</span>                </a>            </li>        </ul>
+    <!-- End content-asset -->
+
+
+
+    </div>
+</li>
+<li class="nav-item -sale" role="menuitem">
+    <a href="https://www.babiesrus.com.sg/whats-on/sale/" class="nav-link">
+        <span class="label">sale</span>
+    </a>
+</li>
+<li class="nav-item" role="menuitem">
+    <a href="https://www.babiesrus.com.sg/whats-on/new-arrivals-2/" class="nav-link">
+        <span class="label">new</span>
+    </a>
+</li>
+<li class="nav-item" role="menuitem">
+    <a href="https://www.babiesrus.com.sg/toy-finder" class="nav-link">
+        <span class="label">toy finder</span>
+    </a>
+</li>
+<li class="nav-item" role="menuitem">
+    <a class="nav-link" href="https://www.babiesrus.com.sg/starcard">
+        <span class="label">star card</span>
+    </a>
+</li>
+<li class="nav-item" role="menuitem">
+    <a class="nav-link" href="https://www.babiesrus.com.sg/gift-cards">
+        <span class="label">gift cards</span>
+    </a>
+</li>
+    <!-- End content-asset -->
+
+
+
+
+
+    </ul>
+
+    <div class="navbar-buttons">
+        <button class="btn btn-primary -left js-left-navigator">
+            <svg class="icon">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#chevron-left" fill="white"></use>
+            </svg>
+        </button>
+
+        <button class="btn btn-primary -right js-right-navigator">
+            <svg class="icon">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#chevron-right" fill="white"></use>
+            </svg>
+        </button>
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<div class="page-wrapper">
+<div class="floating-section">
+<button class="btn btn-secondary scroll-to-top" data-bootstrap='{ "scrollToTop" : {} }'>
+<svg class="icon">
+<use xlink:href="#chevron"></use>
+</svg>
+</button>
+</div>
+<div class="page" data-action="Default-Start" data-querystring="isSessionRedirect=true">
+
+
+
+
+
+	 
+
+	
+<div class="page-inner">
+<div class="section-wrapper">
+
+	 
+
+	
+
+	 
+
+	
+</div>
+<div class="section-wrapper two-column-block">
+<section class="left-column">
+
+	 
+
+
+	
+
+    <!-- banner link to set URL-->
+    
+        <a href="https://www.babiesrus.com.sg/fisher-price/" class="banner-content full-height-banner">
+            
+                <!-- banner background image -->
+                <picture class="background-image">
+                    
+                        <source media="(max-width: 767px)" srcset="/on/demandware.static/-/Sites/default/dwd2830d8f/Babies&quot;R&quot;Us/Homepage/Slot-D-Main-Feature/D-main-feature-homepage-fisherprice-mobile.png" sizes="100vw" />
+                    
+                    
+                        <source media="(max-width: 1024px)" srcset="/on/demandware.static/-/Sites/default/dw683523d1/Babies&quot;R&quot;Us/Homepage/Slot-D-Main-Feature/D-main-feature-homepage-fisherprice-tablet.png" sizes="100vw" />
+                    
+                    
+                        <img class="image" src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites/default/dwad7409bd/Babies&quot;R&quot;Us/Homepage/Slot-D-Main-Feature/D-main-feature-homepage-fisherprice-desktop.png?q=75" alt=""/>
+                    
+                </picture>
+            
+            
+            
+        </a>
+    
+
+ 
+	
+</section>
+<section class="right-column">
+
+	 
+
+
+	
+
+    <!-- banner link to set URL-->
+    
+        <a href="href=&quot;https://www.babiesrus.com.sg/shipping-delivery.html" class="banner-content ">
+            
+                <!-- banner background image -->
+                <picture class="background-image">
+                    
+                    
+                    
+                        <img class="image" src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites/default/dw7812ccbf/Babies&quot;R&quot;Us/Homepage/Slot-E-Half Banner/Free-Delivery-Banner-80.png?q=75" alt=""/>
+                    
+                </picture>
+            
+            
+            
+        </a>
+    
+
+ 
+	
+<div class="hottest-items four-tile-banner">
+
+	 
+
+
+	
+
+<div class="html-slot-wrapper" data-bootstrap='{"gtm": { "type": "impressions", "checkMetadata": true, "options": { "list": "Top Products" } }}' data-list="Top Products">
+
+<div class="background-fill" style="background: linear-gradient(218deg, #9932CC, #B17FCA)"></div>
+<iselse>
+<div class="background-fill"></div>
+
+<h1 class="block-title">
+
+have fun while learning
+</h1>
+
+
+
+
+
+<div class="row xsmall-gutters default-gutters-lg">
+    
+        <!-- CQuotient Activity Tracking (viewReco-cquotient.js) -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: '9000024',
+			sku: '',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BDGJ";
+		cq_params.siteId = "ToysRUs_SG";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<!-- Facebook Activity Tracking (viewContent-facebook.js) -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	fbq&&fbq('track', 'ViewContent', {
+        content_ids: ['9000024'],
+        content_type: 'product'
+    });
+} catch(e) {}
+})();
+/* ]]> */
+// -->
+</script>
+            		<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "9000024", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+            <div class="col-6 product-tile-wrapper column">
+                
+
+
+    
+
+
+
+<!-- dwMarker="product" dwContentID="20adefccca3212f74a837049e1" -->
+<div class="card product-tile product-data product"
+    data-pid="9000024"
+    data-metadata='{"id":"23671","name":"Play-Doh 8 Pack Rainbow Neon Non-Toxic Modeling Compound","price":"11.99","sku":"9000024","brand":"playdoh","name_local":"Play-Doh 8 Pack Rainbow Neon Non-Toxic Modeling Compound","category":"craft_activities","akeneo_categoryNumber":["93"],"akeneo_catAndSubCatNumber":"9324","akeneo_ageRangeYears":"0_2yrs,3_4yrs","akeneo_ageRangeMonths":"","quantity":1}'
+>
+
+    
+    
+    
+
+<div class="image-container">
+    
+
+
+    
+    <div class="card-image-wrapper">
+        <a href="/play-doh-8-pack-rainbow-neon-non-toxic-modeling-compound-9000024.html" class="card-image-container" data-gtm-product-link>
+            <img class="tile-image card-image "
+                src="https://www.babiesrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-master-catalog-toysrus/default/dwa9ca68bd/d/9/2/6/d92622d079d042b1daac2b072544b088ac28b4d7_9000024_i1.jpg?sw=394&amp;sh=394&amp;q=75"
+                alt="Play-Doh 8 Pack Rainbow Neon Non-Toxic Modeling Compound" title="Play-Doh 8 Pack Rainbow Neon Non-Toxic Modeling Compound" itemprop="image" />
+        </a>
+    </div>
+</div>
+
+
+
+    <div class="card-body">
+        
+
+        <a class="card-link -plain " href="/play-doh-8-pack-rainbow-neon-non-toxic-modeling-compound-9000024.html" itemprop="url" data-gtm-product-link>
+    <span itemprop="name">Play-Doh 8 Pack Rainbow Neon Non-Toxic Modeling Compound</span>
+</a>
+
+    </div>
+
+    <div class="card-footer">
+        
+        
+        
+            
+                
+    <div class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+        
+        <span class="price-items">
+    
+    
+
+    
+    <span class="sales" itemprop="price">
+        
+        
+        
+            <span class="value" content="11.99">
+                $11.99
+
+            </span>
+        
+    </span>
+</span>
+
+    </div>
+
+
+            
+        
+
+        
+            
+                
+                
+    <div class="promotions">
+        
+            
+                <div class="promotion-item" style="background-color: #009ddb; font-family: Avenir-Heavy, Avenir, Roboto, Arial">
+    <span class="callout-msg">
+        <span class="callout-msg-text">
+            
+                <a href="https://www.toysrus.com.sg/disney-hugs-of-love-collection---jumbo-scrump-26-inch-10044832.html" class="link">$50 Jumbo Scrump</a>
+            
+        </span>
+    </span>
+    
+        <span class="callout-tooltip">
+            <span class="tooltip-marker" data-bootstrap='{"tooltip": {"html": true}}' title="Get Jumbo Scrump (65cm) at HALF PRICE ($50) with $68 purchase
+
+1 per transaction">
+                <svg class="icon">
+                    <use xlink:href="#info"></use>
+                </svg>
+            </span>
+        </span>
+    
+</div>
+
+            
+        
+    </div>
+
+
+            
+        
+    </div>
+
+    
+
+</div>
+<!-- END_dwmarker -->
+
+
+
+
+            </div>
+        
+    
+        <!-- CQuotient Activity Tracking (viewReco-cquotient.js) -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: '1014673',
+			sku: '',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BDGJ";
+		cq_params.siteId = "ToysRUs_SG";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<!-- Facebook Activity Tracking (viewContent-facebook.js) -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	fbq&&fbq('track', 'ViewContent', {
+        content_ids: ['1014673'],
+        content_type: 'product'
+    });
+} catch(e) {}
+})();
+/* ]]> */
+// -->
+</script>
+            		<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "1014673", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+            <div class="col-6 product-tile-wrapper column">
+                
+
+
+    
+
+
+
+<!-- dwMarker="product" dwContentID="e8d00434f5e67b6dac8b888eec" -->
+<div class="card product-tile product-data product"
+    data-pid="1014673"
+    data-metadata='{"id":"116324","name":"LEGO Duplo Deluxe Brick Box 10914","price":"84.99","sku":"1014673","brand":"lego_duplo, lego","name_local":"LEGO Duplo Deluxe Brick Box 10914","category":"building_blocks_lego","akeneo_categoryNumber":["55"],"akeneo_catAndSubCatNumber":"5517","akeneo_ageRangeYears":"0_2yrs","akeneo_ageRangeMonths":"","quantity":1}'
+>
+
+    
+    
+    
+
+<div class="image-container">
+    
+
+
+    
+    <div class="card-image-wrapper">
+        <a href="/lego-duplo-deluxe-brick-box-10914-1014673.html" class="card-image-container" data-gtm-product-link>
+            <img class="tile-image card-image "
+                src="https://www.babiesrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-master-catalog-toysrus/default/dwe22735a0/e/7/1/9/e7198f43c4a8a10ea7d32b9e5deb5b9f0c85bf69_116324_i1.jpg?sw=394&amp;sh=394&amp;q=75"
+                alt="LEGO Duplo Deluxe Brick Box 10914" title="LEGO Duplo Deluxe Brick Box 10914" itemprop="image" />
+        </a>
+    </div>
+</div>
+
+
+
+    <div class="card-body">
+        
+
+        <a class="card-link -plain " href="/lego-duplo-deluxe-brick-box-10914-1014673.html" itemprop="url" data-gtm-product-link>
+    <span itemprop="name">LEGO Duplo Deluxe Brick Box 10914</span>
+</a>
+
+    </div>
+
+    <div class="card-footer">
+        
+        
+        
+            
+                
+    <div class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+        
+        <span class="price-items">
+    
+    
+
+    
+    <span class="sales" itemprop="price">
+        
+        
+        
+            <span class="value" content="84.99">
+                $84.99
+
+            </span>
+        
+    </span>
+</span>
+
+    </div>
+
+
+            
+        
+
+        
+            
+                
+                
+    <div class="promotions">
+        
+            
+                <div class="promotion-item" style="background-color: #ea7125; font-family: Avenir-Heavy, Avenir, Roboto, Arial">
+    <span class="callout-msg">
+        <span class="callout-msg-text">
+            
+                LEGO Mystery Gift
+            
+        </span>
+    </span>
+    
+        <span class="callout-tooltip">
+            <span class="tooltip-marker" data-bootstrap='{"tooltip": {"html": true}}' title="BRICKSTERY: UNVEIL YOUR MYSTERY BRICK ADVENTURE (24th May onwards)
+
+Receive a LEGO mystery gift when you spend $49 on any LEGO playsets!
+
+*While stocks last only!">
+                <svg class="icon">
+                    <use xlink:href="#info"></use>
+                </svg>
+            </span>
+        </span>
+    
+</div>
+
+            
+        
+    </div>
+
+
+            
+        
+    </div>
+
+    
+
+</div>
+<!-- END_dwmarker -->
+
+
+
+
+            </div>
+        
+    
+        <!-- CQuotient Activity Tracking (viewReco-cquotient.js) -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: '1022690',
+			sku: '',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BDGJ";
+		cq_params.siteId = "ToysRUs_SG";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<!-- Facebook Activity Tracking (viewContent-facebook.js) -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	fbq&&fbq('track', 'ViewContent', {
+        content_ids: ['1022690'],
+        content_type: 'product'
+    });
+} catch(e) {}
+})();
+/* ]]> */
+// -->
+</script>
+            		<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "1022690", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+            <div class="col-6 product-tile-wrapper column">
+                
+
+
+    
+
+
+
+<!-- dwMarker="product" dwContentID="919401aa540a5266dddee08198" -->
+<div class="card product-tile product-data product"
+    data-pid="1022690"
+    data-metadata='{"id":"74195","name":"Mega Bloks Classic Big Building Bag 60 Pieces","price":"40.99","sku":"1022690","brand":"megabloks","name_local":"Mega Bloks Classic Big Building Bag 60 Pieces","category":"building_blocks_lego","akeneo_categoryNumber":["55"],"akeneo_catAndSubCatNumber":"5515","akeneo_ageRangeYears":"0_2yrs,5_7yrs","akeneo_ageRangeMonths":"","quantity":1}'
+>
+
+    
+    
+    
+
+<div class="image-container">
+    
+
+
+    
+    <div class="card-image-wrapper">
+        <a href="/mega-bloks-classic-big-building-bag-60-pieces-1022690.html" class="card-image-container" data-gtm-product-link>
+            <img class="tile-image card-image "
+                src="https://www.babiesrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-master-catalog-toysrus/default/dw03dbc26d/b/d/0/a/bd0a3da7c552cfe1b1cef9285ded3339b39e8a50_915810_i1.jpg?sw=394&amp;sh=394&amp;q=75"
+                alt="Mega Bloks Classic Big Building Bag 60 Pieces" title="Mega Bloks Classic Big Building Bag 60 Pieces" itemprop="image" />
+        </a>
+    </div>
+</div>
+
+
+
+    <div class="card-body">
+        
+
+        <a class="card-link -plain " href="/mega-bloks-classic-big-building-bag-60-pieces-1022690.html" itemprop="url" data-gtm-product-link>
+    <span itemprop="name">Mega Bloks Classic Big Building Bag 60 Pieces</span>
+</a>
+
+    </div>
+
+    <div class="card-footer">
+        
+        
+        
+            
+                
+    <div class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+        
+        <span class="price-items">
+    
+    
+
+    
+    <span class="sales" itemprop="price">
+        
+        
+        
+            <span class="value" content="40.99">
+                $40.99
+
+            </span>
+        
+    </span>
+</span>
+
+    </div>
+
+
+            
+        
+
+        
+            
+                
+                
+    <div class="promotions">
+        
+            
+                <div class="promotion-item" style="background-color: #009ddb; font-family: Avenir-Heavy, Avenir, Roboto, Arial">
+    <span class="callout-msg">
+        <span class="callout-msg-text">
+            
+                <a href="https://www.toysrus.com.sg/disney-hugs-of-love-collection---jumbo-scrump-26-inch-10044832.html" class="link">$50 Jumbo Scrump</a>
+            
+        </span>
+    </span>
+    
+        <span class="callout-tooltip">
+            <span class="tooltip-marker" data-bootstrap='{"tooltip": {"html": true}}' title="Get Jumbo Scrump (65cm) at HALF PRICE ($50) with $68 purchase
+
+1 per transaction">
+                <svg class="icon">
+                    <use xlink:href="#info"></use>
+                </svg>
+            </span>
+        </span>
+    
+</div>
+
+            
+        
+    </div>
+
+
+            
+        
+    </div>
+
+    
+
+</div>
+<!-- END_dwmarker -->
+
+
+
+
+            </div>
+        
+    
+</div>
+
+
+<div class="browse">
+<a href="https://www.toysrus.com.sg/learning-toys/0-2years/" class="btn btn-outline-light">shop now</a>
+</div>
+
+</div>
+
+ 
+	
+</div>
+</section>
+</div>
+<div class="section-wrapper">
+<div class="featured-categories">
+
+	 
+
+
+	
+
+
+<div class="html-slot-wrapper">
+<h3 class="block-title">
+
+<span class="sub-title">brands</span>
+
+trusted by moms
+</h3>
+<div class="html-slot-container">
+
+
+<div class="background-fill" style="background: #F499B8"></div>
+
+<ul class="grid">&#13;
+    <li class="category">&#13;
+        <a href="https://www.babiesrus.com.sg/bright-starts/">&#13;
+            <img alt="bright starts" class="lazyload category-img" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dwc7ec1877/Babies%22R%22Us/Homepage/Slot%20G%20-%20Feature%20Brands/bright-start-icon-330x330.png?q=75" title="" />&#13;
+            <p class="category-title"><span style="color:#ffffff;">bright starts</p>&#13;
+        </a>&#13;
+    <li class="category">&#13;
+        <a href="https://www.babiesrus.com.sg/bonbijou/">&#13;
+            <img alt="bonbijou" class="category-img" src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw90a2fd75/Babies%22R%22Us/Homepage/Slot%20G%20-%20Feature%20Brands/bonbijou-icon-330x330.png?q=75" title="" /> &#13;
+            <p class="category-title"><span style="color:#ffffff;">bonbijou</p>&#13;
+        </a>&#13;
+    <li class="category">&#13;
+        <a href="https://www.babiesrus.com.sg/pigeon/">&#13;
+            <img alt="pigeon" class="category-img" src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dwd8e4e99e/Babies%22R%22Us/Homepage/Slot%20G%20-%20Feature%20Brands/pigeon-icon-330x330.png?q=75" title="" />&#13;
+            <p class="category-title"><span style="color:#ffffff;">pigeon</p>&#13;
+        </a>&#13;
+    <li class="category">&#13;
+        <a href="https://www.babiesrus.com.sg/nuk/">&#13;
+            <img alt="nuk" class="category-img" src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw274f26d5/Babies%22R%22Us/Homepage/Slot%20G%20-%20Feature%20Brands/nuk-icon-330x330-2.png?q=75" title="" />&#13;
+            <p class="category-title"><span style="color:#ffffff;">nuk</p>&#13;
+        </a>  &#13;
+    <li class="category">&#13;
+        <a href="https://www.babiesrus.com.sg/philips-avent/">&#13;
+            <img alt="philips avent" class="category-img" src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw9220fa77/Babies%22R%22Us/Homepage/Slot%20G%20-%20Feature%20Brands/philipsavent-icon-330x330.png?q=75" title="" /> &#13;
+            <p class="category-title"><span style="color:#ffffff;">philips avent</p>&#13;
+        </a>&#13;
+    <li class="category">&#13;
+        <a href="https://www.babiesrus.com.sg/munchkin/">&#13;
+            <img alt="munchkin" class="category-img" src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dwb1361285/Babies%22R%22Us/Homepage/Slot%20G%20-%20Feature%20Brands/munchkin-icon-330x330.png?q=75" title="" />&#13;
+            <p class="category-title"><span style="color:#ffffff;">munchkin</p>&#13;
+        </a>&#13;
+</ul>
+
+</div>
+</div>
+
+ 
+	
+</div>
+
+	 
+
+	
+
+	 
+
+
+	
+
+
+<div class="four-tile-banner image-cover featured-brand -right">
+<div class="html-slot-wrapper" data-bootstrap='{"gtm": { "type": "impressions", "checkMetadata": true, "options": { "list": "Featured Brand" } }}' data-list="Featured Brand">
+<div class="banner-header">
+
+
+<img class="logo lazyload" alt="starwars lego logo image" data-parent-fit="contain" data-parent-container=".card-image-container" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites/default/dw41fafa12/Babies&quot;R&quot;Us/Homepage/Slot-I-&amp;-K-Feature-Quad/Top Tots_logo.png?q=75" src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites/default/dw41fafa12/Babies&quot;R&quot;Us/Homepage/Slot-I-&amp;-K-Feature-Quad/Top Tots_logo.png?q=75"/>
+
+
+<h3 class="d-none d-md-block block-title">
+
+toys for toddlers
+</h3>
+
+
+<a class="d-none d-md-block btn btn-info action" href="https://www.babiesrus.com.sg/top-tots/">shop all</a>
+
+</div>
+
+
+
+
+
+
+<div class="row xsmall-gutters default-gutters-lg">
+    
+        <!-- CQuotient Activity Tracking (viewReco-cquotient.js) -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: '1186811',
+			sku: '',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BDGJ";
+		cq_params.siteId = "ToysRUs_SG";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<!-- Facebook Activity Tracking (viewContent-facebook.js) -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	fbq&&fbq('track', 'ViewContent', {
+        content_ids: ['1186811'],
+        content_type: 'product'
+    });
+} catch(e) {}
+})();
+/* ]]> */
+// -->
+</script>
+            		<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "1186811", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+            <div class="col-6 product-tile-wrapper column">
+                
+
+
+    
+
+
+
+<!-- dwMarker="product" dwContentID="00856ce05957a2f887f6a1be42" -->
+<div class="card product-tile product-data product"
+    data-pid="1186811"
+    data-metadata='{"id":"935530","name":"Top Tots 3 in 1 Deluxe Walker- Pink","price":"81.49","sku":"1186811","brand":"toptots","name_local":"Top Tots 3 in 1 Deluxe Walker- Pink","category":"baby_toddler_toys","akeneo_categoryNumber":["57"],"akeneo_catAndSubCatNumber":"5710","akeneo_ageRangeYears":"0_2yrs,3_4yrs","akeneo_ageRangeMonths":"6_12months","quantity":1}'
+>
+
+    
+    
+    
+
+<div class="image-container">
+    
+    
+        
+    
+
+    <div class="product-overlay-wrapper">
+        
+            <div class="product-overlay">
+                <div class="inner" style="background: #004abe">
+                    <div class="label" style="color: #fff">
+                        exclusive
+                    </div>
+                    <div class="shev-right" style="border-top-color: #004abe; border-bottom-color: #004abe"></div>
+                    <div class="shev-bottom" style="border-top-color: #004abe; border-right-color: #004abe"></div>
+                </div>
+            </div>
+        
+            <div class="product-overlay">
+                <div class="inner" style="background: #FF0000">
+                    <div class="label" style="color: #fff">
+                        sale
+                    </div>
+                    <div class="shev-right" style="border-top-color: #FF0000; border-bottom-color: #FF0000"></div>
+                    <div class="shev-bottom" style="border-top-color: #FF0000; border-right-color: #FF0000"></div>
+                </div>
+            </div>
+        
+    </div>
+
+
+
+    
+    <div class="card-image-wrapper">
+        <a href="/top-tots-3-in-1-deluxe-walker--pink-1186811.html" class="card-image-container" data-gtm-product-link>
+            <img class="tile-image card-image lazyload"
+                data-parent-fit="contain" data-parent-container=".card-image-container" data-src="https://www.babiesrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-master-catalog-toysrus/default/dw8892f5db/9/9/5/f/995ffc50d2940f629d8530eef775eee0e70c8a88_935530_i1.jpg?sw=394&amp;sh=394&amp;q=75"
+                
+                alt="Top Tots 3 in 1 Deluxe Walker- Pink" title="Top Tots 3 in 1 Deluxe Walker- Pink" itemprop="image" />
+        </a>
+    </div>
+</div>
+
+
+
+    <div class="card-body">
+        
+
+        <a class="card-link -plain " href="/top-tots-3-in-1-deluxe-walker--pink-1186811.html" itemprop="url" data-gtm-product-link>
+    <span itemprop="name">Top Tots 3 in 1 Deluxe Walker- Pink</span>
+</a>
+
+    </div>
+
+    <div class="card-footer">
+        
+        
+        
+            
+                
+    <div class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+        
+        <span class="price-items">
+    
+    
+        
+        <del class="old">
+            <span class="strike-through list">
+                <span class="value" content="131.49">
+                    <span class="sr-only">
+                        Price reduced from
+                    </span>
+                    $131.49
+
+                    <span class="sr-only">
+                        to
+                    </span>
+                </span>
+            </span>
+        </del>
+    
+
+    
+    <span class="sales" itemprop="price">
+        
+        
+        
+            <span class="value" content="81.49">
+                $81.49
+
+            </span>
+        
+    </span>
+</span>
+
+    </div>
+
+
+            
+        
+
+        
+            
+                
+                
+    <div class="promotions">
+        
+            
+                <div class="promotion-item" style="background-color: #009ddb; font-family: Avenir-Heavy, Avenir, Roboto, Arial">
+    <span class="callout-msg">
+        <span class="callout-msg-text">
+            
+                <a href="https://www.toysrus.com.sg/disney-hugs-of-love-collection---jumbo-scrump-26-inch-10044832.html" class="link">$50 Jumbo Scrump</a>
+            
+        </span>
+    </span>
+    
+        <span class="callout-tooltip">
+            <span class="tooltip-marker" data-bootstrap='{"tooltip": {"html": true}}' title="Get Jumbo Scrump (65cm) at HALF PRICE ($50) with $68 purchase
+
+1 per transaction">
+                <svg class="icon">
+                    <use xlink:href="#info"></use>
+                </svg>
+            </span>
+        </span>
+    
+</div>
+
+            
+        
+    </div>
+
+
+            
+        
+    </div>
+
+    
+
+</div>
+<!-- END_dwmarker -->
+
+
+
+
+            </div>
+        
+    
+        <!-- CQuotient Activity Tracking (viewReco-cquotient.js) -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: '1122621',
+			sku: '',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BDGJ";
+		cq_params.siteId = "ToysRUs_SG";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<!-- Facebook Activity Tracking (viewContent-facebook.js) -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	fbq&&fbq('track', 'ViewContent', {
+        content_ids: ['1122621'],
+        content_type: 'product'
+    });
+} catch(e) {}
+})();
+/* ]]> */
+// -->
+</script>
+            		<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "1122621", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+            <div class="col-6 product-tile-wrapper column">
+                
+
+
+    
+
+
+
+<!-- dwMarker="product" dwContentID="71fb57008d51b1f038e3d68038" -->
+<div class="card product-tile product-data product"
+    data-pid="1122621"
+    data-metadata='{"id":"929376","name":"Top Tots Explore ‘n Learn Train Table","price":"91.49","sku":"1122621","brand":"toptotsearlydevelopmenttoys, toptots","name_local":"Top Tots Explore ‘n Learn Train Table","category":"baby_toddler_toys","akeneo_categoryNumber":["57"],"akeneo_catAndSubCatNumber":"5762","akeneo_ageRangeYears":"0_2yrs","akeneo_ageRangeMonths":"6_12months","quantity":1}'
+>
+
+    
+    
+    
+
+<div class="image-container">
+    
+    
+        
+    
+
+    <div class="product-overlay-wrapper">
+        
+            <div class="product-overlay">
+                <div class="inner" style="background: #004abe">
+                    <div class="label" style="color: #fff">
+                        exclusive
+                    </div>
+                    <div class="shev-right" style="border-top-color: #004abe; border-bottom-color: #004abe"></div>
+                    <div class="shev-bottom" style="border-top-color: #004abe; border-right-color: #004abe"></div>
+                </div>
+            </div>
+        
+            <div class="product-overlay">
+                <div class="inner" style="background: #ff7000">
+                    <div class="label" style="color: #fff">
+                        reduced
+                    </div>
+                    <div class="shev-right" style="border-top-color: #ff7000; border-bottom-color: #ff7000"></div>
+                    <div class="shev-bottom" style="border-top-color: #ff7000; border-right-color: #ff7000"></div>
+                </div>
+            </div>
+        
+    </div>
+
+
+
+    
+    <div class="card-image-wrapper">
+        <a href="/top-tots-explore-%E2%80%98n-learn-train-table-1122621.html" class="card-image-container" data-gtm-product-link>
+            <img class="tile-image card-image lazyload"
+                data-parent-fit="contain" data-parent-container=".card-image-container" data-src="https://www.babiesrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-master-catalog-toysrus/default/dweb96aa3e/3/d/0/c/3d0cf295b19e17fef5395bf18a79a5c88bc4177d_929376_01.jpg?sw=394&amp;sh=394&amp;q=75"
+                
+                alt="Top Tots Explore &lsquo;n Learn Train Table" title="Top Tots Explore &lsquo;n Learn Train Table" itemprop="image" />
+        </a>
+    </div>
+</div>
+
+
+
+    <div class="card-body">
+        
+
+        <a class="card-link -plain " href="/top-tots-explore-%E2%80%98n-learn-train-table-1122621.html" itemprop="url" data-gtm-product-link>
+    <span itemprop="name">Top Tots Explore &lsquo;n Learn Train Table</span>
+</a>
+
+    </div>
+
+    <div class="card-footer">
+        
+        
+        
+            
+                
+    <div class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+        
+        <span class="price-items">
+    
+    
+        
+        <del class="old">
+            <span class="strike-through list">
+                <span class="value" content="111.49">
+                    <span class="sr-only">
+                        Price reduced from
+                    </span>
+                    $111.49
+
+                    <span class="sr-only">
+                        to
+                    </span>
+                </span>
+            </span>
+        </del>
+    
+
+    
+    <span class="sales" itemprop="price">
+        
+        
+        
+            <span class="value" content="91.49">
+                $91.49
+
+            </span>
+        
+    </span>
+</span>
+
+    </div>
+
+
+            
+        
+
+        
+            <div class="status">unavailable</div>
+        
+    </div>
+
+    
+        <div class="starcard-wrapper">
+            <div class="info">
+                <div class="icon">
+                    <img class="image" src="/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw75de6067/starcard/starcard2022-price.png" alt="starcard icon"/>
+                </div>
+                <div class="text-wrapper">
+                    
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="5b38c29029de6bd88d47a484e2" -->
+        <div class="description">&#13;
+            <span class="font-weight-bold text-uppercase">star card</span> member price&#13;
+            </div>
+    </div> <!-- End content-asset -->
+
+
+
+
+                    
+                        <span class="font-weight-bold guest-price">$61.49</span>
+                    
+                </div>
+            </div>
+        </div>
+    
+
+</div>
+<!-- END_dwmarker -->
+
+
+
+
+            </div>
+        
+    
+</div>
+
+
+
+<picture class="picture-cover">
+
+<source media="(max-width: 767px)" srcset="/on/demandware.static/-/Sites/default/dwfb1d23e0/Babies&quot;R&quot;Us/Homepage/Slot-I-&amp;-K-Feature-Quad/Top Tots_desktop.png" sizes="100vw" />
+
+
+<source media="(max-width: 1024px)" srcset="/on/demandware.static/-/Sites/default/dwfb1d23e0/Babies&quot;R&quot;Us/Homepage/Slot-I-&amp;-K-Feature-Quad/Top Tots_desktop.png" sizes="100vw" />
+
+<img class="image -left lazyload" data-parent-fit="contain" data-parent-container=".card-image-container" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites/default/dwfb1d23e0/Babies&quot;R&quot;Us/Homepage/Slot-I-&amp;-K-Feature-Quad/Top Tots_desktop.png?q=75" src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites/default/dwfb1d23e0/Babies&quot;R&quot;Us/Homepage/Slot-I-&amp;-K-Feature-Quad/Top Tots_desktop.png?q=75" alt=""/>
+</picture>
+
+
+
+<a class="d-md-none btn btn-info action" href="https://www.babiesrus.com.sg/top-tots/">shop all</a>
+
+</div>
+</div>
+
+ 
+	
+
+
+	
+<!-- =============== This snippet of JavaScript handles fetching the dynamic recommendations from the remote recommendations server
+and then makes a call to render the configured template with the returned recommended products: ================= -->
+
+<script>
+(function(){
+// window.CQuotient is provided on the page by the Analytics code:
+var cq = window.CQuotient;
+var dc = window.DataCloud;
+var isCQ = false;
+var isDC = false;
+if (cq && ('function' == typeof cq.getCQUserId)
+&& ('function' == typeof cq.getCQCookieId)
+&& ('function' == typeof cq.getCQHashedEmail)
+&& ('function' == typeof cq.getCQHashedLogin)) {
+isCQ = true;
+}
+if (dc && ('function' == typeof dc.getDCUserId)) {
+isDC = true;
+}
+if (isCQ || isDC) {
+var recommender = '[[&quot;New_Trending&quot;]]';
+var slotRecommendationType = 'RECOMMENDATION';
+// removing any leading/trailing square brackets and escaped quotes:
+recommender = recommender.replace(/\[|\]|&quot;/g, '');
+var separator = '|||';
+var slotConfigurationUUID = 'f0bbddc4c1bd8090c4eb76a834';
+var contextAUID = '';
+var contextSecondaryAUID = '';
+var contextAltAUID = '';
+var contextType = '';
+var anchorsArray = [];
+var contextAUIDs = contextAUID.split(separator);
+var contextSecondaryAUIDs = contextSecondaryAUID.split(separator);
+var contextAltAUIDs = contextAltAUID.split(separator);
+var contextTypes = contextType.split(separator);
+var slotName = 'homepage-J';
+var slotConfigId = 'Slot_J_newitemsintrend-DO-NOT-REMOVE';
+var slotConfigTemplate = 'slots/product/fourTileBannerTopSearched.isml';
+if (contextAUIDs.length == contextSecondaryAUIDs.length) {
+for (i = 0; i < contextAUIDs.length; i++) {
+anchorsArray.push({
+id: contextAUIDs[i],
+sku: contextSecondaryAUIDs[i],
+type: contextTypes[i],
+alt_id: contextAltAUIDs[i]
+});
+}
+} else {
+anchorsArray = [{id: contextAUID, sku: contextSecondaryAUID, type: contextType, alt_id: contextAltAUID}];
+}
+var urlToCall = '/on/demandware.store/Sites-ToysRUs_SG-Site/en_SG/CQRecomm-Start';
+var params = null;
+if (isCQ) {
+params = {
+userId: cq.getCQUserId(),
+cookieId: cq.getCQCookieId(),
+emailId: cq.getCQHashedEmail(),
+loginId: cq.getCQHashedLogin(),
+anchors: anchorsArray,
+slotId: slotName,
+slotConfigId: slotConfigId,
+slotConfigTemplate: slotConfigTemplate,
+ccver: '1.03'
+};
+}
+// console.log("Recommendation Type - " + slotRecommendationType + ", Recommender Selected - " + recommender);
+if (isDC && slotRecommendationType == 'DATA_CLOUD_RECOMMENDATION') {
+// Set DC variables for API call
+dcIndividualId = dc.getDCUserId();
+dcUrl = dc.getDCPersonalizationPath();
+if (dcIndividualId && dcUrl && dcIndividualId != '' && dcUrl != '') {
+// console.log("Fetching CDP Recommendations");
+var productRecs = {};
+productRecs[recommender] = getCDPRecs(dcUrl, dcIndividualId, recommender);
+cb(productRecs);
+}
+} else if (isCQ && slotRecommendationType != 'DATA_CLOUD_RECOMMENDATION') {
+if (cq.getRecs) {
+cq.getRecs(cq.clientId, recommender, params, cb);
+} else {
+cq.widgets = cq.widgets || [];
+cq.widgets.push({
+recommenderName: recommender,
+parameters: params,
+callback: cb
+});
+}
+}
+};
+function cb(parsed) {
+var arr = parsed[recommender].recs;
+if (arr && 0 < arr.length) {
+var filteredProductIds = '';
+for (i = 0; i < arr.length; i++) {
+filteredProductIds = filteredProductIds + 'pid' + i + '=' + encodeURIComponent(arr[i].id) + '&';
+}
+filteredProductIds = filteredProductIds.substring(0, filteredProductIds.length - 1);//to remove the trailing '&'
+var formData = 'auid=' + encodeURIComponent(contextAUID)
++ '&scid=' + slotConfigurationUUID
++ '&' + filteredProductIds;
+var request = new XMLHttpRequest();
+request.open('POST', urlToCall, true);
+request.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+request.onreadystatechange = function() {
+if (this.readyState === 4) {
+// Got the product data from DW, showing the products now by changing the inner HTML of the DIV:
+var divId = 'cq_recomm_slot-' + slotConfigurationUUID;
+document.getElementById(divId).innerHTML = this.responseText;
+//find and evaluate scripts in response:
+var scripts = document.getElementById(divId).getElementsByTagName('script');
+if (null != scripts) {
+for (var i=0;i<scripts.length;i++) {//not combining script snippets on purpose
+var srcScript = document.createElement('script');
+srcScript.text = scripts[i].innerHTML;
+srcScript.asynch = scripts[i].asynch;
+srcScript.defer = scripts[i].defer;
+srcScript.type = scripts[i].type;
+srcScript.charset = scripts[i].charset;
+document.head.appendChild( srcScript );
+document.head.removeChild( srcScript );
+}
+}
+}
+};
+request.send(formData);
+request = null;
+}
+};
+})();
+</script>
+<!-- The DIV tag id below is unique on purpose in case there are multiple recommendation slots on the same .isml page: -->
+<div id="cq_recomm_slot-f0bbddc4c1bd8090c4eb76a834"></div>
+<!-- ====================== snippet ends here ======================== -->
+ 
+	
+
+	 
+
+
+	
+
+
+<div class="four-tile-banner image-cover featured-brand -right">
+<div class="html-slot-wrapper" data-bootstrap='{"gtm": { "type": "impressions", "checkMetadata": true, "options": { "list": "Featured Brand" } }}' data-list="Featured Brand">
+<div class="banner-header">
+
+
+<img class="logo lazyload" alt="starwars lego logo image" data-parent-fit="contain" data-parent-container=".card-image-container" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites/default/dwf26ab2aa/Babies&quot;R&quot;Us/Homepage/Slot-I-&amp;-K-Feature-Quad/leapfrog-quad.png?q=75" src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites/default/dwf26ab2aa/Babies&quot;R&quot;Us/Homepage/Slot-I-&amp;-K-Feature-Quad/leapfrog-quad.png?q=75"/>
+
+
+<h3 class="d-none d-md-block block-title">
+
+<span class="sub-title">playtime essentials</span>
+
+keeping baby busy
+</h3>
+
+
+<a class="d-none d-md-block btn btn-info action" href="https://www.babiesrus.com.sg/leapfrog/">shop all</a>
+
+</div>
+
+
+
+
+
+
+<div class="row xsmall-gutters default-gutters-lg">
+    
+        <!-- CQuotient Activity Tracking (viewReco-cquotient.js) -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: '1120131',
+			sku: '',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BDGJ";
+		cq_params.siteId = "ToysRUs_SG";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<!-- Facebook Activity Tracking (viewContent-facebook.js) -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	fbq&&fbq('track', 'ViewContent', {
+        content_ids: ['1120131'],
+        content_type: 'product'
+    });
+} catch(e) {}
+})();
+/* ]]> */
+// -->
+</script>
+            		<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "1120131", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+            <div class="col-6 product-tile-wrapper column">
+                
+
+
+    
+
+
+
+<!-- dwMarker="product" dwContentID="a7badfbcb6575592e2d94e9990" -->
+<div class="card product-tile product-data product"
+    data-pid="1120131"
+    data-metadata='{"id":"133865","name":"LeapFrog Learn &amp; Groove Rainbow Lights Piano","price":"50.99","sku":"1120131","brand":"leapfrog","name_local":"LeapFrog Learn &amp; Groove Rainbow Lights Piano","category":"baby_toddler_toys","akeneo_categoryNumber":["57"],"akeneo_catAndSubCatNumber":"5764","akeneo_ageRangeYears":"0_2yrs","akeneo_ageRangeMonths":"0_6months,6_12months","quantity":1}'
+>
+
+    
+    
+    
+
+<div class="image-container">
+    
+
+
+    
+    <div class="card-image-wrapper">
+        <a href="/leapfrog-learn-and-groove-rainbow-lights-piano-1120131.html" class="card-image-container" data-gtm-product-link>
+            <img class="tile-image card-image lazyload"
+                data-parent-fit="contain" data-parent-container=".card-image-container" data-src="https://www.babiesrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-master-catalog-toysrus/default/dw8f5b89c5/b/a/b/d/babd253e766f5657815a9bc9d7fe862b18645944_72869_i1.jpg?sw=394&amp;sh=394&amp;q=75"
+                
+                alt="LeapFrog Learn &amp; Groove Rainbow Lights Piano" title="LeapFrog Learn &amp; Groove Rainbow Lights Piano" itemprop="image" />
+        </a>
+    </div>
+</div>
+
+
+
+    <div class="card-body">
+        
+
+        <a class="card-link -plain " href="/leapfrog-learn-and-groove-rainbow-lights-piano-1120131.html" itemprop="url" data-gtm-product-link>
+    <span itemprop="name">LeapFrog Learn &amp; Groove Rainbow Lights Piano</span>
+</a>
+
+    </div>
+
+    <div class="card-footer">
+        
+        
+        
+            
+                
+    <div class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+        
+        <span class="price-items">
+    
+    
+
+    
+    <span class="sales" itemprop="price">
+        
+        
+        
+            <span class="value" content="50.99">
+                $50.99
+
+            </span>
+        
+    </span>
+</span>
+
+    </div>
+
+
+            
+        
+
+        
+            
+                
+                
+    <div class="promotions">
+        
+            
+                <div class="promotion-item" style="background-color: #009ddb; font-family: Avenir-Heavy, Avenir, Roboto, Arial">
+    <span class="callout-msg">
+        <span class="callout-msg-text">
+            
+                <a href="https://www.toysrus.com.sg/disney-hugs-of-love-collection---jumbo-scrump-26-inch-10044832.html" class="link">$50 Jumbo Scrump</a>
+            
+        </span>
+    </span>
+    
+        <span class="callout-tooltip">
+            <span class="tooltip-marker" data-bootstrap='{"tooltip": {"html": true}}' title="Get Jumbo Scrump (65cm) at HALF PRICE ($50) with $68 purchase
+
+1 per transaction">
+                <svg class="icon">
+                    <use xlink:href="#info"></use>
+                </svg>
+            </span>
+        </span>
+    
+</div>
+
+            
+        
+    </div>
+
+
+            
+        
+    </div>
+
+    
+
+</div>
+<!-- END_dwmarker -->
+
+
+
+
+            </div>
+        
+    
+        <!-- CQuotient Activity Tracking (viewReco-cquotient.js) -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: '1025094',
+			sku: '',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BDGJ";
+		cq_params.siteId = "ToysRUs_SG";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<!-- Facebook Activity Tracking (viewContent-facebook.js) -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	fbq&&fbq('track', 'ViewContent', {
+        content_ids: ['1025094'],
+        content_type: 'product'
+    });
+} catch(e) {}
+})();
+/* ]]> */
+// -->
+</script>
+            		<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "1025094", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+            <div class="col-6 product-tile-wrapper column">
+                
+
+
+    
+
+
+
+<!-- dwMarker="product" dwContentID="8f28e08f10cc47f9c3cd6e7596" -->
+<div class="card product-tile product-data product"
+    data-pid="1025094"
+    data-metadata='{"id":"123900","name":"LeapFrog Speak &amp; Learn Puppy","price":"76.99","sku":"1025094","brand":"leapfrog","name_local":"LeapFrog Speak &amp; Learn Puppy","category":"baby_toddler_toys","akeneo_categoryNumber":["57"],"akeneo_catAndSubCatNumber":"5764","akeneo_ageRangeYears":"0_2yrs,3_4yrs","akeneo_ageRangeMonths":"6_12months","quantity":1}'
+>
+
+    
+    
+    
+
+<div class="image-container">
+    
+
+
+    
+    <div class="card-image-wrapper">
+        <a href="/leapfrog-speak-and-learn-puppy-1025094.html" class="card-image-container" data-gtm-product-link>
+            <img class="tile-image card-image lazyload"
+                data-parent-fit="contain" data-parent-container=".card-image-container" data-src="https://www.babiesrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-master-catalog-toysrus/default/dwba39b4b8/7/4/b/5/74b50cf817c21e75d4aa23efef46cdb67c663f8b_123900_i1.jpg?sw=394&amp;sh=394&amp;q=75"
+                
+                alt="LeapFrog Speak &amp; Learn Puppy" title="LeapFrog Speak &amp; Learn Puppy" itemprop="image" />
+        </a>
+    </div>
+</div>
+
+
+
+    <div class="card-body">
+        
+
+        <a class="card-link -plain " href="/leapfrog-speak-and-learn-puppy-1025094.html" itemprop="url" data-gtm-product-link>
+    <span itemprop="name">LeapFrog Speak &amp; Learn Puppy</span>
+</a>
+
+    </div>
+
+    <div class="card-footer">
+        
+        
+        
+            
+                
+    <div class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+        
+        <span class="price-items">
+    
+    
+
+    
+    <span class="sales" itemprop="price">
+        
+        
+        
+            <span class="value" content="76.99">
+                $76.99
+
+            </span>
+        
+    </span>
+</span>
+
+    </div>
+
+
+            
+        
+
+        
+            <div class="status">unavailable</div>
+        
+    </div>
+
+    
+
+</div>
+<!-- END_dwmarker -->
+
+
+
+
+            </div>
+        
+    
+        <!-- CQuotient Activity Tracking (viewReco-cquotient.js) -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: '1022982',
+			sku: '',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BDGJ";
+		cq_params.siteId = "ToysRUs_SG";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<!-- Facebook Activity Tracking (viewContent-facebook.js) -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	fbq&&fbq('track', 'ViewContent', {
+        content_ids: ['1022982'],
+        content_type: 'product'
+    });
+} catch(e) {}
+})();
+/* ]]> */
+// -->
+</script>
+            		<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "1022982", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+            <div class="col-6 product-tile-wrapper column">
+                
+
+
+    
+
+
+
+<!-- dwMarker="product" dwContentID="df46cb9d7059b7f21c5fd6626a" -->
+<div class="card product-tile product-data product"
+    data-pid="1022982"
+    data-metadata='{"id":"918515","name":"LeapFrog Learning Friends 100 Words Book","price":"51.49","sku":"1022982","brand":"leapfrog","name_local":"LeapFrog Learning Friends 100 Words Book","category":"educational_electronics","akeneo_categoryNumber":["22"],"akeneo_catAndSubCatNumber":"2211","akeneo_ageRangeYears":"0_2yrs","akeneo_ageRangeMonths":"","quantity":1}'
+>
+
+    
+    
+    
+
+<div class="image-container">
+    
+
+
+    
+    <div class="card-image-wrapper">
+        <a href="/leapfrog-learning-friends-100-words-book-1022982.html" class="card-image-container" data-gtm-product-link>
+            <img class="tile-image card-image lazyload"
+                data-parent-fit="contain" data-parent-container=".card-image-container" data-src="https://www.babiesrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-master-catalog-toysrus/default/dwed3d2a7a/1/9/8/3/1983f18b493a9bcaedb2cb6139e9597de21a24e9_918515_i1.jpg?sw=394&amp;sh=394&amp;q=75"
+                
+                alt="LeapFrog Learning Friends 100 Words Book" title="LeapFrog Learning Friends 100 Words Book" itemprop="image" />
+        </a>
+    </div>
+</div>
+
+
+
+    <div class="card-body">
+        
+
+        <a class="card-link -plain " href="/leapfrog-learning-friends-100-words-book-1022982.html" itemprop="url" data-gtm-product-link>
+    <span itemprop="name">LeapFrog Learning Friends 100 Words Book</span>
+</a>
+
+    </div>
+
+    <div class="card-footer">
+        
+        
+        
+            
+                
+    <div class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+        
+        <span class="price-items">
+    
+    
+
+    
+    <span class="sales" itemprop="price">
+        
+        
+        
+            <span class="value" content="51.49">
+                $51.49
+
+            </span>
+        
+    </span>
+</span>
+
+    </div>
+
+
+            
+        
+
+        
+            
+                
+                
+    <div class="promotions">
+        
+            
+                <div class="promotion-item" style="background-color: #009ddb; font-family: Avenir-Heavy, Avenir, Roboto, Arial">
+    <span class="callout-msg">
+        <span class="callout-msg-text">
+            
+                <a href="https://www.toysrus.com.sg/disney-hugs-of-love-collection---jumbo-scrump-26-inch-10044832.html" class="link">$50 Jumbo Scrump</a>
+            
+        </span>
+    </span>
+    
+        <span class="callout-tooltip">
+            <span class="tooltip-marker" data-bootstrap='{"tooltip": {"html": true}}' title="Get Jumbo Scrump (65cm) at HALF PRICE ($50) with $68 purchase
+
+1 per transaction">
+                <svg class="icon">
+                    <use xlink:href="#info"></use>
+                </svg>
+            </span>
+        </span>
+    
+</div>
+
+            
+        
+    </div>
+
+
+            
+        
+    </div>
+
+    
+        <div class="starcard-wrapper">
+            <div class="info">
+                <div class="icon">
+                    <img class="image" src="/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw75de6067/starcard/starcard2022-price.png" alt="starcard icon"/>
+                </div>
+                <div class="text-wrapper">
+                    
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="5b38c29029de6bd88d47a484e2" -->
+        <div class="description">&#13;
+            <span class="font-weight-bold text-uppercase">star card</span> member price&#13;
+            </div>
+    </div> <!-- End content-asset -->
+
+
+
+
+                    
+                        <span class="font-weight-bold guest-price">$36.39</span>
+                    
+                </div>
+            </div>
+        </div>
+    
+
+</div>
+<!-- END_dwmarker -->
+
+
+
+
+            </div>
+        
+    
+        <!-- CQuotient Activity Tracking (viewReco-cquotient.js) -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: '1012003',
+			sku: '',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BDGJ";
+		cq_params.siteId = "ToysRUs_SG";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<!-- Facebook Activity Tracking (viewContent-facebook.js) -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	fbq&&fbq('track', 'ViewContent', {
+        content_ids: ['1012003'],
+        content_type: 'product'
+    });
+} catch(e) {}
+})();
+/* ]]> */
+// -->
+</script>
+            		<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "1012003", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+            <div class="col-6 product-tile-wrapper column">
+                
+
+
+    
+
+
+
+<!-- dwMarker="product" dwContentID="07012a1dfb908b05c289215c3f" -->
+<div class="card product-tile product-data product"
+    data-pid="1012003"
+    data-metadata='{"id":"104332","name":"LeapFrog Chat and Count Emoji Phone Purple","price":"32.99","sku":"1012003","brand":"leapfrog","name_local":"LeapFrog Chat and Count Emoji Phone Purple","category":"baby_toddler_toys","akeneo_categoryNumber":["57"],"akeneo_catAndSubCatNumber":"5764","akeneo_ageRangeYears":"0_2yrs,3_4yrs","akeneo_ageRangeMonths":"","quantity":1}'
+>
+
+    
+    
+    
+
+<div class="image-container">
+    
+    
+        
+    
+
+    <div class="product-overlay-wrapper">
+        
+            <div class="product-overlay">
+                <div class="inner" style="background: #FF0000">
+                    <div class="label" style="color: #fff">
+                        sale
+                    </div>
+                    <div class="shev-right" style="border-top-color: #FF0000; border-bottom-color: #FF0000"></div>
+                    <div class="shev-bottom" style="border-top-color: #FF0000; border-right-color: #FF0000"></div>
+                </div>
+            </div>
+        
+    </div>
+
+
+
+    
+    <div class="card-image-wrapper">
+        <a href="/leapfrog-chat-and-count-emoji-phone-purple-1012003.html" class="card-image-container" data-gtm-product-link>
+            <img class="tile-image card-image lazyload"
+                data-parent-fit="contain" data-parent-container=".card-image-container" data-src="https://www.babiesrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-master-catalog-toysrus/default/dw9c17e81d/e/2/a/2/e2a25e4b4862754f442fdb1573cef76e6736cc79_104332_i1.jpg?sw=394&amp;sh=394&amp;q=75"
+                
+                alt="LeapFrog Chat and Count Emoji Phone Purple" title="LeapFrog Chat and Count Emoji Phone Purple" itemprop="image" />
+        </a>
+    </div>
+</div>
+
+
+
+    <div class="card-body">
+        
+
+        <a class="card-link -plain " href="/leapfrog-chat-and-count-emoji-phone-purple-1012003.html" itemprop="url" data-gtm-product-link>
+    <span itemprop="name">LeapFrog Chat and Count Emoji Phone Purple</span>
+</a>
+
+    </div>
+
+    <div class="card-footer">
+        
+        
+        
+            
+                
+    <div class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+        
+        <span class="price-items">
+    
+    
+        
+        <del class="old">
+            <span class="strike-through list">
+                <span class="value" content="40.99">
+                    <span class="sr-only">
+                        Price reduced from
+                    </span>
+                    $40.99
+
+                    <span class="sr-only">
+                        to
+                    </span>
+                </span>
+            </span>
+        </del>
+    
+
+    
+    <span class="sales" itemprop="price">
+        
+        
+        
+            <span class="value" content="32.99">
+                $32.99
+
+            </span>
+        
+    </span>
+</span>
+
+    </div>
+
+
+            
+        
+
+        
+            
+                
+                
+    <div class="promotions">
+        
+            
+                <div class="promotion-item" style="background-color: #009ddb; font-family: Avenir-Heavy, Avenir, Roboto, Arial">
+    <span class="callout-msg">
+        <span class="callout-msg-text">
+            
+                <a href="https://www.toysrus.com.sg/disney-hugs-of-love-collection---jumbo-scrump-26-inch-10044832.html" class="link">$50 Jumbo Scrump</a>
+            
+        </span>
+    </span>
+    
+        <span class="callout-tooltip">
+            <span class="tooltip-marker" data-bootstrap='{"tooltip": {"html": true}}' title="Get Jumbo Scrump (65cm) at HALF PRICE ($50) with $68 purchase
+
+1 per transaction">
+                <svg class="icon">
+                    <use xlink:href="#info"></use>
+                </svg>
+            </span>
+        </span>
+    
+</div>
+
+            
+        
+    </div>
+
+
+            
+        
+    </div>
+
+    
+
+</div>
+<!-- END_dwmarker -->
+
+
+
+
+            </div>
+        
+    
+</div>
+
+
+
+<picture class="picture-cover">
+
+<source media="(max-width: 767px)" srcset="/on/demandware.static/-/Sites/default/dw533b9fea/Babies&quot;R&quot;Us/Homepage/Slot-I-&amp;-K-Feature-Quad/outdoor-bkg-1320x750.png" sizes="100vw" />
+
+
+<source media="(max-width: 1024px)" srcset="/on/demandware.static/-/Sites/default/dw533b9fea/Babies&quot;R&quot;Us/Homepage/Slot-I-&amp;-K-Feature-Quad/outdoor-bkg-1320x750.png" sizes="100vw" />
+
+<img class="image -left lazyload" data-parent-fit="contain" data-parent-container=".card-image-container" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites/default/dw533b9fea/Babies&quot;R&quot;Us/Homepage/Slot-I-&amp;-K-Feature-Quad/outdoor-bkg-1320x750.png?q=75" src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites/default/dw533b9fea/Babies&quot;R&quot;Us/Homepage/Slot-I-&amp;-K-Feature-Quad/outdoor-bkg-1320x750.png?q=75" alt=""/>
+</picture>
+
+
+
+<a class="d-md-none btn btn-info action" href="https://www.babiesrus.com.sg/leapfrog/">shop all</a>
+
+</div>
+</div>
+
+ 
+	
+
+	 
+
+	
+
+	 
+
+
+	
+
+
+<div class="banner-list">
+<div class="html-slot-wrapper">
+
+<h3 class="title">what does your baby love?</h3>
+
+<div class="html-slot-container">
+
+<div class="banner">&#13;
+  <a class="link" href="https://www.babiesrus.com.sg/activity-and-play-gyms/">&#13;
+    <img class="lazyload img" alt="activity & play gyms" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw011e6fa8/Babies%22R%22Us/Homepage/Slot%20M%20-%20Category%20Tiles/playgyms-344x420-color-rec.png?q=75" />&#13;
+  </a>&#13;
+</div>
+
+<div class="banner">&#13;
+  <a class="link" href="https://www.babiesrus.com.sg/baby-and-toddler-toys/">&#13;
+    <img class="lazyload img" alt="activity & play gyms" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw28f3bc90/Babies%22R%22Us/Homepage/Slot%20M%20-%20Category%20Tiles/baby-toddler-344x420-color-rec.png?q=75" />&#13;
+  </a>&#13;
+</div>
+
+<div class="banner">&#13;
+  <a class="link" href="https://www.babiesrus.com.sg/bath-and-toilet-training/">&#13;
+    <img class="lazyload img" alt="activity & play gyms" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw22ad3a71/Babies%22R%22Us/Homepage/Slot%20M%20-%20Category%20Tiles/bath-344x420-color-rec.png?q=75" />&#13;
+  </a>&#13;
+</div>
+
+<div class="banner">&#13;
+  <a class="link" href="https://www.babiesrus.com.sg/car-seats-and-boosters/">&#13;
+    <img class="lazyload img" alt="activity & play gyms" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dwe41690cf/Babies%22R%22Us/Homepage/Slot%20M%20-%20Category%20Tiles/carseats-344x420-color-rec.png?q=75" />&#13;
+  </a>&#13;
+</div>
+
+<div class="banner">&#13;
+  <a class="link" href="https://www.babiesrus.com.sg/diapers-and-wipes/">&#13;
+    <img class="lazyload img" alt="activity & play gyms" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw0f3abeac/Babies%22R%22Us/Homepage/Slot%20M%20-%20Category%20Tiles/diapers-344x420-color-rec.png?q=75" />&#13;
+  </a>&#13;
+</div>
+
+<div class="banner">&#13;
+  <a class="link" href="https://www.babiesrus.com.sg/feeding-and-food/">&#13;
+    <img class="lazyload img" alt="activity & play gyms" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw22e6b2ff/Babies%22R%22Us/Homepage/Slot%20M%20-%20Category%20Tiles/feeding-344x420-color-rec.png?q=75" />&#13;
+  </a>&#13;
+</div>
+
+<div class="banner">&#13;
+  <a class="link" href="https://www.babiesrus.com.sg/health-and-safety/">&#13;
+    <img class="lazyload img" alt="activity & play gyms" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dwaaea01fe/Babies%22R%22Us/Homepage/Slot%20M%20-%20Category%20Tiles/healthsafety-344x420-color-rec.png?q=75" />&#13;
+  </a>&#13;
+</div>
+
+<div class="banner">&#13;
+  <a class="link" href="https://www.babiesrus.com.sg/nursery-furniture-and-sleep/">&#13;
+    <img class="lazyload img" alt="activity & play gyms" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw1e8bd46c/Babies%22R%22Us/Homepage/Slot%20M%20-%20Category%20Tiles/nursery-344x420-color-rec.png?q=75" />&#13;
+  </a>&#13;
+</div>
+
+<div class="banner">&#13;
+  <a class="link" href="https://www.babiesrus.com.sg/strollers/">&#13;
+    <img class="lazyload img" alt="activity & play gyms" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw7c596f05/Babies%22R%22Us/Homepage/Slot%20M%20-%20Category%20Tiles/strollers-344x420-color-rec.png?q=75" />&#13;
+  </a>&#13;
+</div>
+
+<div class="banner">&#13;
+  <a class="link" href="https://www.babiesrus.com.sg/travel-accessories/">&#13;
+    <img class="lazyload img" alt="activity & play gyms" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw754273df/Babies%22R%22Us/Homepage/Slot%20M%20-%20Category%20Tiles/travelaccessories-344x420-color-rec.png?q=75" />&#13;
+  </a>&#13;
+</div>
+
+</div>
+</div>
+</div>
+
+ 
+	
+
+	 
+
+	
+
+	 
+
+	
+</div>
+</div>
+<div class="events">
+
+	 
+
+
+	
+
+
+<div class="html-slot-wrapper">
+<!-- filler for background of section header -->
+<div class="filler" style="background: linear-gradient(#baa1ff 1%, #ac8af8 20%, #834cce 63%)"></div>
+<!-- filler for background of main section part -->
+<div class="filler -secondary" style=""></div>
+<!-- label for section with link -->
+
+<a class="label" href="https://www.babiesrus.com.sg/whats-on-2/">
+
+<h1 class="title">what's on</h1>
+
+</a>
+
+<div class="html-slot-container">
+
+<div class="banner-card"><!---- Link ----><a class="banner-link" href="https://www.babiesrus.com.sg/catalogue.html"><!---- Image ----> <img alt="banner-background" class="lazyload banner-image" sizes="100vw" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dwf8b89995/Babies%22R%22Us/Homepage/Slot%20N%20-%20Whats%20On/N-whatson-homepage-catalogue-icon-535x428.png?q=75" srcset="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dwf8b89995/Babies%22R%22Us/Homepage/Slot%20N%20-%20Whats%20On/N-whatson-homepage-catalogue-icon-535x428.png?q=75 535w" /> </a></div>
+
+<div class="banner-card"><!---- Link ----><a class="banner-link" href="https://www.babiesrus.com.sg/whats-on/sale/"><!---- Image ----> <img alt="banner-background" class="lazyload banner-image" sizes="100vw" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw14fecf10/Babies%22R%22Us/Homepage/Slot%20N%20-%20Whats%20On/N-whatson-homepage-on-sale-icon-535x428.png?q=75" srcset="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw14fecf10/Babies%22R%22Us/Homepage/Slot%20N%20-%20Whats%20On/N-whatson-homepage-on-sale-icon-535x428.png?q=75 535w" /> </a></div>
+
+<div class="banner-card"><!---- Link ----><a class="banner-link" href="https://www.babiesrus.com.sg/whats-on/geoffreys-fun-zone/"><!---- Image ----> <img alt="banner-background" class="lazyload banner-image" sizes="100vw" data-src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw700f73a5/Babies%22R%22Us/Homepage/Slot%20N%20-%20Whats%20On/N-BRU-whatson-homepage-funzone-icon-535x428-ver2.png?q=75" srcset="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw700f73a5/Babies%22R%22Us/Homepage/Slot%20N%20-%20Whats%20On/N-BRU-whatson-homepage-funzone-icon-535x428-ver2.png?q=75 535w" /> </a></div>
+
+</div>
+</div>
+
+ 
+	
+</div>
+
+
+
+
+
+
+
+
+<footer class="page-footer">
+    <div class="container">
+        <div class="footer-navigation grid-area-footer-signup">
+            
+                <div class="footer-signup-section">
+                    
+                        <h2 class="footer-title">
+                            <svg class="icon">
+                                <use xlink:href="#signup-icon"></use>
+                            </svg>
+                            sign up to save
+                        </h2>
+                    
+                    
+                        <p>
+                            subscribe to our emails to be the first to know about our hottest offers and latest toys
+                        </p>
+                    
+                    <form action="/on/demandware.store/Sites-ToysRUs_SG-Site/en_SG/Newsletter-Handler" method="POST" class="footer-signup"
+    data-newsletter-form
+    data-newsletter-success="Email subscription successful"
+    data-newsletter-error="Something went wrong, please try again"
+    name = "dwfrm_newsletter" id = "dwfrm_newsletter"
+>
+    <input type="hidden" name="csrf_token" value="7JoLMKc2bjihBq16ZcaK7uzGjROYn76d9G0Ufa7NH0ynl0PrALkXBCasmy07ctPUGFhibQeO14o6vaTz5xBcx-D83PKNkzNdhOvhV9hgvXa8ylWyp_sBu2IWl0t-tGe_wUz0IvLHuPxnss2NcsdRI-nWEMRDo_XTDJYoLfEqBkQLeFKAxkg="/>
+    <div class="form-group required">
+        <input type="email" class="form-control" id="newsletter-form-email"
+            data-pattern-mismatch="Please enter a valid email address"
+            data-missing-error="Please fill out this field"
+            placeholder="enter your email"
+            name="dwfrm_newsletter_email" required aria-required="true" value="" maxLength="50" pattern="^[\w.%+-]+@[\w.-]+\.[\w]{2,6}$" >
+        <div class="invalid-feedback"></div>
+        <button type="submit" class="btn btn-primary" >subscribe</button>
+    </div>
+</form>
+
+                </div>
+            
+        </div>
+        <div class="grid-area-language d-flex flex-md-column">
+            
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="f9fadb9459fba18b3fbb722b17" -->
+        <h6 class="d-none d-lg-block d-xl-block">other locations</h6>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="justify-content: center">
+                    Singapore
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li class="item"><a class="label" href="https://www.toysrus.com.bn/">Brunei</a></li>
+                    <li class="item"><a class="label" href="https://www.toysrus.com.cn/zh-cn/">China</a></li>
+                    <li class="item"><a class="label" href="https://www.toysrus.com.hk/zh-hk/">Hong Kong SAR</a></li>
+                    <li class="item"><a class="label" href="https://www.toysrus.com.tw/zh-tw/">Taiwan</a></li>
+                    <li class="item"><a class="label" href="https://www.toysrus.com.my/">Malaysia</a></li>
+                    <li class="item -active"><a class="label" href="https://www.toysrus.com.sg/">Singapore
+                        <svg class="icon"><use xlink:href="#check"></use></svg>
+                    </a></li>
+                    <li class="item"><a class="label" href="https://www.toysrus.co.jp/">Japan</a></li>
+                    <li class="item"><a class="label" href="https://www.toysrus.co.th/th-th/">Thailand</a></li>
+                </ul>
+            </div>
+    </div> <!-- End content-asset -->
+
+
+
+
+        </div>
+        <div class="grid-area-social">
+            
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="aa41511aa5b2afc0aa0a4ca0b8" -->
+        <div class="footer-social">
+	<h5 class="heading">follow us</h5>
+	<div class="social-icons">
+               <a class="link" href="https://www.instagram.com/accounts/login/?next=/toysrus_sg/" target="_blank">
+               <img alt="instagram" style="margin: 10px 0px" class="icon" src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dwaf3db27b/footer/social/instagram.png?q=75" />
+               
+                </a>
+                <a class="link" href="https://www.facebook.com/toysrus.sg/" target="_blank">
+                <img alt="facebook" style="margin: 10px 0px" class="icon" src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dwb7752ad1/footer/social/facebook.png?q=75" />
+               
+                </a>
+                <a class="link" href="https://www.tiktok.com/@toysrus_sg" target="_blank">
+                <img alt="facebook" style="margin: 10px 0px" class="icon" src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw5ac1c7ad/footer/social/tiktok.png?q=75" />
+
+                </a>
+                <a class="link" href="https://www.youtube.com/channel/UCM8WNe8GEhLKIdUbw5Iquug" target="_blank">
+                <img alt="youtube" style="margin: 10px 0px" class="icon" src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw2a7c0df1/footer/social/youtube.png?q=75" />
+
+                </a>
+
+                
+
+	</div>
+</div>
+    </div> <!-- End content-asset -->
+
+
+
+
+        </div>
+        <div class="footer-navigation grid-area-footer-rus d-md-block d-none">
+            <p class="heading">&quot;R&quot; Us</p>
+            
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="aae49dec81abff7483ecd449ae" -->
+        <ul class="footer-links">
+        <li><a href="https://www.babiesrus.com.sg/aboutus.html">About Us</a>
+        </li>
+       <li><a href="https://www.babiesrus.com.sg/stores">Find A Store</a>
+        </li>
+        <li><a href="https://www.babiesrus.com.sg/search?cgid=tru-ecatalogue">Catalogue</a>
+        </li>
+        <li><a href="https://www.babiesrus.com.sg/whats-on/geoffreys-fun-zone/">Geoffrey's Fun Zone</a>
+        </li>
+</ul>
+    </div> <!-- End content-asset -->
+
+
+
+
+        </div>
+        <div class="footer-navigation grid-area-footer-help d-md-block d-none">
+            <p class="heading">help</p>
+            
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="92b5a4f2e94f65a549f4462c05" -->
+        <ul class="footer-links">
+	<li><a href="https://help.toysrus.com.sg/hc/en-sg">Help & FAQs</a>
+	</li>
+	<li><a href="https://www.babiesrus.com.sg/shipping-delivery.html">Shipping & Delivery</a>
+	</li>
+	<li><a href="https://www.babiesrus.com.sg/return-policy.html">Refunds & Returns</a>
+	</li>
+	<li><a href="https://www.babiesrus.com.sg/account">My Account</a>
+	</li>
+</ul>
+    </div> <!-- End content-asset -->
+
+
+
+
+        </div>
+        <div class="footer-navigation grid-area-footer-services d-md-block d-none">
+            <p class="heading">services</p>
+            
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="35df43fe4ef5b3848ef4c73c84" -->
+        <ul class="footer-links">
+        <li><a href="https://www.babiesrus.com.sg/starcard">Star Card</a>
+        </li>        
+        <li><a href="https://www.babiesrus.com.sg/toysrus-gift-card---use-in-store-or-online-delivered-via-email-1127056.html">Gift Cards</a>
+        </li>
+        <li><a href="https://www.babiesrus.com.sg/wishlist">Wishlist</a>
+        </li>
+</ul>
+    </div> <!-- End content-asset -->
+
+
+
+
+        </div>
+        <div class="footer-navigation grid-area-navigation d-md-none">
+            <div class="accordion d-md-none" id="accordion">
+                <div class="item description-tab">
+                    <div class="toggler d-md-none" id="headingOne">
+                        <button class="btn action collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <p class="heading">&quot;R&quot; Us</p>
+                            <div class="icons">
+                                <svg class="icon -plus">
+                                    <use xlink:href="#plus"></use>
+                                </svg>
+                                <svg class="icon -minus">
+                                    <use xlink:href="#minus"></use>
+                                </svg>
+                            </div>
+                        </button>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="aae49dec81abff7483ecd449ae" -->
+        <ul class="footer-links">
+        <li><a href="https://www.babiesrus.com.sg/aboutus.html">About Us</a>
+        </li>
+       <li><a href="https://www.babiesrus.com.sg/stores">Find A Store</a>
+        </li>
+        <li><a href="https://www.babiesrus.com.sg/search?cgid=tru-ecatalogue">Catalogue</a>
+        </li>
+        <li><a href="https://www.babiesrus.com.sg/whats-on/geoffreys-fun-zone/">Geoffrey's Fun Zone</a>
+        </li>
+</ul>
+    </div> <!-- End content-asset -->
+
+
+
+
+                    </div>
+                </div>
+                <div class="item description-tab">
+                    <div class="toggler d-md-none" id="headingTwo">
+                        <button class="btn action collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                            <p class="heading">help</p>
+                            <div class="icons">
+                                <svg class="icon -plus">
+                                    <use xlink:href="#plus"></use>
+                                </svg>
+                                <svg class="icon -minus">
+                                    <use xlink:href="#minus"></use>
+                                </svg>
+                            </div>
+                        </button>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="92b5a4f2e94f65a549f4462c05" -->
+        <ul class="footer-links">
+	<li><a href="https://help.toysrus.com.sg/hc/en-sg">Help & FAQs</a>
+	</li>
+	<li><a href="https://www.babiesrus.com.sg/shipping-delivery.html">Shipping & Delivery</a>
+	</li>
+	<li><a href="https://www.babiesrus.com.sg/return-policy.html">Refunds & Returns</a>
+	</li>
+	<li><a href="https://www.babiesrus.com.sg/account">My Account</a>
+	</li>
+</ul>
+    </div> <!-- End content-asset -->
+
+
+
+
+                    </div>
+                </div>
+                <div class="item description-tab">
+                    <div class="toggler d-md-none" id="headingThree">
+                        <button class="btn action collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                            <p class="heading">services</p>
+                            <div class="icons">
+                                <svg class="icon -plus">
+                                    <use xlink:href="#plus"></use>
+                                </svg>
+                                <svg class="icon -minus">
+                                    <use xlink:href="#minus"></use>
+                                </svg>
+                            </div>
+                        </button>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="35df43fe4ef5b3848ef4c73c84" -->
+        <ul class="footer-links">
+        <li><a href="https://www.babiesrus.com.sg/starcard">Star Card</a>
+        </li>        
+        <li><a href="https://www.babiesrus.com.sg/toysrus-gift-card---use-in-store-or-online-delivered-via-email-1127056.html">Gift Cards</a>
+        </li>
+        <li><a href="https://www.babiesrus.com.sg/wishlist">Wishlist</a>
+        </li>
+</ul>
+    </div> <!-- End content-asset -->
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-area-payment">
+            
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="34afb91405b44f0c6b3825d9ca" -->
+        <div class="footer-payment">
+	<div class="image-with-caption">
+		<p class="caption">Shop Safely and Securely</p>
+		<div>
+<div class="payment-logos">
+<div class="payment-logos-item"><img alt="icon" class="icon" src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dwb9e46423/footer-payments/master_card_payment_icons.png?q=75" /></div>
+<div class="payment-logos-item"><img alt="icon" class="icon" src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dwd4848908/footer-payments/visa_payment_icons.png?q=75" /></div>
+<div class="payment-logos-item"><img alt="icon" class="icon" src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw5170238b/footer-payments/american_express_payment_icons.png?q=75" /></div>
+<div class="payment-logos-item"><img alt="icon" class="icon" src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dwc40353a0/footer-payments/union_pay_payment_icons.png?q=75" /></div>
+ <div class="payment-logos-item"><img alt="icon" class="icon" src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw0419aceb/footer-payments/apple_pay_payment_icons.png?q=75" /></div>
+<div class="payment-logos-item"><img alt="icon" class="icon" src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw37079fb1/footer-payments/ssl_payment_icons.png?q=75" /></div>
+<div class="payment-logos-item"><img alt="icon" class="icon" src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dw830f6468/footer-payments/gift_card_payment_icons_v2.png?q=75" /></div>
+<div class="payment-logos-item"><img alt="icon" class="icon" src="https://www.toysrus.com.sg/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Library-Sites-ToysRUs_SG_BN/default/dwc5aa9042/footer-payments/paynow_payment_icon.png?q=75" /></div>
+				</div>
+			</div>
+		</div>
+	</div>
+    </div> <!-- End content-asset -->
+
+
+
+
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="text">
+            <span>
+                &copy; 2025
+            </span>
+            
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="96276df4dca53dded98d86c408" -->
+        <p style="text-align: center;">Toys&rdquo;R&rdquo;Us Brunei. All Rights Reserved.<br />&#13;Use of this site signifies your acceptance&nbsp;of&nbsp;the&nbsp;Toys&rdquo;R&rdquo;Us Website <a class="link" href="https://www.babiesrus.com.sg/terms-conditions.html">Terms and Conditions</a> and <a class="link" href="https://www.babiesrus.com.sg/privacy-policy.html">Privacy Policy</a>.</p>
+    </div> <!-- End content-asset -->
+
+
+
+
+        </div>
+    </div>
+</footer>
+
+</div>
+</div>
+<div class="error-messaging"></div>
+<div class="modal-background"></div>
+
+
+
+
+<!--[if lt IE 10]>
+<script>
+    function isIE() {
+        var ua = window.navigator.userAgent;
+        var msie = ua.indexOf('MSIE '); // IE 10 or older
+        var trident = ua.indexOf('Trident/'); //IE 11
+
+        return (msie > 0 || trident > 0);
+    }
+
+    (function(){
+        if (isIE()) {
+            var script = document.createElement('script');
+            script.src = '/on/demandware.static/Sites-ToysRUs_SG-Site/-/en_SG/v1748811315914/js/picturefill.js';
+            document.head.appendChild(script);
+        }
+    })();
+</script>
+
+
+    
+        <script defer type="text/javascript" src="/on/demandware.static/Sites-ToysRUs_SG-Site/-/en_SG/v1748811315914/js/polyfill.js"></script>
+    
+
+    
+        <script defer type="text/javascript" src="/on/demandware.static/Sites-ToysRUs_SG-Site/-/en_SG/v1748811315914/js/svg-sprite.js"></script>
+    
+
+    
+        <script defer type="text/javascript" src="/on/demandware.static/Sites-ToysRUs_SG-Site/-/en_SG/v1748811315914/js/main.js"></script>
+    
+
+
+<![endif]-->
+
+<!-- GTM - non-cached -->
+<script type="text/javascript">
+var dataLayer = dataLayer || [];
+dataLayer.push({
+pageTitle: document.title,
+pageType: "basketUpdated"
+});
+dataLayer.push({"ecommerce":null});
+dataLayer.push({"event":"basketUpdated","ecommerce":{"orderTotal":null,"orderShipping":null,"currencyCode":"SGD","coupon":[],"products":[]}});
+</script>
+<!-- End GTM - non-cached -->
+
+<span class="api-true  tracking-consent"
+    data-caOnline="true"
+    data-url="/on/demandware.store/Sites-ToysRUs_SG-Site/en_SG/ConsentTracking-GetContent?cid=tracking_hint"
+    data-reject="/on/demandware.store/Sites-ToysRUs_SG-Site/en_SG/ConsentTracking-SetConsent?consent=false"
+    data-accept="/on/demandware.store/Sites-ToysRUs_SG-Site/en_SG/ConsentTracking-SetConsent?consent=true"
+    data-acceptText="close"
+    data-rejectText="No"
+    data-heading="Tracking Consent"
+    data-tokenName="csrf_token"
+    data-token="S9fSx0BfyvUhybH0Mfv9Nov23Owp8bWtEa9VkX1j5tBBlVUyvBOsz6ws8z4AtsObbmmJTps-GU3z38u4ziqsZh0vADt-soSDGCZs4OQARO7EmsVn-JX0bee1UC2mvFVG2Qn9EGfbGArZ6Qxt67sG8bQfSzH8jcM-wtAAtI4y5UPeu7PIpPw="
+    ></span>
+
+
+
+<!-- Access infobox -->
+
+
+
+
+<!-- Demandware Analytics code 1.0 (body_end-analytics-tracking-asynch.js) -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+function trackPage() {
+    try{
+        var trackingUrl = "https://www.babiesrus.com.sg/on/demandware.store/Sites-ToysRUs_SG-Site/en_SG/__Analytics-Start";
+        var dwAnalytics = dw.__dwAnalytics.getTracker(trackingUrl);
+        if (typeof dw.ac == "undefined") {
+            dwAnalytics.trackPageView();
+        } else {
+            dw.ac.setDWAnalytics(dwAnalytics);
+        }
+    }catch(err) {};
+}
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript" src="/on/demandware.static/Sites-ToysRUs_SG-Site/-/en_SG/v1748811315914/internal/jscript/dwanalytics-22.2.js" async="async" onload="trackPage()"></script>
+<!-- Demandware Active Data (body_end-active_data.js) -->
+<script src="/on/demandware.static/Sites-ToysRUs_SG-Site/-/en_SG/v1748811315914/internal/jscript/dwac-21.7.js" type="text/javascript" async="async"></script><!-- CQuotient Activity Tracking (body_end-cquotient.js) -->
+<script src="https://cdn.cquotient.com/js/v2/gretel.min.js" type="text/javascript" async="async"></script>
+<!-- Demandware Apple Pay -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+if (!window.dw) dw = {};
+dw.applepay = {"action":{"cancel":"https:\/\/www.babiesrus.com.sg\/on\/demandware.store\/Sites-ToysRUs_SG-Site\/en_SG\/__SYSTEM__ApplePay-Cancel","getRequest":"https:\/\/www.babiesrus.com.sg\/on\/demandware.store\/Sites-ToysRUs_SG-Site\/en_SG\/__SYSTEM__ApplePay-GetRequest","onshippingcontactselected":"https:\/\/www.babiesrus.com.sg\/on\/demandware.store\/Sites-ToysRUs_SG-Site\/en_SG\/__SYSTEM__ApplePay-ShippingContactSelected","onpaymentmethodselected":"https:\/\/www.babiesrus.com.sg\/on\/demandware.store\/Sites-ToysRUs_SG-Site\/en_SG\/__SYSTEM__ApplePay-PaymentMethodSelected","onvalidatemerchant":"https:\/\/www.babiesrus.com.sg\/on\/demandware.store\/Sites-ToysRUs_SG-Site\/en_SG\/__SYSTEM__ApplePay-ValidateMerchant","onpaymentauthorized":"https:\/\/www.babiesrus.com.sg\/on\/demandware.store\/Sites-ToysRUs_SG-Site\/en_SG\/__SYSTEM__ApplePay-PaymentAuthorized","prepareBasket":"https:\/\/www.babiesrus.com.sg\/on\/demandware.store\/Sites-ToysRUs_SG-Site\/en_SG\/__SYSTEM__ApplePay-PrepareBasket","onshippingmethodselected":"https:\/\/www.babiesrus.com.sg\/on\/demandware.store\/Sites-ToysRUs_SG-Site\/en_SG\/__SYSTEM__ApplePay-ShippingMethodSelected"},"inject":{"directives":[{"css":"dw-apple-pay-button","query":"ISAPPLEPAY","action":"replace","copy":true}]}};
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript" src="/on/demandware.static/Sites-ToysRUs_SG-Site/-/en_SG/v1748811315914/internal/jscript/applepay.js" async="true"></script>
+</body>
+</html>
+

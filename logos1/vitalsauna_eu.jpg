@@ -1,0 +1,819 @@
+<!DOCTYPE HTML> 
+<html lang="pl"> 
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="text/plain" data-service="google-analytics" data-category="statistics" async data-cmplz-src="https://www.googletagmanager.com/gtag/js?id=G-KJXK2FLQ0B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KJXK2FLQ0B');
+</script>
+	
+<meta name="author" content="KULIKOWSKI-IT.pl">
+<meta name="robots" content="index,follow">
+<meta name="dcterms.audience" content="global">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+<link rel="shortcut icon" href="https://vitalsauna.eu/wp-content/themes/vitalsauna/images/fav.svg" type="image/x-icon">
+<link rel="icon" href="https://vitalsauna.eu/wp-content/themes/vitalsauna/images/fav.svg" type="image/x-icon">
+
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO plugin v25.2 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="Vital Sauna Producent | Sauna domowa Sauna ogrodowa, Łaźnia Parowa, Jacuzzi. Projektowanie Produkcja Wykonawstwo Spa Aquaparki Hotele Rezydencje." />
+	<link rel="canonical" href="https://vitalsauna.eu/" />
+	<meta property="og:locale" content="pl_PL" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Vital Sauna Producent | Sauna domowa i ogrodowa, łaźnia parowa, jacuzzi" />
+	<meta property="og:description" content="Vital Sauna Producent | Sauna domowa Sauna ogrodowa, Łaźnia Parowa, Jacuzzi. Projektowanie Produkcja Wykonawstwo Spa Aquaparki Hotele Rezydencje." />
+	<meta property="og:url" content="https://vitalsauna.eu/" />
+	<meta property="og:site_name" content="Vital Sauna" />
+	<meta property="article:modified_time" content="2025-05-30T14:28:13+00:00" />
+	<meta property="og:image" content="https://vitalsauna.eu/wp-content/uploads/2024/11/laznie-min.png" />
+	<meta property="og:image:width" content="100" />
+	<meta property="og:image:height" content="100" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://vitalsauna.eu/","url":"https://vitalsauna.eu/","name":"Vital Sauna Producent | Sauna domowa i ogrodowa, łaźnia parowa, jacuzzi","isPartOf":{"@id":"https://vitalsauna.eu/#website"},"primaryImageOfPage":{"@id":"https://vitalsauna.eu/#primaryimage"},"image":{"@id":"https://vitalsauna.eu/#primaryimage"},"thumbnailUrl":"https://vitalsauna.eu/wp-content/uploads/2024/11/laznie-min.png","datePublished":"2024-11-05T20:41:13+00:00","dateModified":"2025-05-30T14:28:13+00:00","description":"Vital Sauna Producent | Sauna domowa Sauna ogrodowa, Łaźnia Parowa, Jacuzzi. Projektowanie Produkcja Wykonawstwo Spa Aquaparki Hotele Rezydencje.","breadcrumb":{"@id":"https://vitalsauna.eu/#breadcrumb"},"inLanguage":"pl-PL","potentialAction":[{"@type":"ReadAction","target":["https://vitalsauna.eu/"]}]},{"@type":"ImageObject","inLanguage":"pl-PL","@id":"https://vitalsauna.eu/#primaryimage","url":"https://vitalsauna.eu/wp-content/uploads/2024/11/laznie-min.png","contentUrl":"https://vitalsauna.eu/wp-content/uploads/2024/11/laznie-min.png","width":100,"height":100},{"@type":"BreadcrumbList","@id":"https://vitalsauna.eu/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Strona główna"}]},{"@type":"WebSite","@id":"https://vitalsauna.eu/#website","url":"https://vitalsauna.eu/","name":"Vital Sauna","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://vitalsauna.eu/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"pl-PL"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='stylesheet' id='wp-block-library-css' href='https://vitalsauna.eu/wp-includes/css/dist/block-library/style.min.css?ver=6.8.1' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='cmplz-general-css' href='https://vitalsauna.eu/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1748615575' type='text/css' media='all' />
+<link rel='stylesheet' id='megamenu-css' href='https://vitalsauna.eu/wp-content/uploads/maxmegamenu/style.css?ver=1eb4a2' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://vitalsauna.eu/wp-includes/css/dashicons.min.css?ver=6.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='megamenu-genericons-css' href='https://vitalsauna.eu/wp-content/plugins/megamenu-pro/icons/genericons/genericons/genericons.css?ver=2.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='megamenu-fontawesome6-css' href='https://vitalsauna.eu/wp-content/plugins/megamenu-pro/icons/fontawesome6/css/all.min.css?ver=2.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='kadence-blocks-rowlayout-css' href='https://vitalsauna.eu/wp-content/plugins/kadence-blocks/dist/style-blocks-rowlayout.css?ver=3.5.9' type='text/css' media='all' />
+<link rel='stylesheet' id='kadence-blocks-column-css' href='https://vitalsauna.eu/wp-content/plugins/kadence-blocks/dist/style-blocks-column.css?ver=3.5.9' type='text/css' media='all' />
+<link rel='stylesheet' id='kadence-blocks-advancedbtn-css' href='https://vitalsauna.eu/wp-content/plugins/kadence-blocks/dist/style-blocks-advancedbtn.css?ver=3.5.9' type='text/css' media='all' />
+<link rel='stylesheet' id='kadence-blocks-spacer-css' href='https://vitalsauna.eu/wp-content/plugins/kadence-blocks/dist/style-blocks-spacer.css?ver=3.5.9' type='text/css' media='all' />
+<link rel='stylesheet' id='kadence-blocks-testimonials-css' href='https://vitalsauna.eu/wp-content/plugins/kadence-blocks/dist/style-blocks-testimonials.css?ver=3.5.9' type='text/css' media='all' />
+<link rel='stylesheet' id='kadence-kb-splide-css' href='https://vitalsauna.eu/wp-content/plugins/kadence-blocks/includes/assets/css/kadence-splide.min.css?ver=3.5.9' type='text/css' media='all' />
+<link rel='stylesheet' id='kadence-blocks-splide-css' href='https://vitalsauna.eu/wp-content/plugins/kadence-blocks/includes/assets/css/kb-blocks-splide.min.css?ver=3.5.9' type='text/css' media='all' />
+<style id='kadence-blocks-global-variables-inline-css' type='text/css'>
+:root {--global-kb-font-size-sm:clamp(0.8rem, 0.73rem + 0.217vw, 0.9rem);--global-kb-font-size-md:clamp(1.1rem, 0.995rem + 0.326vw, 1.25rem);--global-kb-font-size-lg:clamp(1.75rem, 1.576rem + 0.543vw, 2rem);--global-kb-font-size-xl:clamp(2.25rem, 1.728rem + 1.63vw, 3rem);--global-kb-font-size-xxl:clamp(2.5rem, 1.456rem + 3.26vw, 4rem);--global-kb-font-size-xxxl:clamp(2.75rem, 0.489rem + 7.065vw, 6rem);}:root {--global-palette1: #3182CE;--global-palette2: #2B6CB0;--global-palette3: #1A202C;--global-palette4: #2D3748;--global-palette5: #4A5568;--global-palette6: #718096;--global-palette7: #EDF2F7;--global-palette8: #F7FAFC;--global-palette9: #ffffff;}
+</style>
+<style id='kadence_blocks_css-inline-css' type='text/css'>
+.kb-row-layout-id7_cbf5c0-17 > .kt-row-column-wrap{column-gap:var(--global-kb-gap-lg, 4rem);padding-top:var( --global-kb-row-default-top, var(--global-kb-spacing-sm, 1.5rem) );padding-bottom:var( --global-kb-row-default-bottom, var(--global-kb-spacing-sm, 1.5rem) );}.kb-row-layout-id7_cbf5c0-17 > .kt-row-column-wrap > div:not(.added-for-specificity){grid-column:initial;}.kb-row-layout-id7_cbf5c0-17 > .kt-row-column-wrap{grid-template-columns:repeat(3, minmax(0, 1fr));}@media all and (max-width: 1024px){.kb-row-layout-id7_cbf5c0-17 > .kt-row-column-wrap > div:not(.added-for-specificity){grid-column:initial;}}@media all and (max-width: 1024px){.kb-row-layout-id7_cbf5c0-17 > .kt-row-column-wrap{grid-template-columns:repeat(3, minmax(0, 1fr));}}@media all and (max-width: 767px){.kb-row-layout-id7_cbf5c0-17 > .kt-row-column-wrap > div:not(.added-for-specificity){grid-column:initial;}.kb-row-layout-id7_cbf5c0-17 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column7_381911-72 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_381911-72 > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_381911-72 > .kt-inside-inner-col > .aligncenter{width:100%;}@media all and (max-width: 1024px){.kadence-column7_381911-72 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_381911-72 > .kt-inside-inner-col{flex-direction:column;}}.kadence-column7_d97019-c8 > .kt-inside-inner-col{padding-bottom:0px;}.kadence-column7_d97019-c8 > .kt-inside-inner-col{min-height:320px;}.kadence-column7_d97019-c8 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_d97019-c8 > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_d97019-c8 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column7_d97019-c8 > .kt-inside-inner-col{background-image:url('https://vitalsauna.eu/wp-content/uploads/2024/11/sauny-min.jpg');background-size:cover;background-position:center center;background-attachment:scroll;background-repeat:no-repeat;}.kadence-column7_d97019-c8:hover > .kt-inside-inner-col:before{opacity:1;mix-blend-mode:normal;}.kadence-column7_d97019-c8:hover > .kt-inside-inner-col:before{background-image:url('https://vitalsauna.eu/wp-content/uploads/2024/11/hover-min.png');background-size:cover;background-position:center center;background-attachment:scroll;background-repeat:no-repeat;}.kadence-column7_d97019-c8, .kt-inside-inner-col > .kadence-column7_d97019-c8:not(.specificity){margin-bottom:var(--global-kb-spacing-md, 2rem);}@media all and (max-width: 1024px){.kadence-column7_d97019-c8 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_d97019-c8 > .kt-inside-inner-col{flex-direction:column;}}ul.menu .wp-block-kadence-advancedbtn .kb-btn7_cc3541-a7.kb-button{width:initial;}.kadence-column7_d9fc93-42 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_d9fc93-42 > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_d9fc93-42 > .kt-inside-inner-col > .aligncenter{width:100%;}@media all and (max-width: 1024px){.kadence-column7_d9fc93-42 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_d9fc93-42 > .kt-inside-inner-col{flex-direction:column;}}.kadence-column7_60f6d3-e0 > .kt-inside-inner-col{padding-bottom:0px;}.kadence-column7_60f6d3-e0 > .kt-inside-inner-col{min-height:320px;}.kadence-column7_60f6d3-e0 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_60f6d3-e0 > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_60f6d3-e0 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column7_60f6d3-e0 > .kt-inside-inner-col{background-image:url('https://vitalsauna.eu/wp-content/uploads/2024/11/ogrodowe-min.jpg');background-size:cover;background-position:center center;background-attachment:scroll;background-repeat:no-repeat;}.kadence-column7_60f6d3-e0:hover > .kt-inside-inner-col:before{opacity:1;mix-blend-mode:normal;}.kadence-column7_60f6d3-e0:hover > .kt-inside-inner-col:before{background-image:url('https://vitalsauna.eu/wp-content/uploads/2024/11/hover-min.png');background-size:cover;background-position:center center;background-attachment:scroll;background-repeat:no-repeat;}.kadence-column7_60f6d3-e0, .kt-inside-inner-col > .kadence-column7_60f6d3-e0:not(.specificity){margin-bottom:var(--global-kb-spacing-md, 2rem);}@media all and (max-width: 1024px){.kadence-column7_60f6d3-e0 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_60f6d3-e0 > .kt-inside-inner-col{flex-direction:column;}}ul.menu .wp-block-kadence-advancedbtn .kb-btn7_ff32f0-a7.kb-button{width:initial;}.kadence-column7_fe4242-e2 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_fe4242-e2 > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_fe4242-e2 > .kt-inside-inner-col > .aligncenter{width:100%;}@media all and (max-width: 1024px){.kadence-column7_fe4242-e2 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_fe4242-e2 > .kt-inside-inner-col{flex-direction:column;}}.kadence-column7_d9b155-f3 > .kt-inside-inner-col{padding-bottom:0px;}.kadence-column7_d9b155-f3 > .kt-inside-inner-col{min-height:320px;}.kadence-column7_d9b155-f3 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_d9b155-f3 > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_d9b155-f3 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column7_d9b155-f3 > .kt-inside-inner-col{background-image:url('https://vitalsauna.eu/wp-content/uploads/2024/11/z-ceremoniami-min.jpg');background-size:cover;background-position:center center;background-attachment:scroll;background-repeat:no-repeat;}.kadence-column7_d9b155-f3:hover > .kt-inside-inner-col:before{opacity:1;mix-blend-mode:normal;}.kadence-column7_d9b155-f3:hover > .kt-inside-inner-col:before{background-image:url('https://vitalsauna.eu/wp-content/uploads/2024/11/hover-min.png');background-size:cover;background-position:center center;background-attachment:scroll;background-repeat:no-repeat;}.kadence-column7_d9b155-f3, .kt-inside-inner-col > .kadence-column7_d9b155-f3:not(.specificity){margin-bottom:var(--global-kb-spacing-md, 2rem);}@media all and (max-width: 1024px){.kadence-column7_d9b155-f3 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_d9b155-f3 > .kt-inside-inner-col{flex-direction:column;}}ul.menu .wp-block-kadence-advancedbtn .kb-btn7_b2791a-68.kb-button{width:initial;}.wp-block-kadence-spacer.kt-block-spacer-7_107d7b-ce .kt-divider{width:100%;}.kb-row-layout-id7_97df69-c0 > .kt-row-column-wrap{column-gap:var(--global-kb-gap-lg, 4rem);padding-top:var(--global-kb-spacing-sm, 1.5rem);padding-bottom:var(--global-kb-spacing-lg, 3rem);}.kb-row-layout-id7_97df69-c0 > .kt-row-column-wrap > div:not(.added-for-specificity){grid-column:initial;}.kb-row-layout-id7_97df69-c0 > .kt-row-column-wrap{grid-template-columns:repeat(3, minmax(0, 1fr));}@media all and (max-width: 1024px){.kb-row-layout-id7_97df69-c0 > .kt-row-column-wrap > div:not(.added-for-specificity){grid-column:initial;}}@media all and (max-width: 1024px){.kb-row-layout-id7_97df69-c0 > .kt-row-column-wrap{grid-template-columns:repeat(3, minmax(0, 1fr));}}@media all and (max-width: 767px){.kb-row-layout-id7_97df69-c0 > .kt-row-column-wrap > div:not(.added-for-specificity){grid-column:initial;}.kb-row-layout-id7_97df69-c0 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column7_8e3151-fb > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_8e3151-fb > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_8e3151-fb > .kt-inside-inner-col > .aligncenter{width:100%;}@media all and (max-width: 1024px){.kadence-column7_8e3151-fb > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_8e3151-fb > .kt-inside-inner-col{flex-direction:column;}}ul.menu .wp-block-kadence-advancedbtn .kb-btn7_cf5ec0-3c.kb-button{width:initial;}.kadence-column7_ff1fe6-15 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_ff1fe6-15 > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_ff1fe6-15 > .kt-inside-inner-col > .aligncenter{width:100%;}@media all and (max-width: 1024px){.kadence-column7_ff1fe6-15 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_ff1fe6-15 > .kt-inside-inner-col{flex-direction:column;}}ul.menu .wp-block-kadence-advancedbtn .kb-btn7_155fcc-a9.kb-button{width:initial;}.kadence-column7_63a26e-7d > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_63a26e-7d > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_63a26e-7d > .kt-inside-inner-col > .aligncenter{width:100%;}@media all and (max-width: 1024px){.kadence-column7_63a26e-7d > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_63a26e-7d > .kt-inside-inner-col{flex-direction:column;}}ul.menu .wp-block-kadence-advancedbtn .kb-btn7_9da751-1f.kb-button{width:initial;}.kb-row-layout-id7_14740d-3e > .kt-row-column-wrap{column-gap:var(--global-kb-gap-lg, 4rem);padding-top:var(--global-kb-spacing-md, 2rem);padding-bottom:var(--global-kb-spacing-lg, 3rem);}.kb-row-layout-id7_14740d-3e > .kt-row-column-wrap > div:not(.added-for-specificity){grid-column:initial;}.kb-row-layout-id7_14740d-3e > .kt-row-column-wrap{grid-template-columns:repeat(3, minmax(0, 1fr));}@media all and (max-width: 1024px){.kb-row-layout-id7_14740d-3e > .kt-row-column-wrap > div:not(.added-for-specificity){grid-column:initial;}}@media all and (max-width: 1024px){.kb-row-layout-id7_14740d-3e > .kt-row-column-wrap{grid-template-columns:repeat(3, minmax(0, 1fr));}}@media all and (max-width: 767px){.kb-row-layout-id7_14740d-3e > .kt-row-column-wrap > div:not(.added-for-specificity){grid-column:initial;}.kb-row-layout-id7_14740d-3e > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column7_bbec19-16 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_bbec19-16 > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_bbec19-16 > .kt-inside-inner-col > .aligncenter{width:100%;}@media all and (max-width: 1024px){.kadence-column7_bbec19-16 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_bbec19-16 > .kt-inside-inner-col{flex-direction:column;}}ul.menu .wp-block-kadence-advancedbtn .kb-btn7_e38426-76.kb-button{width:initial;}.kadence-column7_c09964-a3 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_c09964-a3 > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_c09964-a3 > .kt-inside-inner-col > .aligncenter{width:100%;}@media all and (max-width: 1024px){.kadence-column7_c09964-a3 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_c09964-a3 > .kt-inside-inner-col{flex-direction:column;}}ul.menu .wp-block-kadence-advancedbtn .kb-btn7_b596d2-82.kb-button{width:initial;}.kadence-column7_58dbc4-56 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_58dbc4-56 > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_58dbc4-56 > .kt-inside-inner-col > .aligncenter{width:100%;}@media all and (max-width: 1024px){.kadence-column7_58dbc4-56 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_58dbc4-56 > .kt-inside-inner-col{flex-direction:column;}}ul.menu .wp-block-kadence-advancedbtn .kb-btn7_8f015d-6a.kb-button{width:initial;}.kb-row-layout-id7_71687f-26 > .kt-row-column-wrap{padding-top:var( --global-kb-row-default-top, var(--global-kb-spacing-sm, 1.5rem) );padding-bottom:var( --global-kb-row-default-bottom, var(--global-kb-spacing-sm, 1.5rem) );grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id7_71687f-26 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column7_411b20-c7 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_411b20-c7 > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_411b20-c7 > .kt-inside-inner-col > .aligncenter{width:100%;}@media all and (max-width: 1024px){.kadence-column7_411b20-c7 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_411b20-c7 > .kt-inside-inner-col{flex-direction:column;}}.kadence-column7_299f0c-9b > .kt-inside-inner-col{padding-top:var(--global-kb-spacing-md, 2rem);padding-right:var(--global-kb-spacing-xl, 4rem);padding-bottom:var(--global-kb-spacing-md, 2rem);padding-left:var(--global-kb-spacing-xl, 4rem);}.kadence-column7_299f0c-9b > .kt-inside-inner-col{min-height:500px;}.kadence-column7_299f0c-9b > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_299f0c-9b > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_299f0c-9b > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column7_299f0c-9b > .kt-inside-inner-col{background-image:url('https://vitalsauna.eu/wp-content/uploads/2024/11/1-min.jpg');background-size:cover;background-position:center center;background-attachment:scroll;background-repeat:no-repeat;}@media all and (max-width: 1024px){.kadence-column7_299f0c-9b > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_299f0c-9b > .kt-inside-inner-col{flex-direction:column;}}.kb-row-layout-id7_ad3a5c-0e > .kt-row-column-wrap{padding-top:var( --global-kb-row-default-top, var(--global-kb-spacing-sm, 1.5rem) );padding-bottom:var( --global-kb-row-default-bottom, var(--global-kb-spacing-sm, 1.5rem) );grid-template-columns:minmax(0, calc(40% - ((var(--kb-default-row-gutter, var(--global-row-gutter-md, 2rem)) * 1 )/2)))minmax(0, calc(60% - ((var(--kb-default-row-gutter, var(--global-row-gutter-md, 2rem)) * 1 )/2)));}@media all and (max-width: 767px){.kb-row-layout-id7_ad3a5c-0e > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column7_8d3ee1-9e > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_8d3ee1-9e > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_8d3ee1-9e > .kt-inside-inner-col > .aligncenter{width:100%;}@media all and (max-width: 1024px){.kadence-column7_8d3ee1-9e > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_8d3ee1-9e > .kt-inside-inner-col{flex-direction:column;}}.kadence-column7_b93436-86 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_b93436-86 > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_b93436-86 > .kt-inside-inner-col > .aligncenter{width:100%;}@media all and (max-width: 1024px){.kadence-column7_b93436-86 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_b93436-86 > .kt-inside-inner-col{flex-direction:column;}}.kb-row-layout-id7_66909b-a8 > .kt-row-column-wrap{column-gap:50px;padding-top:var( --global-kb-row-default-top, var(--global-kb-spacing-sm, 1.5rem) );padding-bottom:var( --global-kb-row-default-bottom, var(--global-kb-spacing-sm, 1.5rem) );grid-template-columns:repeat(2, minmax(0, 1fr));}@media all and (max-width: 1024px){.kb-row-layout-id7_66909b-a8 > .kt-row-column-wrap{grid-template-columns:repeat(2, minmax(0, 1fr));}}@media all and (max-width: 767px){.kb-row-layout-id7_66909b-a8 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column7_a0db3b-a7 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_a0db3b-a7 > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_a0db3b-a7 > .kt-inside-inner-col > .aligncenter{width:100%;}@media all and (max-width: 1024px){.kadence-column7_a0db3b-a7 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_a0db3b-a7 > .kt-inside-inner-col{flex-direction:column;}}.kadence-column7_952ce9-08 > .kt-inside-inner-col{display:flex;}.kadence-column7_952ce9-08 > .kt-inside-inner-col{padding-top:0px;padding-right:var(--global-kb-spacing-xl, 4rem);padding-bottom:0px;padding-left:var(--global-kb-spacing-xl, 4rem);}.kadence-column7_952ce9-08 > .kt-inside-inner-col{min-height:420px;}.kadence-column7_952ce9-08 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_952ce9-08 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}.kadence-column7_952ce9-08 > .kt-inside-inner-col > .aligncenter{width:100%;}.kt-row-column-wrap > .kadence-column7_952ce9-08{align-self:center;}.kt-inner-column-height-full:not(.kt-has-1-columns) > .wp-block-kadence-column.kadence-column7_952ce9-08{align-self:auto;}.kt-inner-column-height-full:not(.kt-has-1-columns) > .wp-block-kadence-column.kadence-column7_952ce9-08 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}.kadence-column7_952ce9-08 > .kt-inside-inner-col{background-color:#f0eeee;}@media all and (max-width: 1024px){.kt-row-column-wrap > .kadence-column7_952ce9-08{align-self:center;}}@media all and (max-width: 1024px){.kt-inner-column-height-full:not(.kt-has-1-columns) > .wp-block-kadence-column.kadence-column7_952ce9-08{align-self:auto;}}@media all and (max-width: 1024px){.kt-inner-column-height-full:not(.kt-has-1-columns) > .wp-block-kadence-column.kadence-column7_952ce9-08 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 1024px){.kadence-column7_952ce9-08 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kt-row-column-wrap > .kadence-column7_952ce9-08{align-self:center;}.kt-inner-column-height-full:not(.kt-has-1-columns) > .wp-block-kadence-column.kadence-column7_952ce9-08{align-self:auto;}.kt-inner-column-height-full:not(.kt-has-1-columns) > .wp-block-kadence-column.kadence-column7_952ce9-08 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}.kadence-column7_952ce9-08 > .kt-inside-inner-col{flex-direction:column;}}.kadence-column7_6308ac-b9 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_6308ac-b9 > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_6308ac-b9 > .kt-inside-inner-col > .aligncenter{width:100%;}@media all and (max-width: 1024px){.kadence-column7_6308ac-b9 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_6308ac-b9 > .kt-inside-inner-col{flex-direction:column;}}.kadence-column7_02b4a7-42 > .kt-inside-inner-col{min-height:420px;}.kadence-column7_02b4a7-42 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_02b4a7-42 > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_02b4a7-42 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column7_02b4a7-42 > .kt-inside-inner-col{background-image:url('https://vitalsauna.eu/wp-content/uploads/2024/11/2-min.jpg');background-size:cover;background-position:center center;background-attachment:scroll;background-repeat:no-repeat;}@media all and (max-width: 1024px){.kadence-column7_02b4a7-42 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_02b4a7-42 > .kt-inside-inner-col{flex-direction:column;}}.kb-row-layout-id7_70a1e8-b0 > .kt-row-column-wrap{column-gap:50px;padding-top:var( --global-kb-row-default-top, var(--global-kb-spacing-sm, 1.5rem) );padding-bottom:var( --global-kb-row-default-bottom, var(--global-kb-spacing-sm, 1.5rem) );grid-template-columns:repeat(2, minmax(0, 1fr));}@media all and (max-width: 1024px){.kb-row-layout-id7_70a1e8-b0 > .kt-row-column-wrap{grid-template-columns:repeat(2, minmax(0, 1fr));}}@media all and (max-width: 767px){.kb-row-layout-id7_70a1e8-b0 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}.kb-row-layout-id7_70a1e8-b0 > .kt-row-column-wrap > .wp-block-kadence-column:nth-of-type(1){order:2;}.kb-row-layout-id7_70a1e8-b0 > .kt-row-column-wrap > .wp-block-kadence-column:nth-of-type(2){order:1;}.kb-row-layout-id7_70a1e8-b0 > .kt-row-column-wrap > .wp-block-kadence-column:nth-of-type(3){order:12;}.kb-row-layout-id7_70a1e8-b0 > .kt-row-column-wrap > .wp-block-kadence-column:nth-of-type(4){order:11;}.kb-row-layout-id7_70a1e8-b0 > .kt-row-column-wrap > .wp-block-kadence-column:nth-of-type(5){order:22;}.kb-row-layout-id7_70a1e8-b0 > .kt-row-column-wrap > .wp-block-kadence-column:nth-of-type(6){order:21;}.kb-row-layout-id7_70a1e8-b0 > .kt-row-column-wrap > .wp-block-kadence-column:nth-of-type(7){order:32;}.kb-row-layout-id7_70a1e8-b0 > .kt-row-column-wrap > .wp-block-kadence-column:nth-of-type(8){order:31;}}.kadence-column7_b22e37-a8 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_b22e37-a8 > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_b22e37-a8 > .kt-inside-inner-col > .aligncenter{width:100%;}@media all and (max-width: 1024px){.kadence-column7_b22e37-a8 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_b22e37-a8 > .kt-inside-inner-col{flex-direction:column;}}.kadence-column7_cdddc9-bf > .kt-inside-inner-col{min-height:420px;}.kadence-column7_cdddc9-bf > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_cdddc9-bf > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_cdddc9-bf > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column7_cdddc9-bf > .kt-inside-inner-col{background-image:url('https://vitalsauna.eu/wp-content/uploads/2024/11/3-min.jpg');background-size:cover;background-position:center center;background-attachment:scroll;background-repeat:no-repeat;}@media all and (max-width: 1024px){.kadence-column7_cdddc9-bf > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_cdddc9-bf > .kt-inside-inner-col{flex-direction:column;}}.kadence-column7_fd0dce-8b > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_fd0dce-8b > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_fd0dce-8b > .kt-inside-inner-col > .aligncenter{width:100%;}@media all and (max-width: 1024px){.kadence-column7_fd0dce-8b > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_fd0dce-8b > .kt-inside-inner-col{flex-direction:column;}}.kadence-column7_cf921b-00 > .kt-inside-inner-col{display:flex;}.kadence-column7_cf921b-00 > .kt-inside-inner-col{padding-top:0px;padding-right:var(--global-kb-spacing-xl, 4rem);padding-bottom:0px;padding-left:var(--global-kb-spacing-xl, 4rem);}.kadence-column7_cf921b-00 > .kt-inside-inner-col{min-height:420px;}.kadence-column7_cf921b-00 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_cf921b-00 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}.kadence-column7_cf921b-00 > .kt-inside-inner-col > .aligncenter{width:100%;}.kt-row-column-wrap > .kadence-column7_cf921b-00{align-self:center;}.kt-inner-column-height-full:not(.kt-has-1-columns) > .wp-block-kadence-column.kadence-column7_cf921b-00{align-self:auto;}.kt-inner-column-height-full:not(.kt-has-1-columns) > .wp-block-kadence-column.kadence-column7_cf921b-00 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}.kadence-column7_cf921b-00 > .kt-inside-inner-col{background-color:#f0eeee;}@media all and (max-width: 1024px){.kt-row-column-wrap > .kadence-column7_cf921b-00{align-self:center;}}@media all and (max-width: 1024px){.kt-inner-column-height-full:not(.kt-has-1-columns) > .wp-block-kadence-column.kadence-column7_cf921b-00{align-self:auto;}}@media all and (max-width: 1024px){.kt-inner-column-height-full:not(.kt-has-1-columns) > .wp-block-kadence-column.kadence-column7_cf921b-00 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 1024px){.kadence-column7_cf921b-00 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kt-row-column-wrap > .kadence-column7_cf921b-00{align-self:center;}.kt-inner-column-height-full:not(.kt-has-1-columns) > .wp-block-kadence-column.kadence-column7_cf921b-00{align-self:auto;}.kt-inner-column-height-full:not(.kt-has-1-columns) > .wp-block-kadence-column.kadence-column7_cf921b-00 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}.kadence-column7_cf921b-00 > .kt-inside-inner-col{flex-direction:column;}}.kb-row-layout-id7_4184d0-2f > .kt-row-column-wrap{column-gap:50px;padding-top:var( --global-kb-row-default-top, var(--global-kb-spacing-sm, 1.5rem) );padding-bottom:var( --global-kb-row-default-bottom, var(--global-kb-spacing-sm, 1.5rem) );grid-template-columns:repeat(2, minmax(0, 1fr));}@media all and (max-width: 1024px){.kb-row-layout-id7_4184d0-2f > .kt-row-column-wrap{grid-template-columns:repeat(2, minmax(0, 1fr));}}@media all and (max-width: 767px){.kb-row-layout-id7_4184d0-2f > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column7_07a912-d1 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_07a912-d1 > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_07a912-d1 > .kt-inside-inner-col > .aligncenter{width:100%;}@media all and (max-width: 1024px){.kadence-column7_07a912-d1 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_07a912-d1 > .kt-inside-inner-col{flex-direction:column;}}.kadence-column7_11e2e3-ba > .kt-inside-inner-col{display:flex;}.kadence-column7_11e2e3-ba > .kt-inside-inner-col{padding-top:0px;padding-right:var(--global-kb-spacing-xl, 4rem);padding-bottom:0px;padding-left:var(--global-kb-spacing-xl, 4rem);}.kadence-column7_11e2e3-ba > .kt-inside-inner-col{min-height:420px;}.kadence-column7_11e2e3-ba > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_11e2e3-ba > .kt-inside-inner-col{flex-direction:column;justify-content:center;}.kadence-column7_11e2e3-ba > .kt-inside-inner-col > .aligncenter{width:100%;}.kt-row-column-wrap > .kadence-column7_11e2e3-ba{align-self:center;}.kt-inner-column-height-full:not(.kt-has-1-columns) > .wp-block-kadence-column.kadence-column7_11e2e3-ba{align-self:auto;}.kt-inner-column-height-full:not(.kt-has-1-columns) > .wp-block-kadence-column.kadence-column7_11e2e3-ba > .kt-inside-inner-col{flex-direction:column;justify-content:center;}.kadence-column7_11e2e3-ba > .kt-inside-inner-col{background-color:#f0eeee;}@media all and (max-width: 1024px){.kt-row-column-wrap > .kadence-column7_11e2e3-ba{align-self:center;}}@media all and (max-width: 1024px){.kt-inner-column-height-full:not(.kt-has-1-columns) > .wp-block-kadence-column.kadence-column7_11e2e3-ba{align-self:auto;}}@media all and (max-width: 1024px){.kt-inner-column-height-full:not(.kt-has-1-columns) > .wp-block-kadence-column.kadence-column7_11e2e3-ba > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 1024px){.kadence-column7_11e2e3-ba > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kt-row-column-wrap > .kadence-column7_11e2e3-ba{align-self:center;}.kt-inner-column-height-full:not(.kt-has-1-columns) > .wp-block-kadence-column.kadence-column7_11e2e3-ba{align-self:auto;}.kt-inner-column-height-full:not(.kt-has-1-columns) > .wp-block-kadence-column.kadence-column7_11e2e3-ba > .kt-inside-inner-col{flex-direction:column;justify-content:center;}.kadence-column7_11e2e3-ba > .kt-inside-inner-col{flex-direction:column;}}.kadence-column7_458f86-4d > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_458f86-4d > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_458f86-4d > .kt-inside-inner-col > .aligncenter{width:100%;}@media all and (max-width: 1024px){.kadence-column7_458f86-4d > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_458f86-4d > .kt-inside-inner-col{flex-direction:column;}}.kadence-column7_e8f667-81 > .kt-inside-inner-col{min-height:420px;}.kadence-column7_e8f667-81 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_e8f667-81 > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_e8f667-81 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column7_e8f667-81 > .kt-inside-inner-col{background-image:url('https://vitalsauna.eu/wp-content/uploads/2024/11/4-min.jpg');background-size:cover;background-position:center center;background-attachment:scroll;background-repeat:no-repeat;}@media all and (max-width: 1024px){.kadence-column7_e8f667-81 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_e8f667-81 > .kt-inside-inner-col{flex-direction:column;}}.kb-row-layout-id7_f34291-16 > .kt-row-column-wrap{column-gap:50px;padding-top:var(--global-kb-spacing-sm, 1.5rem);padding-bottom:var(--global-kb-spacing-lg, 3rem);grid-template-columns:repeat(2, minmax(0, 1fr));}@media all and (max-width: 1024px){.kb-row-layout-id7_f34291-16 > .kt-row-column-wrap{grid-template-columns:repeat(2, minmax(0, 1fr));}}@media all and (max-width: 767px){.kb-row-layout-id7_f34291-16 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}.kb-row-layout-id7_f34291-16 > .kt-row-column-wrap > .wp-block-kadence-column:nth-of-type(1){order:2;}.kb-row-layout-id7_f34291-16 > .kt-row-column-wrap > .wp-block-kadence-column:nth-of-type(2){order:1;}.kb-row-layout-id7_f34291-16 > .kt-row-column-wrap > .wp-block-kadence-column:nth-of-type(3){order:12;}.kb-row-layout-id7_f34291-16 > .kt-row-column-wrap > .wp-block-kadence-column:nth-of-type(4){order:11;}.kb-row-layout-id7_f34291-16 > .kt-row-column-wrap > .wp-block-kadence-column:nth-of-type(5){order:22;}.kb-row-layout-id7_f34291-16 > .kt-row-column-wrap > .wp-block-kadence-column:nth-of-type(6){order:21;}.kb-row-layout-id7_f34291-16 > .kt-row-column-wrap > .wp-block-kadence-column:nth-of-type(7){order:32;}.kb-row-layout-id7_f34291-16 > .kt-row-column-wrap > .wp-block-kadence-column:nth-of-type(8){order:31;}}.kadence-column7_5dd37e-21 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_5dd37e-21 > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_5dd37e-21 > .kt-inside-inner-col > .aligncenter{width:100%;}@media all and (max-width: 1024px){.kadence-column7_5dd37e-21 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_5dd37e-21 > .kt-inside-inner-col{flex-direction:column;}}.kadence-column7_5ecf45-b1 > .kt-inside-inner-col{min-height:420px;}.kadence-column7_5ecf45-b1 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_5ecf45-b1 > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_5ecf45-b1 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column7_5ecf45-b1 > .kt-inside-inner-col{background-image:url('https://vitalsauna.eu/wp-content/uploads/2024/11/5-min.jpg');background-size:cover;background-position:center center;background-attachment:scroll;background-repeat:no-repeat;}@media all and (max-width: 1024px){.kadence-column7_5ecf45-b1 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_5ecf45-b1 > .kt-inside-inner-col{flex-direction:column;}}.kadence-column7_eaa70a-be > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_eaa70a-be > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_eaa70a-be > .kt-inside-inner-col > .aligncenter{width:100%;}@media all and (max-width: 1024px){.kadence-column7_eaa70a-be > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_eaa70a-be > .kt-inside-inner-col{flex-direction:column;}}.kadence-column7_f0baa0-59 > .kt-inside-inner-col{display:flex;}.kadence-column7_f0baa0-59 > .kt-inside-inner-col{padding-top:0px;padding-right:var(--global-kb-spacing-xl, 4rem);padding-bottom:0px;padding-left:var(--global-kb-spacing-xl, 4rem);}.kadence-column7_f0baa0-59 > .kt-inside-inner-col{min-height:420px;}.kadence-column7_f0baa0-59 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_f0baa0-59 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}.kadence-column7_f0baa0-59 > .kt-inside-inner-col > .aligncenter{width:100%;}.kt-row-column-wrap > .kadence-column7_f0baa0-59{align-self:center;}.kt-inner-column-height-full:not(.kt-has-1-columns) > .wp-block-kadence-column.kadence-column7_f0baa0-59{align-self:auto;}.kt-inner-column-height-full:not(.kt-has-1-columns) > .wp-block-kadence-column.kadence-column7_f0baa0-59 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}.kadence-column7_f0baa0-59 > .kt-inside-inner-col{background-color:#f0eeee;}@media all and (max-width: 1024px){.kt-row-column-wrap > .kadence-column7_f0baa0-59{align-self:center;}}@media all and (max-width: 1024px){.kt-inner-column-height-full:not(.kt-has-1-columns) > .wp-block-kadence-column.kadence-column7_f0baa0-59{align-self:auto;}}@media all and (max-width: 1024px){.kt-inner-column-height-full:not(.kt-has-1-columns) > .wp-block-kadence-column.kadence-column7_f0baa0-59 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 1024px){.kadence-column7_f0baa0-59 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kt-row-column-wrap > .kadence-column7_f0baa0-59{align-self:center;}.kt-inner-column-height-full:not(.kt-has-1-columns) > .wp-block-kadence-column.kadence-column7_f0baa0-59{align-self:auto;}.kt-inner-column-height-full:not(.kt-has-1-columns) > .wp-block-kadence-column.kadence-column7_f0baa0-59 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}.kadence-column7_f0baa0-59 > .kt-inside-inner-col{flex-direction:column;}}.kb-row-layout-id7_83b91d-a2 > .kt-row-column-wrap{padding-top:var(--global-kb-spacing-sm, 1.5rem);padding-bottom:var(--global-kb-spacing-xxs, 0.5rem);grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id7_83b91d-a2 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column7_513c17-07 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_513c17-07 > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_513c17-07 > .kt-inside-inner-col > .aligncenter{width:100%;}@media all and (max-width: 1024px){.kadence-column7_513c17-07 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_513c17-07 > .kt-inside-inner-col{flex-direction:column;}}.kb-row-layout-id7_fdc50f-f6 > .kt-row-column-wrap{padding-top:var(--global-kb-spacing-xxs, 0.5rem);padding-bottom:var(--global-kb-spacing-sm, 1.5rem);grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id7_fdc50f-f6 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column7_c983fa-21 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_c983fa-21 > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_c983fa-21 > .kt-inside-inner-col > .aligncenter{width:100%;}@media all and (max-width: 1024px){.kadence-column7_c983fa-21 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_c983fa-21 > .kt-inside-inner-col{flex-direction:column;}}.kt-blocks-testimonials-wrap7_ed7058-8e .kt-testimonial-rating-wrap .kb-svg-icon-wrap{color:#ffd700;font-size:16px;}.kt-blocks-testimonials-wrap7_ed7058-8e .kt-blocks-testimonials-inner-wrap .kt-blocks-carousel-init:not(.splide-initialized):not(.tns-slider) .kb-slide-item{display:none;}.kt-blocks-testimonials-wrap7_ed7058-8e .kt-blocks-testimonials-inner-wrap .kt-blocks-carousel-init:not(.splide-initialized):not(.tns-slider) .kb-slide-item:nth-child(-n+1){padding-left:32px;display:block;float:left;width:calc(100% / 1);}.kt-blocks-testimonials-wrap7_ed7058-8e .kt-blocks-testimonials-inner-wrap .kt-blocks-carousel-init:not(.splide-initialized):not(.tns-slider){margin-left:-32px;}.kt-blocks-testimonials-wrap7_ed7058-8e .kt-testimonial-item-wrap{padding-top:12px;padding-right:12px;padding-bottom:12px;padding-left:12px;}.kt-blocks-testimonials-wrap7_ed7058-8e .kt-testimonial-item-wrap{max-width:700px;}@media all and (max-width: 1024px){.kt-blocks-testimonials-wrap7_ed7058-8e .kt-blocks-testimonials-inner-wrap .kt-blocks-carousel-init:not(.splide-initialized):not(.tns-slider) .kb-slide-item{display:none;}}@media all and (max-width: 1024px){.kt-blocks-testimonials-wrap7_ed7058-8e .kt-blocks-testimonials-inner-wrap .kt-blocks-carousel-init:not(.splide-initialized):not(.tns-slider) .kb-slide-item:nth-child(-n+1){padding-left:32px;display:block;float:left;width:calc(100% / 1);}}@media all and (max-width: 1024px){.kt-blocks-testimonials-wrap7_ed7058-8e .kt-blocks-testimonials-inner-wrap .kt-blocks-carousel-init:not(.splide-initialized):not(.tns-slider){margin-left:-32px;}}@media all and (max-width: 767px){.kt-blocks-testimonials-wrap7_ed7058-8e .kt-blocks-testimonials-inner-wrap .kt-blocks-carousel-init:not(.splide-initialized):not(.tns-slider) .kb-slide-item{display:none;}.kt-blocks-testimonials-wrap7_ed7058-8e .kt-blocks-testimonials-inner-wrap .kt-blocks-carousel-init:not(.splide-initialized):not(.tns-slider) .kb-slide-item:nth-child(-n+1){display:block;float:left;width:calc(100% / 1);padding-left:32px;}.kt-blocks-testimonials-wrap7_ed7058-8e .kt-blocks-testimonials-inner-wrap .kt-blocks-carousel-init:not(.splide-initialized):not(.tns-slider){margin-left:-32px;}}.kb-row-layout-id7_2527ae-65 > .kt-row-column-wrap{padding-top:var(--global-kb-spacing-lg, 3rem);padding-bottom:var(--global-kb-spacing-sm, 1.5rem);grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id7_2527ae-65 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column7_0a36e8-15 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column7_0a36e8-15 > .kt-inside-inner-col{flex-direction:column;}.kadence-column7_0a36e8-15 > .kt-inside-inner-col > .aligncenter{width:100%;}@media all and (max-width: 1024px){.kadence-column7_0a36e8-15 > .kt-inside-inner-col{flex-direction:column;}}@media all and (max-width: 767px){.kadence-column7_0a36e8-15 > .kt-inside-inner-col{flex-direction:column;}}ul.menu .wp-block-kadence-advancedbtn .kb-btn7_eff3dd-6e.kb-button{width:initial;}
+</style>
+<script type="text/javascript" src="https://vitalsauna.eu/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://vitalsauna.eu/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://vitalsauna.eu/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://vitalsauna.eu/wp-json/wp/v2/pages/7" /><link rel='shortlink' href='https://vitalsauna.eu/' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://vitalsauna.eu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvitalsauna.eu%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://vitalsauna.eu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvitalsauna.eu%2F&#038;format=xml" />
+			<style>.cmplz-hidden {
+					display: none !important;
+				}</style><style type="text/css">/** Mega Menu CSS: fs **/</style>
+
+<link rel="stylesheet" type="text/css" href="https://vitalsauna.eu/wp-content/themes/vitalsauna/style.css" /> 
+
+<title>Vital Sauna Producent | Sauna domowa i ogrodowa, łaźnia parowa, jacuzzi</title>
+
+<!-- Facebook Pixel Code -->
+<script type="text/plain" data-service="facebook" data-category="marketing">
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '433580551357757'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+ <img height="1" width="1" src="https://www.facebook.com/tr?id=433580551357757&amp;ev=PageView%0D%0A&amp;noscript=1">
+</noscript>
+<!-- End Facebook Pixel Code -->
+	
+</head>
+
+<body> 
+
+<div id="smi-kulikow">
+	<ul>
+		<li><a href="https://maps.app.goo.gl/2V9EsUWCpLkaC6d76" target="_blank"><img src="https://vitalsauna.eu/wp-content/themes/vitalsauna/images/smslider/gm.svg" alt="google maps" loading="lazy"></a></li>
+		<li><a href="https://www.facebook.com/vitalsaunaeu" target="_blank"><img src="https://vitalsauna.eu/wp-content/themes/vitalsauna/images/smslider/fb.svg" alt="facebook" loading="lazy"></a></li>
+		
+		<li><a href="#" target="_blank"><img src="https://vitalsauna.eu/wp-content/themes/vitalsauna/images/smslider/in.svg" alt="instagram" loading="lazy"></a></li>
+		<li><a href="#" target="_blank"><img src="https://vitalsauna.eu/wp-content/themes/vitalsauna/images/smslider/li.svg" alt="linkedin" loading="lazy"></a></li>
+		<!--
+		<li><a href="#" target="_blank"><img src="https://vitalsauna.eu/wp-content/themes/vitalsauna/images/smslider/tw.svg" alt="twitter" loading="lazy"></a></li>
+		
+		
+		<li><a href="#" target="_blank"><img src="https://vitalsauna.eu/wp-content/themes/vitalsauna/images/smslider/yt.svg" alt="youtube" loading="lazy"></a></li>
+		<li><a href="#" target="_blank"><img src="https://vitalsauna.eu/wp-content/themes/vitalsauna/images/smslider/tk.svg" alt="tiktok" loading="lazy"></a></li>
+		-->
+	</ul>
+</div>
+
+<div id="topsite" >
+	<div class="container">
+		<div id="tsl">
+			<p>
+			<a class="tel" href="tel:+48501652021" title="501 652 021">501 652 021</a>
+			<a class="email" href="mailto:info@vitalsauna.eu" title="info@vitalsauna.eu">info@vitalsauna.eu</a>
+			</p>
+		</div>	
+		<div id="logo">
+		
+		<p><a href="https://vitalsauna.eu" rel="nofollow">
+					<img src="https://vitalsauna.eu/wp-content/themes/vitalsauna/images/logobw.svg" alt="Vital Sauna" title="Vital Sauna" />
+				
+		</a></p>
+			
+		</div>
+			<div id="tsr">
+			  <p>
+				<a href="https://vitalsauna.de/">DE</a>
+				<a href="#" title="Polski" data-gt-lang="pl" class="notranslate glink">PL</a>
+				<a href="#" title="English" data-gt-lang="en" class="notranslate glink">EN</a>  
+			  </p>
+			</div>
+		
+
+		<div id="menu">
+			<div id="mega-menu-wrap-menu" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class="mega-toggle-blocks-left"></div><div class="mega-toggle-blocks-center"></div><div class="mega-toggle-blocks-right"><div class='mega-toggle-block mega-menu-toggle-block mega-toggle-block-1' id='mega-toggle-block-1' tabindex='0'><span class='mega-toggle-label' role='button' aria-expanded='false'><span class='mega-toggle-label-closed'>Menu</span><span class='mega-toggle-label-open'>Menu</span></span></div></div></div><ul id="mega-menu-menu" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="fade_up" data-effect-speed="200" data-effect-mobile="slide_right" data-effect-speed-mobile="200" data-mobile-force-width="false" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="768" data-unbind="true" data-mobile-state="collapse_all" data-mobile-direction="vertical" data-hover-intent-timeout="300" data-hover-intent-interval="100"><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-home mega-current-menu-item mega-page_item mega-page-item-7 mega-current_page_item mega-align-bottom-left mega-menu-flyout mega-menu-item-9" id="mega-menu-item-9"><a class="mega-menu-link" href="https://vitalsauna.eu/" aria-current="page" tabindex="0">Strona główna</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-21" id="mega-menu-item-21"><a class="mega-menu-link" href="https://vitalsauna.eu/oferta/" aria-expanded="false" tabindex="0">Oferta<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-item-662" id="mega-menu-item-662"><a class="mega-menu-link" href="https://vitalsauna.eu/sauny/" aria-expanded="false">SAUNY<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-657" id="mega-menu-item-657"><a class="mega-menu-link" href="https://vitalsauna.eu/sauny-domowe/">SAUNY DOMOWE</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-655" id="mega-menu-item-655"><a class="mega-menu-link" href="https://vitalsauna.eu/sauny-ogrodowe/">SAUNY OGRODOWE</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-653" id="mega-menu-item-653"><a class="mega-menu-link" href="https://vitalsauna.eu/sauna-z-ceremoniami/">SAUNY Z CEREMONIAMI</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-712" id="mega-menu-item-712"><a class="mega-menu-link" href="https://vitalsauna.eu/laznie-parowe/">ŁAŹNIA PAROWA</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-711" id="mega-menu-item-711"><a class="mega-menu-link" href="https://vitalsauna.eu/groty-solne/">GROTA SOLNA</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-710" id="mega-menu-item-710"><a class="mega-menu-link" href="https://vitalsauna.eu/grota-sniezna/">GROTA ŚNIEŻNA</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-714" id="mega-menu-item-714"><a class="mega-menu-link" href="https://vitalsauna.eu/kabiny-ir/">KABINA IR</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1948" id="mega-menu-item-1948"><a class="mega-menu-link" href="https://vitalsauna.eu/wanna-z-hydromazazem/">WANNA Z HYDROMASAŻEM</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-item-713" id="mega-menu-item-713"><a class="mega-menu-link" href="https://vitalsauna.eu/gabinety-beauty/" aria-expanded="false">GABINETY BEAUTY<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-719" id="mega-menu-item-719"><a class="mega-menu-link" href="https://vitalsauna.eu/lozka-do-masazu-i-spa/">ŁÓŻKA DO MASAŻU I SPA</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-718" id="mega-menu-item-718"><a class="mega-menu-link" href="https://vitalsauna.eu/meble/">MEBLE</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-717" id="mega-menu-item-717"><a class="mega-menu-link" href="https://vitalsauna.eu/fotoodmladzanie/">FOTOODMŁADZANIE</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-716" id="mega-menu-item-716"><a class="mega-menu-link" href="https://vitalsauna.eu/sterylizatory-powietrza-promieniami-uv-c/">STERYLIZATORY UV-C</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1682" id="mega-menu-item-1682"><a class="mega-menu-link" href="https://vitalsauna.eu/aquaparki-2/">AQUAPARKI</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-958" id="mega-menu-item-958"><a class="mega-menu-link" href="https://vitalsauna.eu/luksusowe-spa/">LUKSUSOWE SPA</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-754" id="mega-menu-item-754"><a class="mega-menu-link" href="https://vitalsauna.eu/akcesoria-i-wyposazenie/">AKCESORIA I WYPOSAŻENIE</a></li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-22" id="mega-menu-item-22"><a class="mega-menu-link" href="https://vitalsauna.eu/projektowanie-i-doradztwo/" tabindex="0">PROJEKTOWANIE I DORADZTWO</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-23" id="mega-menu-item-23"><a class="mega-menu-link" href="https://vitalsauna.eu/realizacje/" aria-expanded="false" tabindex="0">REALIZACJE<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1406" id="mega-menu-item-1406"><a class="mega-menu-link" href="https://vitalsauna.eu/aquaparki/">Aquaparki</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1408" id="mega-menu-item-1408"><a class="mega-menu-link" href="https://vitalsauna.eu/hotele/">Hotele</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1407" id="mega-menu-item-1407"><a class="mega-menu-link" href="https://vitalsauna.eu/day-spa-fitness/">Day SPA &amp; Fitness</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1430" id="mega-menu-item-1430"><a class="mega-menu-link" href="https://vitalsauna.eu/statki/">Statki</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1458" id="mega-menu-item-1458"><a class="mega-menu-link" href="https://vitalsauna.eu/home-spa/">Home SPA</a></li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-align-bottom-left mega-menu-flyout mega-menu-item-25" id="mega-menu-item-25"><a class="mega-menu-link" href="https://vitalsauna.eu/category/blog/" tabindex="0">Blog</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-24" id="mega-menu-item-24"><a class="mega-menu-link" href="https://vitalsauna.eu/kontakt/" tabindex="0">KONTAKT</a></li><li class="menu-item menu-item-gtranslate menu-item-has-children notranslate"><a href="#" data-gt-lang="pl" class="gt-current-wrapper notranslate">Polski</a><ul class="dropdown-menu sub-menu"><li class="menu-item menu-item-gtranslate-child"><a href="#" data-gt-lang="en" class="notranslate">English</a></li><li class="menu-item menu-item-gtranslate-child"><a href="#" data-gt-lang="pl" class="gt-current-lang notranslate">Polski</a></li></ul></li></ul><button class='mega-close' aria-label='Close'></button></div>		</div>
+	</div>
+</div>
+
+<!-- Slider Desktop -->
+<div id="slider-desktop" class="slider">
+  <div class="slider-inner">
+    <div class="slides">
+          <div class="slide" data-link="">
+        <img src="https://vitalsauna.eu/wp-content/uploads/2024/11/slider-5-desktop-min.jpg" loading="lazy" title="" alt="">
+        <div class="slide-content">
+          <h2 class="slogan"></h2>
+		  <p class="slogan"></p>
+          <a href="" class="read-more-button">Czytaj więcej</a>
+        </div>
+      </div>
+          <div class="slide" data-link="">
+        <img src="https://vitalsauna.eu/wp-content/uploads/2024/11/slider-4-desktop-min.jpg" loading="lazy" title="" alt="">
+        <div class="slide-content">
+          <h2 class="slogan"></h2>
+		  <p class="slogan"></p>
+          <a href="" class="read-more-button">Czytaj więcej</a>
+        </div>
+      </div>
+          <div class="slide" data-link="">
+        <img src="https://vitalsauna.eu/wp-content/uploads/2024/11/slider-3-desktop-min.jpg" loading="lazy" title="" alt="">
+        <div class="slide-content">
+          <h2 class="slogan">Home SPA</h2>
+		  <p class="slogan">Zawsze dobrze jest mieć kogoś kto się nami zaopiekuje pozwól nam zadbać o Ciebie.</p>
+          <a href="" class="read-more-button">Czytaj więcej</a>
+        </div>
+      </div>
+          <div class="slide" data-link="">
+        <img src="https://vitalsauna.eu/wp-content/uploads/2024/11/slider-2-desktop-min.jpg" loading="lazy" title="" alt="">
+        <div class="slide-content">
+          <h2 class="slogan"></h2>
+		  <p class="slogan"></p>
+          <a href="" class="read-more-button">Czytaj więcej</a>
+        </div>
+      </div>
+          <div class="slide" data-link="">
+        <img src="https://vitalsauna.eu/wp-content/uploads/2024/11/slider-1-desktop-min.jpg" loading="lazy" title="" alt="">
+        <div class="slide-content">
+          <h2 class="slogan">Sauny domowe</h2>
+		  <p class="slogan">Kompleksowe doradztwo i projektowanie dla klientów indywidualnych.</p>
+          <a href="" class="read-more-button">Czytaj więcej</a>
+        </div>
+      </div>
+      
+    </div>
+    <button class="slider-prev">&#10094;</button><button class="slider-next">&#10095;</button><div class="slider-dots"></div>
+  </div>
+</div>
+
+<!-- Slider Mobilny -->
+<div id="slider-mobilny" class="slider">
+  <div class="slider-inner">
+    <div class="slides">
+    					
+      <div class="slide" data-link="">
+        <img src="https://vitalsauna.eu/wp-content/uploads/2024/11/slider-5-mobile-min.jpg" loading="lazy" title="" alt="">
+        <div class="slide-content">
+          <h2 class="slogan"></h2>
+          <a href="" class="read-more-button">Czytaj więcej</a>
+        </div>
+      </div>	
+    					
+      <div class="slide" data-link="">
+        <img src="https://vitalsauna.eu/wp-content/uploads/2024/11/slider-4-mobile-min.jpg" loading="lazy" title="" alt="">
+        <div class="slide-content">
+          <h2 class="slogan"></h2>
+          <a href="" class="read-more-button">Czytaj więcej</a>
+        </div>
+      </div>	
+    					
+      <div class="slide" data-link="">
+        <img src="https://vitalsauna.eu/wp-content/uploads/2024/11/slider-3-mobile-min.jpg" loading="lazy" title="" alt="">
+        <div class="slide-content">
+          <h2 class="slogan"></h2>
+          <a href="" class="read-more-button">Czytaj więcej</a>
+        </div>
+      </div>	
+    					
+      <div class="slide" data-link="">
+        <img src="https://vitalsauna.eu/wp-content/uploads/2024/11/slider-2-mobile-min.jpg" loading="lazy" title="" alt="">
+        <div class="slide-content">
+          <h2 class="slogan"></h2>
+          <a href="" class="read-more-button">Czytaj więcej</a>
+        </div>
+      </div>	
+    					
+      <div class="slide" data-link="">
+        <img src="https://vitalsauna.eu/wp-content/uploads/2024/11/slider-1-mobile-min.jpg" loading="lazy" title="" alt="">
+        <div class="slide-content">
+          <h2 class="slogan">Sauny domowe</h2>
+          <a href="" class="read-more-button">Czytaj więcej</a>
+        </div>
+      </div>	
+    	
+    </div>
+    <button class="slider-prev">&#10094;</button><button class="slider-next">&#10095;</button><div class="slider-dots"></div>
+  </div>
+</div>
+
+<script src="https://vitalsauna.eu/wp-content/themes/vitalsauna/js/slider.js"></script>
+
+
+<div class="page_content">
+	<div class="container">
+		<div class="content">
+		
+							<div class="kb-row-layout-wrap kb-row-layout-id7_cbf5c0-17 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-3-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column7_381911-72"><div class="kt-inside-inner-col">
+<div class="wp-block-kadence-column kadence-column7_d97019-c8 kb-section-has-link kb-section-has-overlay"><div class="kt-inside-inner-col"></div><a href="https://vitalsauna.eu/sauny-domowe/" class="kb-section-link-overlay"></a></div>
+
+
+
+<h3 style="text-align: center;">SAUNY DOMOWE NA WYMIAR</h3>
+<p>Projekty Saun domowych, które wykonujemy to zawsze indywidualne rozwiązania i nowoczesne podejście w celu zapewnienia maksymalnego komfortu.<br><br><br></p>
+
+
+
+<div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns7_905d0d-93"><a class="kb-button kt-button button kb-btn7_cc3541-a7 kt-btn-size-standard kt-btn-width-type-auto kb-btn-global-fill kt-btn-has-text-true kt-btn-has-svg-false wp-block-kadence-singlebtn" href="https://vitalsauna.eu/sauny-domowe/"><span class="kt-btn-inner-text">Więcej</span></a></div>
+</div></div>
+
+
+
+<div class="wp-block-kadence-column kadence-column7_d9fc93-42"><div class="kt-inside-inner-col">
+<div class="wp-block-kadence-column kadence-column7_60f6d3-e0 kb-section-has-link kb-section-has-overlay"><div class="kt-inside-inner-col"></div><a href="https://vitalsauna.eu/sauny-ogrodowe/" class="kb-section-link-overlay"></a></div>
+
+
+
+<h3 style="text-align: center;">SAUNY OGRODOWE</h3>
+<p>Sauna ogrodowa to luksus, na który możesz sobie pozwolić nawet jeśli ogranicza Cię przestrzeń domu czy pensjonatu. To doskonały pomysł na podniesienie prestiżu przydomowego ogrodu.<br><br></p>
+
+
+
+<div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns7_3315b4-41"><a class="kb-button kt-button button kb-btn7_ff32f0-a7 kt-btn-size-standard kt-btn-width-type-auto kb-btn-global-fill kt-btn-has-text-true kt-btn-has-svg-false wp-block-kadence-singlebtn" href="https://vitalsauna.eu/sauny-ogrodowe/"><span class="kt-btn-inner-text">Więcej</span></a></div>
+</div></div>
+
+
+
+<div class="wp-block-kadence-column kadence-column7_fe4242-e2"><div class="kt-inside-inner-col">
+<div class="wp-block-kadence-column kadence-column7_d9b155-f3 kb-section-has-link kb-section-has-overlay"><div class="kt-inside-inner-col"></div><a href="https://vitalsauna.eu/sauna-z-ceremoniami/" class="kb-section-link-overlay"></a></div>
+
+
+
+<h3 style="text-align: center;">SAUNY Z CEREMONIAMI</h3>
+<p>Luksusowa rozrywka, która zachwyci Twoich gości. Innowacyjny system grzania sauny – Vital-Sauna „Low energy heating”. Sauny widowiskowe z ceremoniami, oferujące pokazy sauna mistrzów.<br><br></p>
+
+
+
+<div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns7_8c4c35-26"><a class="kb-button kt-button button kb-btn7_b2791a-68 kt-btn-size-standard kt-btn-width-type-auto kb-btn-global-fill kt-btn-has-text-true kt-btn-has-svg-false wp-block-kadence-singlebtn" href="https://vitalsauna.eu/sauna-z-ceremoniami/"><span class="kt-btn-inner-text">Więcej</span></a></div>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-spacer aligncenter kt-block-spacer-7_107d7b-ce"><div class="kt-block-spacer kt-block-spacer-halign-center"><hr class="kt-divider"/></div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id7_97df69-c0 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-3-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column7_8e3151-fb"><div class="kt-inside-inner-col"><div class="wp-block-image">
+<figure class="aligncenter size-full"><img decoding="async" width="100" height="100" src="https://vitalsauna.eu/wp-content/uploads/2024/11/laznie-min.png" alt="" class="wp-image-239"/></figure></div>
+
+
+<h3 style="text-align: center;"><br>ŁAŹNIA PAROWA</h3>
+<p>Odkryj świat naszych łaźni parowych! Odpowiednie do codziennego użytku – zwłaszcza dla tych z nas, którzy nie lubią suchego i gorącego powietrza sauny.<br><br></p>
+
+
+
+<div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns7_a7fa75-89"><a class="kb-button kt-button button kb-btn7_cf5ec0-3c kt-btn-size-standard kt-btn-width-type-auto kb-btn-global-fill kt-btn-has-text-true kt-btn-has-svg-false wp-block-kadence-singlebtn" href="https://vitalsauna.eu/laznie-parowe/"><span class="kt-btn-inner-text">Więcej</span></a></div>
+</div></div>
+
+
+
+<div class="wp-block-kadence-column kadence-column7_ff1fe6-15"><div class="kt-inside-inner-col"><div class="wp-block-image">
+<figure class="aligncenter size-full"><img decoding="async" width="100" height="100" src="https://vitalsauna.eu/wp-content/uploads/2024/11/groty-min.png" alt="" class="wp-image-240"/></figure></div>
+
+
+<h3 style="text-align: center;"><br>GROTA SOLNA</h3>
+<p>Skorzystaj z dobrodziejstw mikroklimatu zbliżonego do nadmorskiego. Czyste powietrze, zjonizowane dzięki soli, odpręża i wspomaga leczenie wielu chorób.<br><br></p>
+
+
+
+<div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns7_1e2e1e-35"><a class="kb-button kt-button button kb-btn7_155fcc-a9 kt-btn-size-standard kt-btn-width-type-auto kb-btn-global-fill kt-btn-has-text-true kt-btn-has-svg-false wp-block-kadence-singlebtn" href="https://vitalsauna.eu/groty-solne/"><span class="kt-btn-inner-text">Więcej</span></a></div>
+</div></div>
+
+
+
+<div class="wp-block-kadence-column kadence-column7_63a26e-7d"><div class="kt-inside-inner-col"><div class="wp-block-image">
+<figure class="aligncenter size-full"><img decoding="async" width="100" height="100" src="https://vitalsauna.eu/wp-content/uploads/2024/11/groty-sniezne-min-1.png" alt="" class="wp-image-241"/></figure></div>
+
+
+<h3 style="text-align: center;"><br>GROTA ŚNIEŻNA</h3>
+<p>Coś dla kochających zimno, odważnych i chcących się wzmocnić! Hipotermię dla zmniejszenia bólu, krwawienia i obrzęków zalecał już Hipokrates.<br><br></p>
+
+
+
+<div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns7_9938c1-a9"><a class="kb-button kt-button button kb-btn7_9da751-1f kt-btn-size-standard kt-btn-width-type-auto kb-btn-global-fill kt-btn-has-text-true kt-btn-has-svg-false wp-block-kadence-singlebtn" href="https://vitalsauna.eu/grota-sniezna/"><span class="kt-btn-inner-text">Więcej</span></a></div>
+</div></div>
+
+</div></div>
+
+<div class="kb-row-layout-wrap kb-row-layout-id7_14740d-3e alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-3-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column7_bbec19-16"><div class="kt-inside-inner-col"><div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="100" height="100" src="https://vitalsauna.eu/wp-content/uploads/2024/11/kabiny-ir-min-1.png" alt="" class="wp-image-235"/></figure></div>
+
+
+<h3 style="text-align: center;"><br>KABINA IR</h3>
+<p>Wszyscy potrzebujemy promieni słonecznych. Poznaj prozdrowotne właściwości kabiny IR, która zapewni ci dostęp do nich o każdej porze roku i dnia.<br><br><br></p>
+
+
+
+<div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns7_8c197f-29"><a class="kb-button kt-button button kb-btn7_e38426-76 kt-btn-size-standard kt-btn-width-type-auto kb-btn-global-fill kt-btn-has-text-true kt-btn-has-svg-false wp-block-kadence-singlebtn" href="https://vitalsauna.eu/kabiny-ir/"><span class="kt-btn-inner-text">Więcej</span></a></div>
+</div></div>
+
+
+
+<div class="wp-block-kadence-column kadence-column7_c09964-a3"><div class="kt-inside-inner-col"><div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="100" height="100" src="https://vitalsauna.eu/wp-content/uploads/2024/11/gabinety-beauty-min-1.png" alt="" class="wp-image-236"/></figure></div>
+
+
+<h3 style="text-align: center;"><br>GABINETY BEAUTY</h3>
+<p>Design i funkcjonalność w każdym detalu, aby poprawić nastrój i samopoczucie Twoich klientów. Poznaj wyjątkową ofertę mebli oraz wyposażenia dla gabinetów beauty.<br><br></p>
+
+
+
+<div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns7_49a39d-3d"><a class="kb-button kt-button button kb-btn7_b596d2-82 kt-btn-size-standard kt-btn-width-type-auto kb-btn-global-fill kt-btn-has-text-true kt-btn-has-svg-false wp-block-kadence-singlebtn" href="https://vitalsauna.eu/gabinety-beauty/"><span class="kt-btn-inner-text">Więcej</span></a></div>
+</div></div>
+
+
+
+<div class="wp-block-kadence-column kadence-column7_58dbc4-56"><div class="kt-inside-inner-col"><div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="100" height="100" src="https://vitalsauna.eu/wp-content/uploads/2024/11/aquaparki-min-1.png" alt="" class="wp-image-237"/></figure></div>
+
+
+<h3 style="text-align: center;"><br>AQUAPARKI</h3>
+<p>Specjalizujemy się w kompleksowym projektowaniu i wyposażaniu aquaparków w sauny, kabiny iR, łaźnie, groty solne, groty śnieżne, baseny, wypoczywalnie oraz gabinety beauty.<br><br></p>
+
+
+
+<div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns7_add26e-5a"><a class="kb-button kt-button button kb-btn7_8f015d-6a kt-btn-size-standard kt-btn-width-type-auto kb-btn-global-fill kt-btn-has-text-true kt-btn-has-svg-false wp-block-kadence-singlebtn" href="https://vitalsauna.eu/aquaparki-2/"><span class="kt-btn-inner-text">Więcej</span></a></div>
+</div></div>
+
+</div></div>
+
+<div class="kb-row-layout-wrap kb-row-layout-id7_71687f-26 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column7_411b20-c7"><div class="kt-inside-inner-col">
+<div class="wp-block-kadence-column kadence-column7_299f0c-9b"><div class="kt-inside-inner-col"><div class="kb-row-layout-wrap kb-row-layout-id7_ad3a5c-0e alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-2-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column7_8d3ee1-9e"><div class="kt-inside-inner-col">
+<h3><span style="color: #ffffff;">Jeżeli szukasz dobrego sposobu </span><span style="color: #ffffff;">na odprężenie się, na relaks po ciężkim </span><span style="color: #ffffff;">dniu – sauna jest tym, czego Ci potrzeba!</span></h3>
+<p><span style="color: #ffffff;"><br>Skorzystaj z naszego ponad 30 letniego doświadczenia. Doradzamy, produkujemy i budujemy sauny i kompleksy SPA, służąc naszym klientom produktami najwyższej jakości. Jesteśmy europejskim liderem w produkcji ekskluzywnych saun.</span></p>
+<p><span style="color: #ffffff;"><br>Przekonaj się, że mamy dla dla Ciebie najlepszy wybór produktów niezależnie od tego czy szukasz kompaktowej i stylowej sauny domowej “na wymiar” czy jesteś inwestorem planującym podnieść prestiż hotelowego SPA lub wybudować unikatowy i zachwycający gości aquapark.</span></p>
+</div></div>
+
+
+
+<div class="wp-block-kadence-column kadence-column7_b93436-86"><div class="kt-inside-inner-col"></div></div>
+
+</div></div></div></div>
+</div></div>
+
+</div></div>
+
+<div class="kb-row-layout-wrap kb-row-layout-id7_66909b-a8 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-2-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column7_a0db3b-a7"><div class="kt-inside-inner-col">
+<div class="wp-block-kadence-column kadence-column7_952ce9-08"><div class="kt-inside-inner-col"><div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="86" height="97" src="https://vitalsauna.eu/wp-content/uploads/2024/11/innowacje-min.png" alt="" class="wp-image-191"/></figure></div>
+
+
+<h3 style="text-align: center;"><br>INNOWACJE</h3>
+<p style="text-align: center;">Łączymy tradycję i rzemieślniczą solidność z najnowszymi technologiami. Prowadzimy własne prace badawcze. Opracowaliśmy system grzania sauny – Vital-Sauna „Low energy heating”.</p>
+</div></div>
+</div></div>
+
+
+
+<div class="wp-block-kadence-column kadence-column7_6308ac-b9"><div class="kt-inside-inner-col">
+<div class="wp-block-kadence-column kadence-column7_02b4a7-42"><div class="kt-inside-inner-col"></div></div>
+</div></div>
+
+</div></div>
+
+<div class="kb-row-layout-wrap kb-row-layout-id7_70a1e8-b0 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-2-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column7_b22e37-a8"><div class="kt-inside-inner-col">
+<div class="wp-block-kadence-column kadence-column7_cdddc9-bf"><div class="kt-inside-inner-col"></div></div>
+</div></div>
+
+
+
+<div class="wp-block-kadence-column kadence-column7_fd0dce-8b"><div class="kt-inside-inner-col">
+<div class="wp-block-kadence-column kadence-column7_cf921b-00"><div class="kt-inside-inner-col"><div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="80" height="79" src="https://vitalsauna.eu/wp-content/uploads/2024/11/design-min.png" alt="" class="wp-image-200"/></figure></div>
+
+
+<h3 style="text-align: center;"><br>DESIGN</h3>
+<p style="text-align: center;">Wyprzedzamy Twoje marzenia! Nasi architekci tworzą koncepcje, które inspirują klientów. Dzięki profesjonalnym wizualizacjom możesz w pełni ocenić jak wyglądać będzie efekt finalny.</p>
+</div></div>
+</div></div>
+
+</div></div>
+
+<div class="kb-row-layout-wrap kb-row-layout-id7_4184d0-2f alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-2-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column7_07a912-d1"><div class="kt-inside-inner-col">
+<div class="wp-block-kadence-column kadence-column7_11e2e3-ba"><div class="kt-inside-inner-col"><div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="82" height="95" src="https://vitalsauna.eu/wp-content/uploads/2024/11/historia-min.png" alt="" class="wp-image-202"/></figure></div>
+
+
+<h3 style="text-align: center;"><br>HISTORIA</h3>
+<p style="text-align: center;">Od 1990 roku służymy produktami najwyższej jakości, które znalazły swoje miejsce w dziesiątkach renomowanych hoteli i centrów SPA, tak w Europie jaki i na świecie. Co najważniejsze – cieszą także liczne grono użytkowników prywatnych.</p>
+</div></div>
+</div></div>
+
+
+
+<div class="wp-block-kadence-column kadence-column7_458f86-4d"><div class="kt-inside-inner-col">
+<div class="wp-block-kadence-column kadence-column7_e8f667-81"><div class="kt-inside-inner-col"></div></div>
+</div></div>
+
+</div></div>
+
+<div class="kb-row-layout-wrap kb-row-layout-id7_f34291-16 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-2-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column7_5dd37e-21"><div class="kt-inside-inner-col">
+<div class="wp-block-kadence-column kadence-column7_5ecf45-b1"><div class="kt-inside-inner-col"></div></div>
+</div></div>
+
+
+
+<div class="wp-block-kadence-column kadence-column7_eaa70a-be"><div class="kt-inside-inner-col">
+<div class="wp-block-kadence-column kadence-column7_f0baa0-59"><div class="kt-inside-inner-col"><div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="80" height="77" src="https://vitalsauna.eu/wp-content/uploads/2024/11/luksus-min.png" alt="" class="wp-image-206"/></figure></div>
+
+
+<h3 style="text-align: center;"><br>LUKSUS</h3>
+<p style="text-align: center;">Tworzymy indywidualne projekty o unikatowym stylu. Realizujemy je precyzyjnie z materiałów wysokiej jakości. Wszystko po to, aby wykreować luksusową strefę komfortu, na którą możesz sobie pozwolić.</p>
+</div></div>
+</div></div>
+
+</div></div>
+
+<div class="kb-row-layout-wrap kb-row-layout-id7_83b91d-a2 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column7_513c17-07"><div class="kt-inside-inner-col">
+<h2 style="text-align: center;">SPRAWDŹ, CO MÓWIĄ NASI KLIENCI<br><br></h2>
+<p><img loading="lazy" decoding="async" class="size-full wp-image-210 aligncenter" src="https://vitalsauna.eu/wp-content/uploads/2024/11/cudzyslow.png" alt="" width="60" height="47"></p>
+</div></div>
+
+</div></div>
+
+<div class="kb-row-layout-wrap kb-row-layout-id7_fdc50f-f6 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column7_c983fa-21"><div class="kt-inside-inner-col"><div class="kt-blocks-testimonials-wrap7_ed7058-8e kt-testimonial-halign-center kt-testimonial-style-basic kt-testimonials-media-off kt-testimonials-icon-off kt-testimonial-columns-1 kt-t-xxl-col-1 kt-t-xl-col-1 kt-t-lg-col-1 kt-t-md-col-1 kt-t-sm-col-1 kt-t-xs-col-1 wp-block-kadence-testimonials"><div class="kt-blocks-testimonials-inner-wrap kt-blocks-carousel kt-carousel-container-dotstyle-dark kt-carousel-container-arrowstyle-blackonlight"><div class="kt-blocks-carousel-init kb-gallery-carousel kt-carousel-arrowstyle-blackonlight kt-carousel-dotstyle-dark" data-columns-xxl="1" data-columns-xl="1" data-columns-md="1" data-columns-sm="1" data-columns-xs="1" data-columns-ss="1" data-slider-anim-speed="400" data-slider-scroll="1" data-slider-type="loop" data-slider-arrows="true" data-slider-dots="true" data-slider-hover-pause="false" data-slider-auto="" data-slider-speed="7000" data-slider-gap="var(--global-kb-spacing-md, 2rem)" data-slider-gap-tablet="var(--global-kb-spacing-md, 2rem)" data-slider-gap-mobile="var(--global-kb-spacing-md, 2rem)">
+<div class="kt-blocks-testimonial-carousel-item kb-slide-item"><div class="kt-testimonial-item-wrap kt-testimonial-item-7_8f14e9-ec wp-block-kadence-testimonial"><div class="kt-testimonial-text-wrap"><div class="kt-testimonial-title-wrap"><h2 class="kt-testimonial-title"></h2></div><div class="kt-testimonial-content-wrap"><div class="kt-testimonial-content">Jesteśmy niezwykle zadowoleni z wykonania projektu sauny powierzonego firmie Vital-Sauna. Jest on niepowtarzalny i wyjątkowy. Firmę cechują wysokie kompetencje, doświadczenie, zaangażowanie oraz indywidualne podejście do klienta.<br></div></div></div><div class="kt-testimonial-meta-wrap"><div class="kt-testimonial-meta-name-wrap"><div class="kt-testimonial-name-wrap"><div class="kt-testimonial-name"><strong>Prezes Zarządu, </strong></div></div><div class="kt-testimonial-occupation-wrap"><div class="kt-testimonial-occupation"><strong>Park Hotel</strong></div></div></div></div></div></div>
+
+<div class="kt-blocks-testimonial-carousel-item kb-slide-item"><div class="kt-testimonial-item-wrap kt-testimonial-item-7_9e589b-85 wp-block-kadence-testimonial"><div class="kt-testimonial-text-wrap"><div class="kt-testimonial-title-wrap"><h2 class="kt-testimonial-title"></h2></div><div class="kt-testimonial-content-wrap"><div class="kt-testimonial-content">Wykonanie, dotrzymanie terminu realizacji oraz fachowość pozwalają nam rekomendować firmę jako wykwalifikowanego partnera dbającego o wysoki poziom obsługi klienta.<br></div></div></div><div class="kt-testimonial-meta-wrap"><div class="kt-testimonial-meta-name-wrap"><div class="kt-testimonial-name-wrap"><div class="kt-testimonial-name"><strong>Dyrektor Ośrodka Sportu i Rekreacji w Stargardzie Szczecińskim</strong></div></div><div class="kt-testimonial-occupation-wrap"><div class="kt-testimonial-occupation"></div></div></div></div></div></div>
+
+<div class="kt-blocks-testimonial-carousel-item kb-slide-item"><div class="kt-testimonial-item-wrap kt-testimonial-item-7_135176-9f wp-block-kadence-testimonial"><div class="kt-testimonial-text-wrap"><div class="kt-testimonial-title-wrap"><h2 class="kt-testimonial-title"></h2></div><div class="kt-testimonial-content-wrap"><div class="kt-testimonial-content">Wszystkie prace podczas zamówienia oraz montażu saun w Ośrodku Kormoran w pensjonacie Delfin zostały wykonane rzetelnie i terminowo. Pracownicy firmy wykazali się pełnym profesjonalizmem w podejściu do wykonywanych czynności. Vital-Sauna jest firmą godną zaufania.<br></div></div></div><div class="kt-testimonial-meta-wrap"><div class="kt-testimonial-meta-name-wrap"><div class="kt-testimonial-name-wrap"><div class="kt-testimonial-name"><strong>Ośrodek Kormoran</strong></div></div><div class="kt-testimonial-occupation-wrap"><div class="kt-testimonial-occupation"></div></div></div></div></div></div>
+
+<div class="kt-blocks-testimonial-carousel-item kb-slide-item"><div class="kt-testimonial-item-wrap kt-testimonial-item-7_4cba36-a8 wp-block-kadence-testimonial"><div class="kt-testimonial-text-wrap"><div class="kt-testimonial-title-wrap"><h2 class="kt-testimonial-title"></h2></div><div class="kt-testimonial-content-wrap"><div class="kt-testimonial-content">Uważam firmę Vital-Sauna, ze względu na pozytywne efekty naszej współpracy, za godną polecenia.<br></div></div></div><div class="kt-testimonial-meta-wrap"><div class="kt-testimonial-meta-name-wrap"><div class="kt-testimonial-name-wrap"><div class="kt-testimonial-name"><strong>V-ce Prezes Zarządu, Centrum Sportowo-rehabilitacyjne Słowianka.</strong></div></div><div class="kt-testimonial-occupation-wrap"><div class="kt-testimonial-occupation"></div></div></div></div></div></div>
+</div></div></div></div></div>
+
+</div></div>
+
+<div class="kb-row-layout-wrap kb-row-layout-id7_2527ae-65 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column7_0a36e8-15"><div class="kt-inside-inner-col">
+<figure class="wp-block-image size-full"><a href="https://www.youtube.com/watch?v=93C6EsAG18M"><img loading="lazy" decoding="async" width="1600" height="713" src="https://vitalsauna.eu/wp-content/uploads/2024/11/film-2-min-1.jpg" alt="" class="wp-image-1031" srcset="https://vitalsauna.eu/wp-content/uploads/2024/11/film-2-min-1.jpg 1600w, https://vitalsauna.eu/wp-content/uploads/2024/11/film-2-min-1-300x134.jpg 300w, https://vitalsauna.eu/wp-content/uploads/2024/11/film-2-min-1-1024x456.jpg 1024w, https://vitalsauna.eu/wp-content/uploads/2024/11/film-2-min-1-768x342.jpg 768w, https://vitalsauna.eu/wp-content/uploads/2024/11/film-2-min-1-1536x684.jpg 1536w" sizes="auto, (max-width: 1600px) 100vw, 1600px" /></a></figure>
+</div></div>
+
+</div></div>
+
+
+<h3 style="text-align: center;">Projektowanie – Produkcja – Wykonawstwo.<br />Zainspiruj się naszymi realizacjami.<br /><br /></h3>
+
+
+
+<div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns7_039655-c3"><span class="kb-button kt-button button kb-btn7_eff3dd-6e kt-btn-size-standard kt-btn-width-type-auto kb-btn-global-fill kt-btn-has-text-true kt-btn-has-svg-false wp-block-kadence-singlebtn"><span class="kt-btn-inner-text">Zobacz realizacje</span></span></div>
+							
+		</div>
+	</div>
+</div>
+
+
+<div class="page_content" style="background: #f0eeee;">
+	<div class="container">
+		<div class="content">
+			
+<h2><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1797 aligncenter" src="https://vitalsauna.eu/wp-content/uploads/2024/12/txt-min.png" alt="" width="50" height="45" /></h2>
+<h2 style="text-align: center;">Kontakt w sprawie oferty<br /><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1516" src="https://vitalsauna.eu/wp-content/uploads/2024/12/kreska-min.png" alt="" width="100" height="3" /></h2>
+<p style="text-align: center;">Napisz maila lub zadzwoń do Vital-Sauna w spraie oferty:</p>
+<p style="text-align: center;">info@vitalsauna.eu</p>
+<p style="text-align: center;">Telefon: +48 501 652 021<br /> </p>
+		</div>
+	</div>
+</div>
+
+
+<div id="footerbg">
+	<div class="container">
+	
+	<div class="footer_logo">
+		<p><img src="https://vitalsauna.eu/wp-content/themes/vitalsauna/images/logo.svg" alt="Vital Sauna" title="Vital Sauna" /></p>
+	</div>	
+	
+	<div id="footer">
+	
+
+		<div class="footer_column">
+		
+			<h5>Oferta</h5>
+			<ul id="menu-menu-dolne-1" class="menu"><li id="menu-item-1802" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1802"><a href="https://vitalsauna.eu/sauny-domowe/">Sauny domowe</a></li>
+<li id="menu-item-1803" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1803"><a href="https://vitalsauna.eu/sauny-ogrodowe/">Sauny ogrodowe</a></li>
+<li id="menu-item-1804" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1804"><a href="https://vitalsauna.eu/sauna-z-ceremoniami/">Sauny z ceremoniami</a></li>
+<li id="menu-item-1805" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1805"><a href="https://vitalsauna.eu/laznie-parowe/">Łaźnia parowa</a></li>
+<li id="menu-item-1806" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1806"><a href="https://vitalsauna.eu/groty-solne/">Grota solna</a></li>
+<li id="menu-item-1807" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1807"><a href="https://vitalsauna.eu/kabiny-ir/">Kabina IR</a></li>
+<li id="menu-item-1808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1808"><a href="https://vitalsauna.eu/grota-sniezna/">Grota śnieżna</a></li>
+</ul>		</div>	
+		
+		<div class="footer_column">
+			<ul id="menu-menu-dolne-2" class="menu"><li id="menu-item-1814" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1814"><a href="https://vitalsauna.eu/aquaparki-2/">Aquaparki</a></li>
+<li id="menu-item-1811" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1811"><a href="https://vitalsauna.eu/gabinety-beauty/">Gabiety beauty</a></li>
+<li id="menu-item-1812" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1812"><a href="https://vitalsauna.eu/luksusowe-spa/">Luksusowe SPA</a></li>
+<li id="menu-item-1813" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1813"><a href="https://vitalsauna.eu/akcesoria-i-wyposazenie/">Akcesoria i wyposażenie</a></li>
+</ul>		</div>	
+		
+		<div class="footer_column">
+			<ul id="menu-menu-dolne-3" class="menu"><li id="menu-item-1816" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1816"><a href="https://vitalsauna.eu/realizacje/">Realizacje</a></li>
+<li id="menu-item-1818" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1818"><a href="https://vitalsauna.eu/projektowanie-i-doradztwo/">Projektowanie i doradztwo</a></li>
+<li id="menu-item-1819" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1819"><a href="https://vitalsauna.eu/category/blog/">Blog</a></li>
+<li id="menu-item-1820" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1820"><a href="https://vitalsauna.eu/kontakt/">Kontakt</a></li>
+</ul>		</div>	
+		
+		<div class="footer_column">
+			<h5>Sprawy prawne</h5>
+			<ul>
+				<li><a href="https://vitalsauna.eu/polityka-prywatnosci/">Poltyka prywatności</a></li>
+				<li><a href="https://vitalsauna.eu/polityka-cookies/">Poltyka cookies</a></li>
+			
+			</ul>
+			<br />
+			<h5>Katalogi</h5>
+			<ul>
+				<li><a href="https://vitalsauna.eu/do-pobrania/">Do pobrania</a></li>
+			</ul>
+			
+			
+		</div>			
+		
+	</div>
+	
+	</div>
+</div>
+
+<div id="footerauth">
+	<div class="container">
+		<p style="float: left;">&copy; 2024 VITAL SAUNA. Wszystkie prawa zastrzeżone.	</p>
+		<p style="float: right;">Realizacja: <a href="https://www.kulikowski-it.pl">KULIKOWSKI-IT.pl</a> <a href="https://www.kulikowski-it.pl">Strony internetowe Szczecin</a></p>
+	</div>
+</div>
+	
+	
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/vitalsauna\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+
+<!-- Consent Management powered by Complianz | GDPR/CCPA Cookie Consent https://wordpress.org/plugins/complianz-gdpr -->
+<div id="cmplz-cookiebanner-container"><div class="cmplz-cookiebanner cmplz-hidden banner-1 baner-a optin cmplz-bottom-right cmplz-categories-type-view-preferences" aria-modal="true" data-nosnippet="true" role="dialog" aria-live="polite" aria-labelledby="cmplz-header-1-optin" aria-describedby="cmplz-message-1-optin">
+	<div class="cmplz-header">
+		<div class="cmplz-logo"></div>
+		<div class="cmplz-title" id="cmplz-header-1-optin">Zarządzaj zgodą</div>
+		<div class="cmplz-close" tabindex="0" role="button" aria-label="Zamknij okienko">
+			<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+		</div>
+	</div>
+
+	<div class="cmplz-divider cmplz-divider-header"></div>
+	<div class="cmplz-body">
+		<div class="cmplz-message" id="cmplz-message-1-optin">Aby zapewnić jak najlepsze wrażenia, korzystamy z technologii, takich jak pliki cookie, do przechowywania i/lub uzyskiwania dostępu do informacji o urządzeniu. Zgoda na te technologie pozwoli nam przetwarzać dane, takie jak zachowanie podczas przeglądania lub unikalne identyfikatory na tej stronie. Brak wyrażenia zgody lub wycofanie zgody może niekorzystnie wpłynąć na niektóre cechy i funkcje.</div>
+		<!-- categories start -->
+		<div class="cmplz-categories">
+			<details class="cmplz-category cmplz-functional" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Funkcjonalne</span>
+							<span class='cmplz-always-active'>
+								<span class="cmplz-banner-checkbox">
+									<input type="checkbox"
+										   id="cmplz-functional-optin"
+										   data-category="cmplz_functional"
+										   class="cmplz-consent-checkbox cmplz-functional"
+										   size="40"
+										   value="1"/>
+									<label class="cmplz-label" for="cmplz-functional-optin" tabindex="0"><span class="screen-reader-text">Funkcjonalne</span></label>
+								</span>
+								Zawsze aktywne							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-functional">Przechowywanie lub dostęp do danych technicznych jest ściśle konieczny do uzasadnionego celu umożliwienia korzystania z konkretnej usługi wyraźnie żądanej przez subskrybenta lub użytkownika, lub wyłącznie w celu przeprowadzenia transmisji komunikatu przez sieć łączności elektronicznej.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-preferences" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Preferencje</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-preferences-optin"
+									   data-category="cmplz_preferences"
+									   class="cmplz-consent-checkbox cmplz-preferences"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-preferences-optin" tabindex="0"><span class="screen-reader-text">Preferencje</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-preferences">Przechowywanie lub dostęp techniczny jest niezbędny do uzasadnionego celu przechowywania preferencji, o które nie prosi subskrybent lub użytkownik.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-statistics" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Statystyka</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-statistics-optin"
+									   data-category="cmplz_statistics"
+									   class="cmplz-consent-checkbox cmplz-statistics"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-statistics-optin" tabindex="0"><span class="screen-reader-text">Statystyka</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-statistics">Przechowywanie techniczne lub dostęp, który jest używany wyłącznie do celów statystycznych.</span>
+					<span class="cmplz-description-statistics-anonymous">Przechowywanie techniczne lub dostęp, który jest używany wyłącznie do anonimowych celów statystycznych. Bez wezwania do sądu, dobrowolnego podporządkowania się dostawcy usług internetowych lub dodatkowych zapisów od strony trzeciej, informacje przechowywane lub pobierane wyłącznie w tym celu zwykle nie mogą być wykorzystywane do identyfikacji użytkownika.</span>
+				</div>
+			</details>
+			<details class="cmplz-category cmplz-marketing" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Marketing</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-marketing-optin"
+									   data-category="cmplz_marketing"
+									   class="cmplz-consent-checkbox cmplz-marketing"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-marketing-optin" tabindex="0"><span class="screen-reader-text">Marketing</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-marketing">Przechowywanie lub dostęp techniczny jest wymagany do tworzenia profili użytkowników w celu wysyłania reklam lub śledzenia użytkownika na stronie internetowej lub na kilku stronach internetowych w podobnych celach marketingowych.</span>
+				</div>
+			</details>
+		</div><!-- categories end -->
+			</div>
+
+	<div class="cmplz-links cmplz-information">
+		<a class="cmplz-link cmplz-manage-options cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Zarządzaj opcjami</a>
+		<a class="cmplz-link cmplz-manage-third-parties cookie-statement" href="#" data-relative_url="#cmplz-cookies-overview">Zarządzaj serwisami</a>
+		<a class="cmplz-link cmplz-manage-vendors tcf cookie-statement" href="#" data-relative_url="#cmplz-tcf-wrapper">Zarządzaj {vendor_count} dostawcami</a>
+		<a class="cmplz-link cmplz-external cmplz-read-more-purposes tcf" target="_blank" rel="noopener noreferrer nofollow" href="https://cookiedatabase.org/tcf/purposes/">Przeczytaj więcej o tych celach</a>
+			</div>
+
+	<div class="cmplz-divider cmplz-footer"></div>
+
+	<div class="cmplz-buttons">
+		<button class="cmplz-btn cmplz-accept">Akceptuję</button>
+		<button class="cmplz-btn cmplz-deny">Odmów</button>
+		<button class="cmplz-btn cmplz-view-preferences">Zobacz preferencje</button>
+		<button class="cmplz-btn cmplz-save-preferences">Zapisz preferencje</button>
+		<a class="cmplz-btn cmplz-manage-options tcf cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Zobacz preferencje</a>
+			</div>
+
+	<div class="cmplz-links cmplz-documents">
+		<a class="cmplz-link cookie-statement" href="#" data-relative_url="">{title}</a>
+		<a class="cmplz-link privacy-statement" href="#" data-relative_url="">{title}</a>
+		<a class="cmplz-link impressum" href="#" data-relative_url="">{title}</a>
+			</div>
+
+</div>
+</div>
+					<div id="cmplz-manage-consent" data-nosnippet="true"><button class="cmplz-btn cmplz-hidden cmplz-manage-consent manage-consent-1">Zarządzaj zgodą</button>
+
+</div><script type="text/javascript" src="https://vitalsauna.eu/wp-content/plugins/kadence-blocks/includes/assets/js/splide.min.js?ver=3.5.9" id="kad-splide-js"></script>
+<script type="text/javascript" id="kadence-blocks-splide-init-js-extra">
+/* <![CDATA[ */
+var kb_splide = {"i18n":{"prev":"Poprzedni slajd","next":"Nast\u0119pny slajd","first":"Przejd\u017a do pierwszego slajdu","last":"Przejd\u017a do ostatniego slajdu","slideX":"Przejd\u017a do slajdu %s","pageX":"Przejd\u017a do strony %s","play":"Rozpocznij auto odtwarzanie","pause":"Wstrzymaj auto odtwarzanie","carousel":"karuzela","slide":"slajd","select":"Wybierz slajd do pokazania","slideLabel":"%s z %s"}};
+var kb_splide = {"i18n":{"prev":"Poprzedni slajd","next":"Nast\u0119pny slajd","first":"Przejd\u017a do pierwszego slajdu","last":"Przejd\u017a do ostatniego slajdu","slideX":"Przejd\u017a do slajdu %s","pageX":"Przejd\u017a do strony %s","play":"Rozpocznij auto odtwarzanie","pause":"Wstrzymaj auto odtwarzanie","carousel":"karuzela","slide":"slajd","select":"Wybierz slajd do pokazania","slideLabel":"%s z %s"}};
+var kb_splide = {"i18n":{"prev":"Poprzedni slajd","next":"Nast\u0119pny slajd","first":"Przejd\u017a do pierwszego slajdu","last":"Przejd\u017a do ostatniego slajdu","slideX":"Przejd\u017a do slajdu %s","pageX":"Przejd\u017a do strony %s","play":"Rozpocznij auto odtwarzanie","pause":"Wstrzymaj auto odtwarzanie","carousel":"karuzela","slide":"slajd","select":"Wybierz slajd do pokazania","slideLabel":"%s z %s"}};
+var kb_splide = {"i18n":{"prev":"Poprzedni slajd","next":"Nast\u0119pny slajd","first":"Przejd\u017a do pierwszego slajdu","last":"Przejd\u017a do ostatniego slajdu","slideX":"Przejd\u017a do slajdu %s","pageX":"Przejd\u017a do strony %s","play":"Rozpocznij auto odtwarzanie","pause":"Wstrzymaj auto odtwarzanie","carousel":"karuzela","slide":"slajd","select":"Wybierz slajd do pokazania","slideLabel":"%s z %s"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vitalsauna.eu/wp-content/plugins/kadence-blocks/includes/assets/js/kb-splide-init.min.js?ver=3.5.9" id="kadence-blocks-splide-init-js"></script>
+<script type="text/javascript" src="https://vitalsauna.eu/wp-includes/js/hoverIntent.min.js?ver=1.10.2" id="hoverIntent-js"></script>
+<script type="text/javascript" src="https://vitalsauna.eu/wp-content/plugins/megamenu/js/maxmegamenu.js?ver=3.5" id="megamenu-js"></script>
+<script type="text/javascript" src="https://vitalsauna.eu/wp-content/plugins/megamenu-pro/assets/public.js?ver=2.3.1" id="megamenu-pro-js"></script>
+<script type="text/javascript" id="cmplz-cookiebanner-js-extra">
+/* <![CDATA[ */
+var complianz = {"prefix":"cmplz_","user_banner_id":"1","set_cookies":[],"block_ajax_content":"","banner_version":"21","version":"7.4.0.1","store_consent":"","do_not_track_enabled":"1","consenttype":"optin","region":"eu","geoip":"","dismiss_timeout":"","disable_cookiebanner":"","soft_cookiewall":"","dismiss_on_scroll":"","cookie_expiry":"365","url":"https:\/\/vitalsauna.eu\/wp-json\/complianz\/v1\/","locale":"lang=pl&locale=pl_PL","set_cookies_on_root":"","cookie_domain":"","current_policy_id":"34","cookie_path":"\/","categories":{"statistics":"statystyki","marketing":"marketing"},"tcf_active":"","placeholdertext":"<div class=\"cmplz-blocked-content-notice-body\">Kliknij \"zgadzam si\u0119\", \u017ceby w\u0142\u0105czy\u0107 {service}\u00a0<div class=\"cmplz-links\"><a href=\"#\" class=\"cmplz-link cookie-statement\">{title}<\/a><\/div><\/div><button class=\"cmplz-accept-service\">Zgadzam si\u0119<\/button>","css_file":"https:\/\/vitalsauna.eu\/wp-content\/uploads\/complianz\/css\/banner-{banner_id}-{type}.css?v=21","page_links":{"eu":{"cookie-statement":{"title":"Polityka cookies","url":"https:\/\/vitalsauna.eu\/polityka-cookies\/"},"privacy-statement":{"title":"Polityka prywatno\u015bci","url":"https:\/\/vitalsauna.eu\/polityka-prywatnosci\/"}}},"tm_categories":"","forceEnableStats":"","preview":"","clean_cookies":"1","aria_label":"Kliknij przycisk, \u017ceby odblokowa\u0107 (serwis)"};
+/* ]]> */
+</script>
+<script defer type="text/javascript" src="https://vitalsauna.eu/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=1748615575" id="cmplz-cookiebanner-js"></script>
+<script type="text/javascript" id="gt_widget_script_69101315-js-before">
+/* <![CDATA[ */
+window.gtranslateSettings = /* document.write */ window.gtranslateSettings || {};window.gtranslateSettings['69101315'] = {"default_language":"pl","languages":["en","pl"],"url_structure":"none","native_language_names":1,"flag_style":"2d","flag_size":24,"alt_flags":[],"flags_location":"\/wp-content\/plugins\/gtranslate\/flags\/"};
+/* ]]> */
+</script><script src="https://vitalsauna.eu/wp-content/plugins/gtranslate/js/base.js?ver=6.8.1" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/" data-gt-orig-domain="vitalsauna.eu" data-gt-widget-id="69101315" defer></script>				<script type="text/plain" data-service="google-analytics" data-category="statistics" async data-category="statistics"
+						data-cmplz-src="https://www.googletagmanager.com/gtag/js?id=G-KJXK2FLQ0B"></script><!-- Statistics script Complianz GDPR/CCPA -->
+						<script type="text/plain"							data-category="statistics">window['gtag_enable_tcf_support'] = false;
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-KJXK2FLQ0B', {
+	cookie_flags:'secure;samesite=none',
+	
+});
+</script>
+</body>
+
+
+</html>
