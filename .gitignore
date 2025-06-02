@@ -4,18 +4,40 @@ ENV/
 env/
 .venv/
 
-# Ignore Python bytecode
+# Ignore Python bytecode and cache
 __pycache__/
 *.py[cod]
 *.so
+*.pyc
+*.pyo
+*.pyd
 
-# Ignore data outputs
-outputs/
+# Generated pipeline files
+*.pkl
+*.csv
+*.faiss
+
+# Pipeline output directories
+results/
+thumbnails/
+
+# Downloaded logos directory (but keep logos1/ and old/)
+logos/
+
+# Analysis logs
+logs/
 *.log
 
-# Jupyter notebooks checkpoint (if ever added)
-.ipynb_checkpoints/
+# Temporary files
+*.tmp
+*.temp
 
-# System files
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
 .DS_Store
 Thumbs.db
