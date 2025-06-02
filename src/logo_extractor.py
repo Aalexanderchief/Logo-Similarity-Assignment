@@ -11,7 +11,7 @@ import time
 from tqdm import tqdm
 
 df = pd.read_parquet("../logos.snappy.parquet")
-domains = df.iloc[:, 0].dropna().tolist()
+domains = df.iloc[:, 0].dropna().unique().tolist() #used unique() to avoid duplicates
 
 output_dir = "../logos"
 os.makedirs(output_dir, exist_ok=True)
@@ -70,7 +70,7 @@ def download_bing_image(query, download_path):
             "tsc": "ImageBasicHover"
         }
         search_url = "https://www.bing.com/images/search"
-        response = requests.get(search_url, headers=headers, params=params, timeout=15)  # Reduced timeout
+        response = requests.get(search_url, headers=headers, params=params, timeout=15)  # Relaxed timeout
         response.raise_for_status()
 
         soup = BeautifulSoup(response.text, 'lxml')
