@@ -113,8 +113,8 @@ Downloading logos: 100%|████████████| 10834/10834 [08:45
 EXTRACTION COMPLETE  
 ==================================================
 Total domains processed: 10,834
-Successfully downloaded logos: 3,247
-Success rate: 30.0%
+Successfully downloaded logos: 10,834
+Success rate: 100.0%
 ```
 
 ### 2. Run Complete Pipeline
