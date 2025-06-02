@@ -1,9 +1,11 @@
 # Logo Similarity Pipeline
 
-A modular Python system to compare logos using lightweight computer vision methods. This pipeline extracts perceptual and structural features, groups similar logos, identifies outliers, and provides a Streamlit web interface.
+A modular Python system to compare logos using lightweight computer vision methods. This pipeline extracts perceptual and structural features, groups similar logos, identifies outliers, and provides a Streamlit web interface. This application operates at **RUNTIME** with **real-time logo comparison**! Upload new logos and get instant similarity results without reprocessing the entire database.
 
 ## Features
 
+- **LIVE Feature Extraction**: Upload any logo image and extract features **instantly at runtime**
+- **RUNTIME Database Comparison**: Compare new logos against the entire database **in real-time**
 - **Hybrid Similarity**: Combines pHash, RGB histograms, Hu moments, and ORB descriptors
 - **Fast Search**: FAISS indexing for approximate nearest neighbors
 - **Threshold Grouping**: No ML clustering - uses distance and match thresholds
@@ -13,125 +15,6 @@ A modular Python system to compare logos using lightweight computer vision metho
 - **Multiple Formats**: Supports JPG, PNG, and SVG files
 - **Multi-threaded**: Efficient feature extraction and matching
 - **Outlier Detection**: Identifies logos that don't match similarity criteria
-
-> **📥 Getting Started**: Before running the pipeline, use `logo_extractor.py` to download logos from the domain dataset, or place your own logo collection in the `logos/` directory.
-
-## Pipeline Architecture
-
-```
-📁 src/
-├── features.py      # Feature extraction (pHash, histogram, Hu, ORB)
-├── indexer.py       # FAISS index building
-├── search.py        # Similarity search with ORB refinement
-├── grouping.py      # Threshold-based logo grouping
-├── utils.py         # Utility functions
-├── main.py          # Streamlit web interface
-└── pipeline.py      # Main pipeline runner
-```
-
-## Technical Background & Development Story
-
-### Logo Extraction Evolution
-
-The logo extraction system underwent significant technical evolution to achieve optimal performance and reliability. Initially designed as a web scraper after analyzing the company's technology stack, the first implementation achieved a 70% success rate using basic HTTP requests. A hybrid approach incorporating multiple scraping strategies improved this to 90%, but consistency remained problematic due to IP-based blocking mechanisms.
-
-#### Playwright Browser Implementation
-
-To address IP restrictions, the system was migrated to **Playwright** with a headed browser configuration, enabling visual debugging and more human-like interaction patterns. Logo discovery utilized simple search queries in the format `"{domain} logo"`, which proved effective for small batch processing. However, when parallel processing was implemented to improve throughput, Google's anti-bot detection systems triggered blocking mechanisms.
-
-#### Migration to Bing Search API
-
-The detection issues necessitated a migration from Google to **Bing Image Search API**, which initially achieved a 99% download success rate with significantly fewer restrictions. However, Bing's search algorithm demonstrated lower relevance compared to Google's more sophisticated ranking system.
-
-![Google vs Bing Search Results](photos/Google_VS_Bing.png)
-*Comparison: Google Search provides more relevant logo results compared to Bing's algorithm*
-
-> **Alternative Implementation**: Migration to Google Photos scraping can be achieved using **Google Search API** services like **SerpAPI**, which provide structured access to Google's search results while maintaining compliance with usage policies.
-
-#### JinaAI Integration Experiment
-
-Advanced logo detection was tested using **JinaAI's** vision-language model API, which provided 10 million free tokens for experimentation. This approach utilized LLM-powered page analysis to identify images containing logo, upload, or asset-related keywords (configurable parameters). While producing more accurate logo identification, token depletion occurred approximately every 2 searches.
-
-![JinaAI API Interface](photos/jinaAI_API_interface.png)
-*JinaAI vision-language model interface for logo detection*
-
-![JinaAI Success Rate](photos/jinaAI_success_rate.png)
-*JinaAI achieved ~66% success rate with API rotation strategy*
-
-![JinaAI Output Format](photos/jinaAI_output_image_format.png)
-*Example output format from JinaAI logo detection with structured metadata*
-
-**JinaAI Extracted Logos**: All logos extracted using the JinaAI vision-language model are stored in `old/logos_jina/` for reference and comparison with the Bing API results.
-
-**Production scaling strategy**: 
-- Created 4 free accounts for API rotation
-- Implemented worker-based request distribution  
-- Applied rate limiting (500 requests/minute) to maintain compliance
-- Achieved 75% success rate (partially limited by API rotation overhead)
-
-**Commercial scaling**: For $50, JinaAI provides 1 billion tokens and 5,000 requests/minute, potentially improving success rates by eliminating API rotation delays.
-
-![Logo Extractor Results](photos/logo_extractor_results.png)
-*Final logo extraction results (using logo_extractor.py) showing 99.1% success rate with 4,344 logos downloaded from 4,384 domains*
-
-### Image Comparison System Architecture
-
-#### Feature Extraction Research & Implementation
-
-The image comparison subsystem required efficient multi-feature extraction and scalable similarity computation. Initial research focused on identifying discriminative image features and their corresponding Python implementations.
-
-**SIFT vs ORB Analysis**: Initial experiments utilized **SIFT (Scale-Invariant Feature Transform)** for keypoint detection and description. However, performance benchmarking revealed significant computational overhead. Migration to **ORB (Oriented FAST and Rotated BRIEF)** provided comparable feature quality with substantially improved processing speed, making it suitable for large-scale logo analysis.
-
-![SIFT vs ORB Visual Comparison](photos/sift_comparison_visual1.png)
-*SIFT Algorithm Visualisation 1*
-
-![SIFT vs ORB Comparison Results](photos/sift_comparison_results1.png)
-*SIFT Similarity Percentage 1*
-
-![SIFT vs ORB Visual Analysis 2](photos/sift_comparison_visual2.png)
-*SIFT Algorithm Visualisation 2*
-
-![SIFT vs ORB Additional Results](photos/sift_comparison_results2.png)
-*SIFT Similarity Percentage 2*
-
-![SIFT vs ORB Visual Analysis 3](photos/sift_comparison_visual3.png)
-*SIFT Algorithm Visualisation 3*
-
-![SIFT vs ORB Performance Analysis](photos/sift_comparison_results3.png)
-*SIFT Similarity Percentage 3*
-
-![Image Similarity Measures](photos/image_similarity_measures.png)
-*Multi-modal similarity measurement combining pHash, RGB histograms, Hu moments, and ORB descriptors*
-
-#### Hybrid Feature Vector Design
-
-The system extracts four complementary feature types:
-
-1. **Perceptual Hash (pHash)**: 64-dimensional binary hash for global structure similarity
-2. **RGB Histograms**: 96-dimensional color distribution (32 bins × 3 channels)  
-3. **Hu Moments**: 7-dimensional shape invariants robust to rotation, scaling, and translation
-4. **ORB Descriptors**: Variable-length local feature descriptors for detailed pattern matching
-
-#### FAISS Integration for Scalable Search
-
-**FAISS (Facebook AI Similarity Search)** was selected for approximate nearest neighbor search due to its optimization for high-dimensional vector similarity. FAISS provides:
-
-- **Multiple similarity metrics**: Euclidean distance, dot product, cosine similarity
-- **Index optimization**: Compressed vector representations for memory efficiency  
-- **GPU acceleration**: Optional CUDA support for large-scale deployments
-- **Approximate search**: Configurable trade-offs between accuracy and speed
-
-![Features Extraction Process](photos/features_extraction.png)
-*Feature extraction pipeline processing 3,384 logos with hybrid feature vectors*
-
-![FAISS Indexing](photos/faiss_indexing.png)
-*FAISS index building process for 167-dimensional feature vectors*
-
-![FAISS Google Search Integration](photos/faiss_google_search.png)
-*FAISS-powered similarity search with sub-millisecond query response times*
-- **Approximate search**: Configurable trade-offs between accuracy and speed
-
-The system combines FAISS for rapid initial candidate selection with ORB descriptor matching for precise similarity verification, creating a two-stage pipeline that balances computational efficiency with accuracy.
 
 ## Installation and Initialization
 
@@ -207,11 +90,11 @@ ls -la logos.snappy.parquet
 # Should show: -rw-r--r-- 1 user user 1234567 date logos.snappy.parquet
 ```
 
-### 5. Quick Start
+## Quick Start
 
-### 5. Quick Start
+> **📥 Getting Started**: Before running the pipeline, use `logo_extractor.py` to download logos from the domain dataset, or place your own logo collection in the `logos/` directory. If you want to skip logo extraction and do not have a logo collection, go to [Alternative](#alternative-skip-logo-extraction-use-pre-downloaded-logos)
 
-#### 5.1 Extract Logo Dataset
+### 1. Extract Logo Dataset
 
 Extract logos from the domain dataset using Bing Image Search:
 
@@ -233,7 +116,7 @@ Successfully downloaded logos: 3,247
 Success rate: 30.0%
 ```
 
-#### 5.2 Run Complete Pipeline
+### 2. Run Complete Pipeline
 
 Process all logos and build similarity index:
 
@@ -242,7 +125,7 @@ cd src/
 python pipeline.py
 ```
 
-#### 5.3 Launch Web Interface
+### 3. Launch Web Interface
 
 Start the Streamlit web application:
 
@@ -298,25 +181,142 @@ python pipeline.py --skip-features --skip-indexing
 python pipeline.py --t1-distance 1.5 --m1-orb 15 --t2-distance 3.0 --m2-orb 8
 ```
 
-### Individual Modules
 
-```python
-# Feature extraction only
-from features import LogoFeatureExtractor
-extractor = LogoFeatureExtractor("../logos")
-features, orb = extractor.extract_all_features("../")
+## Table of Contents
 
-# Search similar logos
-from search import LogoSearcher
-searcher = LogoSearcher("../logos", "../logo_index.faiss", "../index_filenames.pkl", "../feature_scaler.pkl", "../orb_descriptors.pkl")
-results = searcher.search_by_filename("aamco-bellevue_com.jpg", k=10)
+| Section | Description |
+|---------|-------------|
+| [Pipeline Architecture](#pipeline-architecture) | Overview of the modular system structure and core components |
+| [Technical Background & Development Story](#technical-background--development-story) | Detailed evolution of logo extraction methods and image comparison system development |
+| [How the Pipeline Works - Detailed Breakdown](#how-the-pipeline-works---detailed-breakdown) | Comprehensive technical explanation of all 7 pipeline modules and processing steps |
+| [Algorithm Details](#algorithm-details) | Technical specifications of feature extraction, grouping criteria, and processing parameters |
+| [Performance & Benchmarks](#performance--benchmarks) | Processing time breakdowns, system requirements, and scalability metrics |
+| [Complete Pipeline Execution Flow](#complete-pipeline-execution-flow) | Real-time execution sequence with progress monitoring and command line options |
+| [Advanced Configuration](#advanced-configuration) | Custom parameters, batch processing options, and troubleshooting guidance |
+| [Solution Explanation & Results](#solution-explanation--results) | Comprehensive analysis of technical approach, innovations, and performance achievements |
 
-# Group logos
-from grouping import LogoGrouper
-grouper = LogoGrouper(searcher, "../results")
-grouper.group_logos()
-grouper.save_results()
+
+## Pipeline Architecture
+
 ```
+📁 src/
+├── features.py      # Feature extraction (pHash, histogram, Hu, ORB)
+├── indexer.py       # FAISS index building
+├── search.py        # Similarity search with ORB refinement
+├── grouping.py      # Threshold-based logo grouping
+├── utils.py         # Utility functions
+├── main.py          # Streamlit web interface
+└── pipeline.py      # Main pipeline runner
+```
+
+## Technical Background & Development Story
+
+### Logo Extraction Evolution
+
+The logo extraction system underwent significant technical evolution to achieve optimal performance and reliability. Initially designed as a web scraper after analyzing the company's technology stack, the first implementation achieved a 70% success rate using basic HTTP requests. A hybrid approach incorporating multiple scraping strategies improved this to 90%, but consistency remained problematic due to IP-based blocking mechanisms.
+
+#### Playwright Browser Implementation
+
+To address IP restrictions, the system was migrated to **Playwright** with a headed browser configuration, enabling visual debugging and more human-like interaction patterns. Logo discovery utilized simple search queries in the format `"{domain} logo"`, which proved effective for small batch processing. However, when parallel processing was implemented to improve throughput, Google's anti-bot detection systems triggered blocking mechanisms.
+
+#### Migration to Bing Search API
+
+The detection issues necessitated a migration from Google to **Bing Image Search API**, which initially achieved a 99% download success rate with significantly fewer restrictions. However, Bing's search algorithm demonstrated lower relevance compared to Google's more sophisticated ranking system.
+
+![Google vs Bing Search Results](photos/Google_VS_Bing.png)
+*Comparison: Google Search provides more relevant logo results compared to Bing's algorithm*
+
+> **Alternative Implementation**: Migration to Google Photos scraping can be achieved using **Google Search API** services like **SerpAPI**, which provide structured access to Google's search results while maintaining compliance with usage policies.
+
+
+#### JinaAI Integration Experiment
+
+Advanced logo detection was tested using **JinaAI's** vision-language model API, which provided 10 million free tokens for experimentation. This approach utilized LLM-powered page analysis to identify images containing logo, upload, or asset-related keywords (configurable parameters). While producing more accurate logo identification, token depletion occurred approximately every 2 searches.
+
+<details><summary>JinaAI Implementation</summary>
+
+![JinaAI API Interface](photos/jinaAI_API_interface.png)
+*JinaAI vision-language model interface for logo detection*
+
+![JinaAI Success Rate](photos/jinaAI_success_rate.png)
+*JinaAI achieved ~66% success rate with API rotation strategy*
+
+![JinaAI Output Format](photos/jinaAI_output_image_format.png)
+*Example output format from JinaAI logo detection with structured metadata*
+
+**JinaAI Extracted Logos**: All logos extracted using the JinaAI vision-language model are stored in `old/logos_jina/` for reference and comparison with the Bing API results.
+
+**Production scaling strategy**: 
+- Created 4 free accounts for API rotation
+- Implemented worker-based request distribution  
+- Applied rate limiting (500 requests/minute) to maintain compliance
+- Achieved 75% success rate (partially limited by API rotation overhead)
+
+**Commercial scaling**: For $50, JinaAI provides 1 billion tokens and 5,000 requests/minute, potentially improving success rates by eliminating API rotation delays.
+
+![Logo Extractor Results](photos/logo_extractor_results.png)
+*Final logo extraction results (using logo_extractor.py) showing 99.1% success rate with 4,344 logos downloaded from 4,384 domains*
+
+</details>
+
+### Image Comparison System Architecture
+
+#### Feature Extraction Research & Implementation
+
+The image comparison subsystem required efficient multi-feature extraction and scalable similarity computation. Initial research focused on identifying discriminative image features and their corresponding Python implementations.
+
+**SIFT vs ORB Analysis**: Initial experiments utilized **SIFT (Scale-Invariant Feature Transform)** for keypoint detection and description. However, performance benchmarking revealed significant computational overhead. Migration to **ORB (Oriented FAST and Rotated BRIEF)** provided comparable feature quality with substantially improved processing speed, making it suitable for large-scale logo analysis.
+
+![SIFT vs ORB Visual Comparison](photos/sift_comparison_visual1.png)
+*SIFT Algorithm Visualisation 1*
+
+![SIFT vs ORB Comparison Results](photos/sift_comparison_results1.png)
+*SIFT Similarity Percentage 1*
+
+![SIFT vs ORB Visual Analysis 2](photos/sift_comparison_visual2.png)
+*SIFT Algorithm Visualisation 2*
+
+![SIFT vs ORB Additional Results](photos/sift_comparison_results2.png)
+*SIFT Similarity Percentage 2*
+
+![SIFT vs ORB Visual Analysis 3](photos/sift_comparison_visual3.png)
+*SIFT Algorithm Visualisation 3*
+
+![SIFT vs ORB Performance Analysis](photos/sift_comparison_results3.png)
+*SIFT Similarity Percentage 3*
+
+![Image Similarity Measures](photos/image_similarity_measures.png)
+*Multi-modal similarity measurement combining pHash, RGB histograms, Hu moments, and ORB descriptors*
+
+#### Hybrid Feature Vector Design
+
+The system extracts four complementary feature types:
+
+1. **Perceptual Hash (pHash)**: 64-dimensional binary hash for global structure similarity
+2. **RGB Histograms**: 96-dimensional color distribution (32 bins × 3 channels)  
+3. **Hu Moments**: 7-dimensional shape invariants robust to rotation, scaling, and translation
+4. **ORB Descriptors**: Variable-length local feature descriptors for detailed pattern matching
+
+#### FAISS Integration for Scalable Search
+
+**FAISS (Facebook AI Similarity Search)** was selected for approximate nearest neighbor search due to its optimization for high-dimensional vector similarity. FAISS provides:
+
+- **Multiple similarity metrics**: Euclidean distance, dot product, cosine similarity
+- **Index optimization**: Compressed vector representations for memory efficiency  
+- **GPU acceleration**: Optional CUDA support for large-scale deployments
+- **Approximate search**: Configurable trade-offs between accuracy and speed
+
+![Features Extraction Process](photos/features_extraction.png)
+*Feature extraction pipeline processing 3,384 logos with hybrid feature vectors*
+
+![FAISS Indexing](photos/faiss_indexing.png)
+*FAISS index building process for 167-dimensional feature vectors*
+
+![FAISS Google Search Integration](photos/faiss_google_search.png)
+*FAISS-powered similarity search with sub-millisecond query response times*
+- **Approximate search**: Configurable trade-offs between accuracy and speed
+
+The system combines FAISS for rapid initial candidate selection with ORB descriptor matching for precise similarity verification, creating a two-stage pipeline that balances computational efficiency with accuracy.
 
 ## Output Files
 
@@ -352,6 +352,8 @@ Input Logos → Feature Extraction → Indexing → Search → Grouping → Web 
 ```
 
 ### 📋 Step-by-Step Processing
+
+<details><summary> Everything you need to know about this code</summary>
 
 #### **Step 0: Input Validation & Preparation**
 - Scans `logos/` directory for image files (JPG, PNG, SVG)
@@ -533,6 +535,8 @@ The system extracts **4 different types of features** from each logo:
 - Group size distribution  
 - Threshold parameters used
 - Feature extraction statistics
+
+</details>
 
 ## Algorithm Details
 
@@ -733,6 +737,8 @@ Processing rate: 6.6 logos/second
 
 ## Advanced Configuration
 
+<details><summary> More on configuration and troubleshooting </summary>
+
 ### Custom Feature Parameters
 
 ```python
@@ -902,6 +908,7 @@ df -h .
 # Check CPU utilization
 htop
 ```
+</details>
 
 ### Performance Optimization Tips
 
