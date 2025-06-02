@@ -92,7 +92,8 @@ ls -la logos.snappy.parquet
 
 ## Quick Start
 
-> **📥 Getting Started**: Before running the pipeline, use `logo_extractor.py` to download logos from the domain dataset, or place your own logo collection in the `logos/` directory. !!!IMPORTANT!!! If you want to skip logo extraction and do not have a logo collection, go to [Alternative](#alternative-skip-logo-extraction-use-pre-downloaded-logos)
+> **📥 Getting Started**: Before running the pipeline, use `logo_extractor.py` to download logos from the domain dataset, or place your own logo collection in the `logos/` directory.
+> !!!IMPORTANT!!! If you want to skip logo extraction and do not have a logo collection, go to [Alternative](#alternative-skip-logo-extraction-use-pre-downloaded-logos)
 
 ### 1. Extract Logo Dataset
 
