@@ -153,7 +153,7 @@ The system combines FAISS for rapid initial candidate selection with ORB descrip
 #### 2.1 Clone Repository
 
 ```bash
-git clone <https://github.com/Aalexanderchief/Logo-Similarity-Assignment.git>
+git clone https://github.com/Aalexanderchief/Logo-Similarity-Assignment.git
 cd Logo-Similarity-Assignment
 ```
 
